@@ -1,0 +1,35 @@
+filters:
+  and:
+    - file.inFolder("Obsidian同步/闪光收藏库")
+    - file.ext == "md"
+    - 标题.isTruthy()
+
+properties:
+  标题:
+    displayName: 标题
+  类型:
+    displayName: 类型
+  分类:
+    displayName: 分类
+  价值评分:
+    displayName: 价值评分
+  标签:
+    displayName: 标签
+  可用于:
+    displayName: 可用于
+  来源:
+    displayName: 来源
+  创建时间:
+    displayName: 创建时间
+  file.mtime:
+    displayName: 最近修改
+  file.folder:
+    displayName: 所在目录
+
+views:
+  - type: cards
+    name: 卡片浏览
+  - type: table
+    name: 表格整理
+  - type: list
+    name: 列表速览

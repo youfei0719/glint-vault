@@ -3,7 +3,6 @@ filters:
     - file.inFolder("Obsidian同步/闪光收藏库")
     - file.ext == "md"
     - 标题.isTruthy()
-
 properties:
   标题:
     displayName: 标题
@@ -25,7 +24,6 @@ properties:
     displayName: 最近修改
   file.folder:
     displayName: 所在目录
-
 views:
   - type: cards
     name: 卡片浏览

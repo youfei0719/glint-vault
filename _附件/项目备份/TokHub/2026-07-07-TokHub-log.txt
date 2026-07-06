@@ -1,0 +1,12 @@
+58c42ed (HEAD -> main) fix: keep default recommendations out of channels
+2ecb711 Add TokHub admin skill package
+902f703 fix: inject analytics on all frontend routes
+56d1d8c Harden analytics settings and incident actions
+3d70e6b Fix admin-agent channel export guard
+84bf159 Allow admin agent channel export without password body
+59ea3dd Sync featured recommendations for deploy
+ef69ba7 Update local admin login docs
+80ccc4e Add configurable admin path and layout guards
+f678fd5 Align admin default credentials in release scripts
+d7aac31 Update local admin default password
+ae8b158 Prepare TokHub open source release

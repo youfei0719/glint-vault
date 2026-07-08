@@ -1,0 +1,400 @@
+--font-inter: "Inter", "Inter Fallback"
+--font-mono-source: "JetBrains Mono", "JetBrains Mono Fallback"
+--tw-border-style: solid
+--tw-font-weight: initial
+--tw-shadow: 0 0 #0000
+--tw-shadow-color: initial
+--tw-shadow-alpha: 100%
+--tw-inset-shadow: 0 0 #0000
+--tw-inset-shadow-color: initial
+--tw-inset-shadow-alpha: 100%
+--tw-ring-color: initial
+--tw-ring-shadow: 0 0 #0000
+--tw-inset-ring-color: initial
+--tw-inset-ring-shadow: 0 0 #0000
+--tw-ring-offset-width: 0px
+--tw-ring-offset-color: #fff
+--tw-ring-offset-shadow: 0 0 #0000
+--tw-drop-shadow: initial
+--tw-drop-shadow-color: initial
+--tw-drop-shadow-alpha: 100%
+--tw-drop-shadow-size: initial
+--font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"
+--font-mono: var(--font-mono-source), ui-monospace, "SFMono-Regular", Menlo, Consolas, "Liberation Mono", monospace
+--color-red-100: #ffe2e2
+--color-red-200: #ffcaca
+--color-red-300: #ffa3a3
+--color-red-400: #ff6568
+--color-red-500: #fb2c36
+--color-red-600: #e40014
+--color-red-700: #bf000f
+--color-amber-200: #fee685
+--color-amber-400: #fcbb00
+--color-amber-500: #f99c00
+--color-amber-600: #dd7400
+--color-amber-700: #b75000
+--color-yellow-200: #fff085
+--color-yellow-400: #fac800
+--color-yellow-500: #edb200
+--color-yellow-800: #874b00
+--color-lime-200: #d8f999
+--color-lime-400: #9de500
+--color-lime-500: #80cd00
+--color-lime-600: #62a400
+--color-lime-700: #4b7d00
+--color-lime-800: #3d6300
+--color-green-100: #dcfce7
+--color-green-200: #b9f8cf
+--color-green-400: #05df72
+--color-green-500: #00c758
+--color-green-600: #00a544
+--color-green-700: #008138
+--color-emerald-200: #a4f4cf
+--color-emerald-400: #00d294
+--color-emerald-500: #00bb7f
+--color-emerald-600: #009767
+--color-emerald-700: #007956
+--color-teal-200: #96f7e4
+--color-teal-400: #00d3bd
+--color-teal-500: #00baa7
+--color-teal-600: #009588
+--color-teal-700: #00776e
+--color-cyan-200: #a2f4fd
+--color-cyan-400: #00d2ef
+--color-cyan-500: #00b7d7
+--color-cyan-600: #0092b5
+--color-cyan-700: #007492
+--color-cyan-800: #005f78
+--color-blue-100: #dbeafe
+--color-blue-200: #bedbff
+--color-blue-300: #90c5ff
+--color-blue-400: #3392ff
+--color-blue-500: #3080ff
+--color-blue-600: #155dfc
+--color-blue-700: #1447e6
+--color-blue-900: #1c398e
+--color-indigo-200: #c7d2ff
+--color-indigo-400: #7d87ff
+--color-indigo-500: #625fff
+--color-indigo-600: #4f39f6
+--color-indigo-700: #432dd7
+--color-violet-200: #ddd6ff
+--color-violet-400: #a685ff
+--color-violet-500: #8d54ff
+--color-violet-600: #7f22fe
+--color-violet-700: #7008e7
+--color-purple-50: #faf5ff
+--color-purple-100: #f3e8ff
+--color-purple-500: #ac4bff
+--color-pink-200: #fccee8
+--color-pink-500: #f6339a
+--color-rose-200: #ffccd3
+--color-rose-400: #ff667f
+--color-rose-500: #ff2357
+--color-rose-600: #e70044
+--color-rose-700: #c20039
+--color-rose-800: #a30037
+--color-slate-950: #020618
+--color-gray-50: #f9fafb
+--color-gray-950: #030712
+--color-zinc-50: #fafafa
+--color-zinc-100: #f4f4f5
+--color-zinc-200: #e4e4e7
+--color-zinc-400: #9f9fa9
+--color-zinc-500: #71717b
+--color-zinc-600: #52525c
+--color-zinc-700: #3f3f46
+--color-zinc-950: #09090b
+--color-neutral-100: #f7f7f7
+--color-neutral-200: #ebebeb
+--color-neutral-300: #d4d4d4
+--color-neutral-400: #a1a1a1
+--color-neutral-500: #737373
+--color-neutral-700: #404040
+--color-neutral-800: #262626
+--color-neutral-950: #0a0a0a
+--color-black: #000
+--color-white: #fff
+--spacing: .25rem
+--container-sm: 24rem
+--container-md: 28rem
+--container-2xl: 42rem
+--container-3xl: 48rem
+--container-5xl: 64rem
+--container-6xl: 72rem
+--text-xs: .75rem
+--text-xs--line-height: calc(1 / .75)
+--text-sm: .875rem
+--text-sm--line-height: calc(1.25 / .875)
+--text-base: 1rem
+--text-base--line-height: calc(1.5 / 1)
+--text-2xl: 1.5rem
+--text-2xl--line-height: calc(2 / 1.5)
+--text-4xl: 2.25rem
+--text-4xl--line-height: calc(2.5 / 2.25)
+--font-weight-medium: 500
+--font-weight-semibold: 600
+--font-weight-bold: 700
+--radius-xs: .125rem
+--radius-sm: .25rem
+--radius-md: .375rem
+--radius-lg: .5rem
+--radius-xl: .75rem
+--radius-2xl: 1rem
+--radius-3xl: 1.5rem
+--shadow-xs: 0 1px 2px 0 #0000000d
+--default-font-family: var(--font-sans)
+--default-mono-font-family: var(--font-mono)
+--radius-2lg: 10px
+--shadow-checkbox-selected: inset 0 2px 0 0 #ffffff40, inset 0 0 0 1px var(--color-blue-500)
+--color-foreground-full: var(--color-foreground-full)
+--color-foreground-icon-primary: var(--color-foreground-icon-primary)
+--color-foreground-icon-secondary: var(--color-foreground-icon-secondary)
+--color-foreground-icon-tertiary: var(--color-foreground-icon-tertiary)
+--color-foreground-icon-quaternary: var(--color-foreground-icon-quaternary)
+--color-foreground-icon-error: var(--color-foreground-icon-error)
+--color-foreground-icon-disabled: var(--color-foreground-icon-disabled)
+--color-foreground-disabled: var(--color-foreground-disabled)
+--color-foreground-disabled-danger: var(--color-foreground-disabled-danger)
+--color-text-primary: var(--color-text-primary)
+--color-text-secondary: var(--color-text-secondary)
+--color-text-tertiary: var(--color-text-tertiary)
+--color-text-disabled: var(--color-text-disabled)
+--color-text-disabled-danger: var(--color-text-disabled-danger)
+--color-text-error-primary: var(--color-text-error-primary)
+--color-background-primary-default: var(--color-background-primary-default)
+--color-background-primary-hover: var(--color-background-primary-hover)
+--color-background-primary-active: var(--color-background-primary-active)
+--color-background-primary-disabled: var(--color-background-primary-disabled)
+--color-background-secondary-default: var(--color-background-secondary-default)
+--color-background-secondary-hover: var(--color-background-secondary-hover)
+--color-background-tertiary-default: var(--color-background-tertiary-default)
+--color-background-tertiary-error: var(--color-background-tertiary-error)
+--color-border-button-default: var(--color-border-button-default)
+--color-border-button-hover: var(--color-border-button-hover)
+--color-border-button-active: var(--color-border-button-active)
+--color-border-button-white: var(--color-border-button-white)
+--color-border-checkbox-default: var(--color-border-checkbox-default)
+--color-border-focus-ring: var(--color-border-focus-ring)
+--color-text-error-placeholder: var(--color-text-error-placeholder)
+--button-transition-ms: .15s
+--text-display-4-semibold: 2rem
+--text-display-4-semibold--line-height: 2.75rem
+--text-display-4-semibold--letter-spacing: 0
+--text-display-4-semibold--font-weight: 600
+--text-title-1-medium: 1.5rem
+--text-title-1-medium--line-height: 2.125rem
+--text-title-1-medium--letter-spacing: 0
+--text-title-1-medium--font-weight: 500
+--text-title-1-semibold: 1.5rem
+--text-title-1-semibold--line-height: 2.125rem
+--text-title-1-semibold--letter-spacing: 0
+--text-title-1-semibold--font-weight: 600
+--text-title-2-medium: 1.25rem
+--text-title-2-medium--line-height: 1.625rem
+--text-title-2-medium--letter-spacing: 0
+--text-title-2-medium--font-weight: 500
+--text-title-2-semibold: 1.25rem
+--text-title-2-semibold--line-height: 1.625rem
+--text-title-2-semibold--letter-spacing: 0
+--text-title-2-semibold--font-weight: 600
+--text-title-3-medium: 1.125rem
+--text-title-3-medium--line-height: 1.625rem
+--text-title-3-medium--letter-spacing: 0
+--text-title-3-medium--font-weight: 500
+--text-title-3-semibold: 1.125rem
+--text-title-3-semibold--line-height: 1.625rem
+--text-title-3-semibold--letter-spacing: 0
+--text-title-3-semibold--font-weight: 600
+--text-headline-medium: 1rem
+--text-headline-medium--line-height: 1.375rem
+--text-headline-medium--letter-spacing: 0
+--text-headline-medium--font-weight: 500
+--text-headline-semibold: 1rem
+--text-headline-semibold--line-height: 1.375rem
+--text-headline-semibold--letter-spacing: 0
+--text-headline-semibold--font-weight: 600
+--text-body-regular: .875rem
+--text-body-regular--line-height: 1.25rem
+--text-body-regular--letter-spacing: 0
+--text-body-regular--font-weight: 400
+--text-body-medium: .875rem
+--text-body-medium--line-height: 1.25rem
+--text-body-medium--letter-spacing: 0
+--text-body-medium--font-weight: 500
+--text-body-semibold: .875rem
+--text-body-semibold--line-height: 1.25rem
+--text-body-semibold--letter-spacing: 0
+--text-body-semibold--font-weight: 600
+--text-body-2-medium: .8125rem
+--text-body-2-medium--line-height: 1.125rem
+--text-body-2-medium--letter-spacing: 0
+--text-body-2-medium--font-weight: 500
+--text-caption-1-regular: .75rem
+--text-caption-1-regular--line-height: 1rem
+--text-caption-1-regular--letter-spacing: .15px
+--text-caption-1-regular--font-weight: 400
+--text-caption-1-medium: .75rem
+--text-caption-1-medium--line-height: 1rem
+--text-caption-1-medium--letter-spacing: .15px
+--text-caption-1-medium--font-weight: 500
+--text-caption-1-semibold: .75rem
+--text-caption-1-semibold--line-height: 1rem
+--text-caption-1-semibold--letter-spacing: .15px
+--text-caption-1-semibold--font-weight: 600
+--color-red-100: lab(92.243% 10.2865 3.83865)
+--color-red-200: lab(86.017% 19.8815 7.75869)
+--color-red-300: lab(76.5514% 36.422 15.5335)
+--color-red-400: lab(63.7053% 60.745 31.3109)
+--color-red-500: lab(55.4814% 75.0732 48.8528)
+--color-red-600: lab(48.4493% 77.4328 61.5452)
+--color-red-700: lab(40.4273% 67.2623 53.7441)
+--color-amber-200: lab(91.7203% -.505269 49.9084)
+--color-amber-400: lab(80.1641% 16.6016 99.2089)
+--color-amber-500: lab(72.7183% 31.8672 97.9407)
+--color-amber-600: lab(60.3514% 40.5624 87.1228)
+--color-amber-700: lab(47.2709% 42.9082 69.2966)
+--color-yellow-200: lab(94.3433% -5.00429 52.9663)
+--color-yellow-400: lab(83.2664% 8.65132 106.895)
+--color-yellow-500: lab(76.3898% 14.5258 98.4589)
+--color-yellow-800: lab(38.7484% 23.5833 51.4916)
+--color-lime-200: lab(94.0718% -22.5338 42.5238)
+--color-lime-400: lab(83.7876% -45.0447 88.4738)
+--color-lime-500: lab(75.3197% -46.6547 86.1778)
+--color-lime-600: lab(61.1055% -41.0235 73.1483)
+--color-lime-700: lab(47.246% -32.2589 55.8249)
+--color-lime-800: lab(37.7655% -25.1694 43.0683)
+--color-green-100: lab(96.1861% -13.8464 6.52365)
+--color-green-200: lab(92.4222% -26.4702 12.9427)
+--color-green-400: lab(78.503% -64.9265 39.7492)
+--color-green-500: lab(70.5521% -66.5147 45.8073)
+--color-green-600: lab(59.0978% -58.6621 41.2579)
+--color-green-700: lab(47.0329% -47.0239 31.4788)
+--color-emerald-200: lab(90.2247% -31.039 9.47084)
+--color-emerald-400: lab(75.0771% -60.7313 19.4147)
+--color-emerald-500: lab(66.9756% -58.27 19.5419)
+--color-emerald-600: lab(55.0481% -49.9246 15.93)
+--color-emerald-700: lab(44.4871% -41.0396 11.0361)
+--color-teal-200: lab(90.7612% -33.1343 -.542295)
+--color-teal-400: lab(76.0109% -53.3483 -2.27906)
+--color-teal-500: lab(67.3859% -49.0983 -2.63511)
+--color-teal-600: lab(55.0223% -41.0774 -3.90277)
+--color-teal-700: lab(44.4134% -33.1436 -4.22149)
+--color-cyan-200: lab(91.0821% -24.0435 -12.8306)
+--color-cyan-400: lab(76.6045% -40.9406 -29.6231)
+--color-cyan-500: lab(67.805% -35.3952 -30.2018)
+--color-cyan-600: lab(55.1767% -26.7496 -30.5139)
+--color-cyan-700: lab(44.7267% -21.5987 -26.118)
+--color-cyan-800: lab(36.5114% -17.1989 -21.6292)
+--color-blue-100: lab(92.0301% -2.24757 -11.6453)
+--color-blue-200: lab(86.15% -4.04379 -21.0797)
+--color-blue-300: lab(77.5052% -6.4629 -36.42)
+--color-blue-500: lab(54.1736% 13.3369 -74.6839)
+--color-blue-600: lab(44.0605% 29.0279 -86.0352)
+--color-blue-700: lab(36.9089% 35.0961 -85.6872)
+--color-blue-900: lab(26.1542% 15.7545 -51.5504)
+--color-indigo-200: lab(84.4329% 3.18977 -23.9688)
+--color-indigo-400: lab(59.866% 22.4834 -64.4485)
+--color-indigo-500: lab(48.295% 38.3129 -81.9673)
+--color-indigo-600: lab(38.4009% 52.6132 -92.3857)
+--color-indigo-700: lab(32.4486% 49.2217 -84.6695)
+--color-violet-200: lab(87.0888% 8.53688 -19.4189)
+--color-violet-400: lab(62.8239% 34.9159 -60.0512)
+--color-violet-500: lab(49.9355% 55.1776 -81.8963)
+--color-violet-600: lab(41.088% 68.9966 -91.995)
+--color-violet-700: lab(35.2783% 67.9912 -88.793)
+--color-purple-50: lab(97.1627% 2.99937 -4.13398)
+--color-purple-100: lab(93.3333% 6.97437 -9.83434)
+--color-purple-500: lab(52.0183% 66.11 -78.2316)
+--color-pink-200: lab(87.4504% 19.6 -6.46662)
+--color-pink-500: lab(56.9303% 76.8162 -8.07021)
+--color-rose-200: lab(86.806% 19.1909 4.07754)
+--color-rose-400: lab(64.4125% 63.0291 19.2068)
+--color-rose-500: lab(56.101% 79.4328 31.4532)
+--color-rose-600: lab(49.1882% 81.577 36.0311)
+--color-rose-700: lab(41.1651% 71.6251 30.3087)
+--color-rose-800: lab(34.6481% 60.802 20.1957)
+--color-slate-950: lab(1.76974% 1.32743 -9.28855)
+--color-gray-50: lab(98.2596% -.247031 -.706708)
+--color-gray-950: lab(1.90334% .278696 -5.48866)
+--color-zinc-50: lab(98.26% 0 0)
+--color-zinc-100: lab(96.1634% .0993311 -.364041)
+--color-zinc-200: lab(90.6853% .399232 -1.45452)
+--color-zinc-400: lab(65.6464% 1.53497 -5.42429)
+--color-zinc-500: lab(47.8878% 1.65477 -5.77283)
+--color-zinc-600: lab(35.1166% 1.78212 -6.1173)
+--color-zinc-700: lab(26.8019% 1.35387 -4.68303)
+--color-zinc-950: lab(2.51107% .242703 -.886115)
+--color-neutral-300: lab(84.92% 0 -.0000119209)
+--color-neutral-400: lab(66.128% -.0000298023 .0000119209)
+--color-neutral-500: lab(48.496% 0 0)
+--color-neutral-700: lab(27.036% 0 0)
+--color-neutral-800: lab(15.204% 0 -.00000596046)
+--color-neutral-950: lab(2.75381% 0 0)
+--tw-translate-x: 18px
+--tw-border-style: solid
+--tw-leading: 15px
+--tw-font-weight: var(--font-weight-bold)
+--tw-font-weight: var(--font-weight-medium)
+--tw-font-weight: var(--font-weight-semibold)
+--tw-shadow: 0 1px 3px 0 var(--tw-shadow-color,#0000001a), 0 1px 2px -1px var(--tw-shadow-color,#0000001a)
+--tw-shadow: 0 1px var(--tw-shadow-color,#0000000d)
+--tw-shadow: 0 2px 2px 0 var(--tw-shadow-color,#00000008)
+--tw-shadow: 0 3px 3px 0 var(--tw-shadow-color,#00000008), 0 .75px 0 0 var(--tw-shadow-color,#0000000d)
+--tw-shadow: 0 3px 3px 0 var(--tw-shadow-color,#00000008)
+--tw-shadow: 0 4px 4px 0 var(--tw-shadow-color,#00000008)
+--tw-shadow: 0px 2px 0px 0px var(--tw-shadow-color,#00000008), 0px 1px 2px 0px var(--tw-shadow-color,#0000000d), 0px 6px 10px 0px var(--tw-shadow-color,#00000005)
+--tw-shadow: inset 0 0 0 .75px var(--tw-shadow-color,var(--color-blue-500))
+--tw-shadow: inset 0 1.5px 0 0 var(--tw-shadow-color,#ffffff40), inset 0 0 0 .75px var(--tw-shadow-color,var(--color-blue-500))
+--tw-shadow: inset 0 1px 0 0 var(--tw-shadow-color,#ffffff40), inset 0 0 0 .5px var(--tw-shadow-color,var(--color-blue-500))
+--tw-shadow: 0 1px 1px 0 var(--tw-shadow-color,#0000000d)
+--tw-shadow: inset 0 2px 0 0 var(--tw-shadow-color,#ffffff40), inset 0 0 0 1px var(--tw-shadow-color,var(--color-blue-500))
+--tw-shadow: 0 1px 1px 0 var(--tw-shadow-color,#0000000a), 0 4px 4px 0 var(--tw-shadow-color,#00000005)
+--tw-shadow: 0 0 0 1px var(--tw-shadow-color,var(--color-blue-500)), inset 0 1px 0 0 var(--tw-shadow-color,#ffffff40)
+--tw-shadow: 0 1px 0 0 var(--tw-shadow-color,#00000005), 0 1px 12px 0 var(--tw-shadow-color,#0000000f), 0 0 1px 0 var(--tw-shadow-color,#00000052)
+--tw-shadow: 0 1px 2px 0 var(--tw-shadow-color,#0000000d)
+--tw-shadow: 0 1px 3px 0 var(--tw-shadow-color,#0000001a), 0 1px 2px -1px var(--tw-shadow-color,#0000001a)
+--tw-ring-shadow: var(--tw-ring-inset,) 0 0 0 calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color,currentcolor)
+--tw-ring-shadow: var(--tw-ring-inset,) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color,currentcolor)
+--tw-ring-color: var(--color-border-button-active)
+--tw-ring-color: var(--color-border-button-hover)
+--tw-ring-color: var(--color-border-focus-ring)
+--tw-ring-color: transparent
+--tw-ring-offset-width: 2px
+--tw-ring-offset-shadow: var(--tw-ring-inset,) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color)
+--tw-blur: blur(8px)
+--tw-blur: blur(2px)
+--tw-blur: blur(3px)
+--tw-drop-shadow-size: drop-shadow(0 1px 2px var(--tw-drop-shadow-color,#0000001a)) drop-shadow(0 1px 1px var(--tw-drop-shadow-color,#0000000f))
+--tw-drop-shadow: drop-shadow(0 1px 2px #0000001a) drop-shadow(0 1px 1px #0000000f)
+--tw-ring-color: var(--color-border-button-active)
+--tw-ring-shadow: var(--tw-ring-inset,) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color,currentcolor)
+--tw-ring-color: var(--color-border-focus-ring)
+--tw-ring-offset-width: 2px
+--tw-ring-offset-shadow: var(--tw-ring-inset,) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color)
+--tw-shadow: 0 0 #0000
+--tw-shadow: 0 0 #0000
+--tw-blur: blur(2px)
+--tw-blur: blur(4px)
+--tw-blur: blur(2px)
+--tw-blur: blur(4px)
+--tw-leading: 44px
+--color-foreground-full: var(--color-white)
+--color-foreground-icon-primary: var(--color-neutral-950)
+--color-foreground-icon-secondary: var(--color-neutral-500)
+--color-foreground-icon-tertiary: var(--color-neutral-400)
+--color-foreground-icon-quaternary: var(--color-neutral-300)
+--color-foreground-icon-error: var(--color-red-600)
+--color-foreground-icon-disabled: var(--color-neutral-300)
+--color-foreground-disabled: var(--color-neutral-400)
+--color-foreground-disabled-danger: var(--color-red-300)
+--color-text-primary: var(--color-neutral-950)
+--color-text-secondary: var(--color-neutral-500)
+--color-text-tertiary: var(--color-neutral-400)
+--color-text-disabled: var(--color-neutral-300)
+--color-text-disabled-danger: var(--color-red-300)
+--color-text-error-primary: var(--color-red-500)
+--color-background-primary-default: var(--color-white)
+--color-background-primary-hover: var(--color-neutral-100)
+--color-background-primary-active: var(--color-neutral-200)
+--color-background-primary-disabled: var(--color-neutral-100)

@@ -1,0 +1,146 @@
+BoardUI Design System — Create unique dashboards
+A design system for dashboards, powered by
++
+.
+Copy, paste, ship.
+Email
+*
+No spam, just a single launch announcement.
+Join waitlist
+Earned so far
+$
+7,462
++14.8%
+Weekly
+Monthly
+Yearly
+Customers
+14,592
++5.3%
+Unit sold
+385
+-2.1%
+Orders
+1,394
+0.00%
+Total Results
+48
+customers
+All prices
+Under $100
+$100 – $500
+$500 – $1,000
+Over $1,000
+All products
+Sneakers
+Backpack
+Smart watch
+Headphones
+Sunglasses
+Wallet
+All regions
+North America
+Europe
+Asia
+Oceania
+Customer name
+Purchase
+Status
+Last updated
+Price
+Actions
+John Clarkson
+Waiting
+Completed
+Delivery failed
+Nov 19, 2026
+$1.804
+Aspen Lubin
+Delivery waiting
+Nov 14, 2026
+$2.506
+Michael Ekstrom
+Mar 15, 2026
+$1.241
+Kianna Vaccaro
+Shipped
+Nov 02, 2026
+$1.893
+Livia Saris
+Mar 22, 2026
+$265
+Jaydon Aminoff
+Jun 23, 2026
+$3.373
+Maria Lubin
+Jul 17, 2026
+$224
+Ann Press
+Sep 25, 2026
+$1.228
+Previous
+1
+2
+3
+4
+5
+6
+Next
+M
+Mertcan Esmergul
+Quick Search
+⌘L
+Home
+152
+Analytics
+Projects
+Inbox
+91
+Users
+Setting up your account
+Take the tour and learn how to use our product.
+Take the tour
+Support
+Settings
+Board team
+hi@boardui.com
+Recent hires
+56
+Joined today
+Backend Engineer
+2 days ago
+UI Designer
+5 days ago
+User Researcher
+A week ago
+DevOps Engineer
+Revenue
+18,240
++9.4%
+Contributions this year
+$7,462
+9B
+Lifetime tokens
+562.7M
+Peak tokens
+12h 54m
+Longest task
+62 days
+Top streak
+Activity
+Jan
+Feb
+Mar
+Apr
+May
+Jun
+Jul
+Aug
+Sep
+Oct
+Nov
+Dec
+BoardUI is a dashboard design system and UI kit for React + Tailwind CSS — pixel-perfect components, data tables, charts and dashboard templates, designed in Figma.
+©
+2026
+Board UI

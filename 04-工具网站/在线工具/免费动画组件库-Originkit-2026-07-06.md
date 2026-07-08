@@ -1,5 +1,5 @@
 ---
-标题: "Originkit 免费动画组件库"
+标题: "免费动画组件库：Originkit"
 类型: "链接"
 分类: "04-工具网站/在线工具"
 来源: "Originkit 官网：https://www.originkit.dev/"
@@ -11,7 +11,7 @@
 相关项目: ["glint.red"]
 ---
 
-# Originkit 免费动画组件库
+# 免费动画组件库：Originkit
 
 ## 一句话价值
 

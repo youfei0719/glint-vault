@@ -1,5 +1,5 @@
 ---
-标题: "Border Beam React 发光边框动效组件"
+标题: "React 发光边框动效组件：Border Beam"
 类型: "界面动效"
 分类: "01-界面设计/动效"
 来源: "Border Beam 官网：https://beam.jakubantalik.com/"
@@ -11,7 +11,7 @@
 相关项目: ["glint.red"]
 ---
 
-# Border Beam React 发光边框动效组件
+# React 发光边框动效组件：Border Beam
 
 ## 一句话价值
 

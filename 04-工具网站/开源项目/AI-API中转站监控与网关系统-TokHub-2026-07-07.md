@@ -1,5 +1,5 @@
 ---
-标题: "TokHub AI API 中转站监控与网关系统"
+标题: "AI API 中转站监控与网关系统：TokHub"
 类型: "开源项目"
 分类: "04-工具网站/开源项目"
 来源: "GitHub / yaojingang/TokHub / https://github.com/yaojingang/TokHub"
@@ -11,7 +11,7 @@
 相关项目: ["glint.red"]
 ---
 
-# TokHub AI API 中转站监控与网关系统
+# AI API 中转站监控与网关系统：TokHub
 
 ## 一句话价值
 

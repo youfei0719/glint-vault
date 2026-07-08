@@ -1,5 +1,5 @@
 ---
-标题: "emilkowalski Skills 设计工程AI技能库"
+标题: "设计工程 AI 技能库：emilkowalski Skills"
 类型: "开源项目"
 分类: "03-Codex能力/Skills"
 来源: "GitHub / emilkowalski / https://github.com/emilkowalski/skills"
@@ -11,7 +11,7 @@
 相关项目: []
 ---
 
-# emilkowalski Skills 设计工程AI技能库
+# 设计工程 AI 技能库：emilkowalski Skills
 
 ## 一句话价值
 

@@ -1,5 +1,5 @@
 ---
-标题: "DashiAI PPT 可编辑演示文稿生成 Skill"
+标题: "可编辑演示文稿生成 Skill：DashiAI PPT"
 类型: "开源项目"
 分类: "03-Codex能力/Skills"
 来源: "GitHub：chuspeeism/dashiAI-ppt-skill；https://github.com/chuspeeism/dashiAI-ppt-skill"
@@ -11,7 +11,7 @@
 相关项目: []
 ---
 
-# DashiAI PPT 可编辑演示文稿生成 Skill
+# 可编辑演示文稿生成 Skill：DashiAI PPT
 
 ## 一句话价值
 

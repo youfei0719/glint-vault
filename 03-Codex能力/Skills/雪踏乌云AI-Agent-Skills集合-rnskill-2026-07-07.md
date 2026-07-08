@@ -1,5 +1,5 @@
 ---
-标题: "rnskill 雪踏乌云 AI Agent Skills 集合"
+标题: "雪踏乌云 AI Agent Skills 集合：rnskill"
 类型: "Codex Skill"
 分类: "03-Codex能力/Skills"
 来源: "GitHub / Pluviobyte/rnskill / https://github.com/Pluviobyte/rnskill"
@@ -11,7 +11,7 @@
 相关项目: ["glint.red"]
 ---
 
-# rnskill 雪踏乌云 AI Agent Skills 集合
+# 雪踏乌云 AI Agent Skills 集合：rnskill
 
 ## 一句话价值
 
@@ -72,7 +72,7 @@ claude plugin install rn-renhua@rnskill
 
 ## 相关联想
 
-- 可以和 `emilkowalski Skills 设计工程AI技能库` 一起作为 Skill 仓库结构参考。
+- 可以和 `设计工程 AI 技能库：emilkowalski Skills` 一起作为 Skill 仓库结构参考。
 - `rn-renhua` 值得单独拆成常用写作工具，尤其适合社媒、技术笔记和产品表达。
 - 视频 Skill 可以和当前收录的动效素材库组合，用于建立“素材参考 + Agent 执行规则 + 质量检查”的闭环。
 

@@ -1,5 +1,5 @@
 ---
-标题: "Dynamic Island 灵感 Header 动效"
+标题: "灵感 Header 动效：Dynamic Island"
 类型: "界面动效"
 分类: "01-界面设计/动效"
 来源: "X / Yonaries / Yonathan Dejene / https://x.com/YonathanDejene/status/2073541525456220499?s=20"
@@ -11,7 +11,7 @@
 相关项目: ["glint.red"]
 ---
 
-# Dynamic Island 灵感 Header 动效
+# 灵感 Header 动效：Dynamic Island
 
 ## 一句话价值
 
@@ -51,7 +51,7 @@ Yonaries 在 X 上发布了一条短视频，原文是：
 - 发布时间：2026-07-05 06:56
 - 本地视频：[_附件/视频/2026-07-06-Yonathan-Dejene-dynamic-island-inspired-header.mp4](../../_附件/视频/2026-07-06-Yonathan-Dejene-dynamic-island-inspired-header.mp4)
 
-![Dynamic Island 灵感 Header 动效](../../_附件/视频/2026-07-06-Yonathan-Dejene-dynamic-island-inspired-header.mp4)
+![灵感 Header 动效：Dynamic Island](../../_附件/视频/2026-07-06-Yonathan-Dejene-dynamic-island-inspired-header.mp4)
 
 ## 相关联想
 

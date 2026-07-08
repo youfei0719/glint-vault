@@ -1,5 +1,5 @@
 ---
-标题: "Transitions.dev Web 过渡动效参考库"
+标题: "Web 过渡动效参考库：Transitions.dev"
 类型: "界面动效"
 分类: "01-界面设计/动效"
 来源: "Transitions.dev：https://transitions.dev/"
@@ -11,7 +11,7 @@
 相关项目: ["glint.red"]
 ---
 
-# Transitions.dev Web 过渡动效参考库
+# Web 过渡动效参考库：Transitions.dev
 
 ## 一句话价值
 
@@ -55,8 +55,8 @@ Transitions.dev 收集了多种 Web 界面过渡效果，页面主张是 “Smoo
 
 ## 相关联想
 
-- 可与 `Border Beam React 发光边框动效组件` 组成“局部强调动效”素材组。
-- 可与 `Dynamic Island 灵感 Header 动效` 组成“导航与状态过渡”素材组。
+- 可与 `React 发光边框动效组件：Border Beam` 组成“局部强调动效”素材组。
+- 可与 `灵感 Header 动效：Dynamic Island` 组成“导航与状态过渡”素材组。
 - 如果后续继续收集动效库，可按“页面过渡、微交互、CTA 高亮、导航形变、AI agent skill”拆索引。
 
 ## 适合反向调用的场景

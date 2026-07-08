@@ -1,5 +1,5 @@
 ---
-标题: "Colorable 配色对比度检测工具"
+标题: "配色对比度检测工具：Colorable"
 类型: "链接"
 分类: "04-工具网站/在线工具"
 来源: "Colorable：https://colorable.jxnblk.com/"
@@ -11,7 +11,7 @@
 相关项目: ["glint.red"]
 ---
 
-# Colorable 配色对比度检测工具
+# 配色对比度检测工具：Colorable
 
 ## 一句话价值
 

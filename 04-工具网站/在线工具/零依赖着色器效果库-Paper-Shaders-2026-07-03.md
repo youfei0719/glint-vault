@@ -1,5 +1,5 @@
 ---
-标题: "Paper Shaders 零依赖着色器效果库"
+标题: "零依赖着色器效果库：Paper Shaders"
 类型: "链接"
 分类: "04-工具网站/在线工具"
 来源: "Paper / https://shaders.paper.design/"
@@ -11,7 +11,7 @@
 相关项目: ["glint.red"]
 ---
 
-# Paper Shaders 零依赖着色器效果库
+# 零依赖着色器效果库：Paper Shaders
 
 ## 一句话价值
 

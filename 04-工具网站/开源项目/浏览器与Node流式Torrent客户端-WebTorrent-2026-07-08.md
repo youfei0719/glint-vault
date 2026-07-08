@@ -1,5 +1,5 @@
 ---
-标题: "WebTorrent 浏览器与 Node 流式 Torrent 客户端"
+标题: "浏览器与 Node 流式 Torrent 客户端：WebTorrent"
 类型: "开源项目"
 分类: "04-工具网站/开源项目"
 来源: "GitHub：webtorrent/webtorrent；官网：https://webtorrent.io/"
@@ -11,7 +11,7 @@
 相关项目: []
 ---
 
-# WebTorrent 浏览器与 Node 流式 Torrent 客户端
+# 浏览器与 Node 流式 Torrent 客户端：WebTorrent
 
 ## 一句话价值
 

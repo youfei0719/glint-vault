@@ -1,0 +1,1 @@
+86a6695 Add 6 specialists: security ×2, engineering ×3, specialized ×1 (#720)

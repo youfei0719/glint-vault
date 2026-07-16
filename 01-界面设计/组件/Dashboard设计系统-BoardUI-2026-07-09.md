@@ -13,6 +13,13 @@
 
 # Dashboard 设计系统：BoardUI
 
+## 直观预览
+
+![](../../_附件/网页快照/BoardUI-2026-07-09/screenshots/boardui-desktop-1440.png)
+
+> BoardUI 本地网页快照截图，保留了 dashboard UI / UX 的首屏视觉状态。
+
+
 ## 一句话价值
 
 BoardUI 是一个面向 React + Tailwind CSS + Figma 的 dashboard design system / UI kit，适合学习后台界面、按钮、数据表格、KPI 卡片、可视化组件和 SaaS 产品 UX 的设计语言。

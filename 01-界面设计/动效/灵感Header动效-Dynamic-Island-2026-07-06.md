@@ -13,6 +13,13 @@
 
 # 灵感 Header 动效：Dynamic Island
 
+## 直观预览
+
+![](../../_附件/视频/2026-07-06-Yonathan-Dejene-dynamic-island-inspired-header.mp4)
+
+> 本地保存的 Dynamic Island inspired header 动效视频，打开即可先看交互效果。
+
+
 ## 一句话价值
 
 把 iPhone Dynamic Island 的“胶囊悬浮 + 状态切换”感觉迁移到网页 Header，可以作为现代网站导航、页面状态提示和作品集交互的动效参考。

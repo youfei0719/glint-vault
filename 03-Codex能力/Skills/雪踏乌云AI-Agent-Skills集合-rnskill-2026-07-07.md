@@ -13,6 +13,13 @@
 
 # 雪踏乌云 AI Agent Skills 集合：rnskill
 
+## 直观预览
+
+![](../../_附件/收藏预览/rnskill-2026-07-16.png)
+
+> rnskill GitHub 页面截图，直观看它是 AI Agent Skills 集合。
+
+
 ## 一句话价值
 
 一组面向 Codex、Claude Code 等 AI Agent 的中文 Skill，覆盖“人话写作精修”、动效视频导演、暗色 SaaS 短片、黑白文字开场和参考视频复刻质检。

@@ -13,6 +13,13 @@
 
 # AI 网站反向重建模板：ai-website-cloner
 
+## 直观预览
+
+![](../../_附件/收藏预览/ai-website-cloner-2026-07-16.png)
+
+> ai-website-cloner GitHub 页面截图，直观看网站反向重建模板的项目入口。
+
+
 ## 一句话价值
 
 一个面向 AI coding agents 的网站反向重建模板：给定目标 URL 后，通过 `/clone-website` 工作流抓取设计、提取样式和资产，并生成现代 Next.js 代码库。

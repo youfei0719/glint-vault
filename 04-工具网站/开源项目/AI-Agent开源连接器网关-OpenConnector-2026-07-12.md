@@ -13,6 +13,13 @@
 
 # AI Agent 开源连接器网关：OpenConnector
 
+## 直观预览
+
+![](../../_附件/收藏预览/OpenConnector-2026-07-16.png)
+
+> OpenConnector GitHub 页面截图，直观看 AI Agent connector gateway 的项目入口。
+
+
 ## 一句话价值
 
 一个面向 AI Agent 的开源 connector gateway，用来把用户已授权的第三方应用账号、安全边界、Action 目录和运行日志统一放在可审查的 runtime 里，适合参考 AI 工具连接层和自托管 MCP / OpenAPI 网关设计。

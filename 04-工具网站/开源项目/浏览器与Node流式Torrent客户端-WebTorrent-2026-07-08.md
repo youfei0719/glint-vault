@@ -13,6 +13,13 @@
 
 # 浏览器与 Node 流式 Torrent 客户端：WebTorrent
 
+## 直观预览
+
+![](../../_附件/收藏预览/WebTorrent-2026-07-16.png)
+
+> WebTorrent 官网截图，直观看浏览器和 Node 流式 Torrent 客户端的项目入口。
+
+
 ## 一句话价值
 
 一个用 JavaScript 实现的流式 Torrent 客户端，同时覆盖 Node.js 和浏览器场景，适合研究 WebRTC P2P、浏览器文件分发和流媒体按需加载。

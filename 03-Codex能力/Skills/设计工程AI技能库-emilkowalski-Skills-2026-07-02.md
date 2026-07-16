@@ -13,6 +13,13 @@
 
 # 设计工程 AI 技能库：emilkowalski Skills
 
+## 直观预览
+
+![](../../_附件/收藏预览/emilkowalski-Skills-2026-07-16.png)
+
+> emilkowalski Skills GitHub 页面截图，直观看设计工程 AI 技能库的项目入口。
+
+
 ## 一句话价值
 
 这不是普通的 Skill 收藏仓库，而是一套把“界面审美、动效判断和设计工程经验”结构化交给 AI 代理的能力包，适合拿来提升前端与产品界面的完成度。

@@ -13,6 +13,13 @@
 
 # Web 过渡动效参考库：Transitions.dev
 
+## 直观预览
+
+![](../../_附件/收藏预览/Transitions-dev-2026-07-16.png)
+
+> Transitions.dev 首屏截图，直观看它是页面过渡和动效参考库。
+
+
 ## 一句话价值
 
 一个专门收集 Web UI 过渡动效的参考库，既能直接复制 CSS，也能通过 agent skill 帮 AI 生成更自然的界面动画。

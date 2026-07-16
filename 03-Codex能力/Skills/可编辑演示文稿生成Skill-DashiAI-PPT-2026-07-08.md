@@ -13,6 +13,13 @@
 
 # 可编辑演示文稿生成 Skill：DashiAI PPT
 
+## 直观预览
+
+![](../../_附件/收藏预览/DashiAI-PPT-2026-07-16.png)
+
+> DashiAI PPT GitHub 页面截图，直观看它是可编辑演示文稿生成 Skill。
+
+
 ## 一句话价值
 
 一个面向 AI Agent 的 PPT 生成 Skill，把文档和汇报目标转成可离线打开、可浏览器编辑、可导出 PPTX / PDF 的 HTML 演示文稿。

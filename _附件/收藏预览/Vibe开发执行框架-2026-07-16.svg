@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="900" viewBox="0 0 1440 900">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#0f172a"/><stop offset="1" stop-color="#020617"/></linearGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="20" stdDeviation="24" flood-color="#000" flood-opacity="0.35"/></filter>
+  </defs>
+  <rect width="1440" height="900" fill="url(#g)"/>
+  <circle cx="1130" cy="170" r="180" fill="#38bdf8" opacity="0.16"/>
+  <circle cx="230" cy="720" r="220" fill="#38bdf8" opacity="0.10"/>
+  <rect x="210" y="170" width="1020" height="560" rx="42" fill="#ffffff" opacity="0.94" filter="url(#shadow)"/>
+  <text x="280" y="285" font-family="Arial, Helvetica, sans-serif" font-size="54" font-weight="700" fill="#111827">Vibe 开发执行框架</text>
+  <text x="280" y="345" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#64748b">视觉摘要卡，用来在收藏开头快速判断素材用途</text>
+  <g transform="translate(300 430)"><circle cx="0" cy="0" r="16" fill="#38bdf8"/><text x="44" y="9" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="600" fill="#1f2937">先定结构</text></g>
+  <g transform="translate(300 500)"><circle cx="0" cy="0" r="16" fill="#38bdf8"/><text x="44" y="9" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="600" fill="#1f2937">再拆组件</text></g>
+  <g transform="translate(300 570)"><circle cx="0" cy="0" r="16" fill="#38bdf8"/><text x="44" y="9" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="600" fill="#1f2937">阶段验收</text></g>
+  <g transform="translate(300 640)"><circle cx="0" cy="0" r="16" fill="#38bdf8"/><text x="44" y="9" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="600" fill="#1f2937">视觉自查</text></g>
+  <rect x="280" y="650" width="880" height="2" fill="#e5e7eb"/>
+  <text x="280" y="700" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#64748b">用于 Obsidian 多维预览：没有网页截图时，用结构图替代纯文字开头。</text>
+</svg>

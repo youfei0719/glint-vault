@@ -13,6 +13,13 @@
 
 # Cloudflare 仪表盘管理入口
 
+## 直观预览
+
+![](../../_附件/收藏预览/Cloudflare-Dashboard-2026-07-16.png)
+
+> Cloudflare Dashboard 入口截图，用于提示这是登录后查看仪表盘、域名和运维配置的服务入口。
+
+
 ## 一句话价值
 
 这是当前 Cloudflare 账号下 Dashboards 页面的快捷入口，适合之后快速进入监控看板、站点指标、运维配置和域名购买 / 管理相关页面。

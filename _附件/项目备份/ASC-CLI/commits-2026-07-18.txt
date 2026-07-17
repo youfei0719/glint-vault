@@ -1,0 +1,1 @@
+48e0d00 feat(apps): expose API 4.4.1 sparse app fields (#1796)

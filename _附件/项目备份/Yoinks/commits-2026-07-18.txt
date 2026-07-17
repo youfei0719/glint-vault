@@ -1,0 +1,1 @@
+6f03720 fix: stop dim auto-theme button from splitting into bands

@@ -1,0 +1,10 @@
+259b8ba9dc9b	2026-07-22T06:25:51Z	Enforce template-first Lupi selection
+1cec6e982b16	2026-07-16T22:38:00Z	Simplify Lupi gallery introduction
+e7df4ccf7453	2026-07-16T12:15:26Z	Update README.md
+29f68514e339	2026-07-16T12:09:01Z	Align Skill description with the Chinese README
+57eb677359bb	2026-07-16T12:01:52Z	Add more Glance motion previews
+1a9e284674fd	2026-07-16T11:53:41Z	Refine preview layout and motion quality
+22d37cf5b004	2026-07-16T11:45:06Z	Curate framed previews and motion demos
+d9578237dcba	2026-07-16T11:32:21Z	Tighten preview introduction
+43d80253ec48	2026-07-16T11:31:20Z	Show complete template galleries in README
+ff2543504fa3	2026-07-16T11:24:22Z	Explain the visual styles in plain language

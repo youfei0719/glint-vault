@@ -1,0 +1,8 @@
+624329d9cbcf	2026-06-29T10:56:33Z	Update README.md
+eced79c1cdf7	2026-06-29T10:50:23Z	Expand README overview
+aa54bf9e792a	2026-06-29T10:00:36Z	Relax corpus requirements
+c15a102a49ae	2026-06-27T15:46:47Z	Update README.md
+05b83dfe8a63	2026-06-27T15:46:20Z	Update README.md
+e6a35eda494b	2026-06-27T15:44:34Z	Update README.md
+2f6c4d2ecd5d	2026-06-27T14:50:13Z	Update README.md
+88b99417a105	2026-06-27T14:42:57Z	Initial open source release

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">MediaCrawler 多平台自媒体数据采集工具视觉摘要</title>
+  <desc id="desc">用于 Obsidian 收藏卡片的项目视觉摘要图。</desc>
+  <rect width="1200" height="675" fill="#0f172a"/>
+  <rect x="54" y="54" width="1092" height="567" rx="28" fill="#111827" stroke="#334155" stroke-width="2"/>
+  <text x="92" y="126" fill="#e5e7eb" font-family="Arial, 'PingFang SC', sans-serif" font-size="48" font-weight="700">MediaCrawler</text>
+  <text x="92" y="172" fill="#94a3b8" font-family="Arial, 'PingFang SC', sans-serif" font-size="24">多平台自媒体公开信息采集与评论数据研究工具</text>
+  <g transform="translate(92 230)">
+    <rect width="180" height="74" rx="18" fill="#ef4444"/>
+    <text x="90" y="47" text-anchor="middle" fill="#fff" font-family="Arial, 'PingFang SC', sans-serif" font-size="24" font-weight="700">小红书</text>
+    <rect x="202" width="180" height="74" rx="18" fill="#111827" stroke="#475569"/>
+    <text x="292" y="47" text-anchor="middle" fill="#e5e7eb" font-family="Arial, 'PingFang SC', sans-serif" font-size="24" font-weight="700">抖音</text>
+    <rect x="404" width="180" height="74" rx="18" fill="#f97316"/>
+    <text x="494" y="47" text-anchor="middle" fill="#111827" font-family="Arial, 'PingFang SC', sans-serif" font-size="24" font-weight="700">快手</text>
+    <rect x="606" width="180" height="74" rx="18" fill="#38bdf8"/>
+    <text x="696" y="47" text-anchor="middle" fill="#082f49" font-family="Arial, 'PingFang SC', sans-serif" font-size="24" font-weight="700">B 站</text>
+    <rect x="808" width="180" height="74" rx="18" fill="#facc15"/>
+    <text x="898" y="47" text-anchor="middle" fill="#422006" font-family="Arial, 'PingFang SC', sans-serif" font-size="24" font-weight="700">微博</text>
+  </g>
+  <g transform="translate(92 350)" fill="none" stroke="#64748b" stroke-width="2">
+    <rect width="318" height="150" rx="20" fill="#0b1220"/>
+    <rect x="360" width="318" height="150" rx="20" fill="#0b1220"/>
+    <rect x="720" width="318" height="150" rx="20" fill="#0b1220"/>
+  </g>
+  <text x="122" y="400" fill="#e5e7eb" font-family="Arial, 'PingFang SC', sans-serif" font-size="26" font-weight="700">采集对象</text>
+  <text x="122" y="442" fill="#94a3b8" font-family="Arial, 'PingFang SC', sans-serif" font-size="21">笔记 / 视频 / 帖子</text>
+  <text x="122" y="475" fill="#94a3b8" font-family="Arial, 'PingFang SC', sans-serif" font-size="21">评论 / 二级评论 / 创作者主页</text>
+  <text x="482" y="400" fill="#e5e7eb" font-family="Arial, 'PingFang SC', sans-serif" font-size="26" font-weight="700">技术路径</text>
+  <text x="482" y="442" fill="#94a3b8" font-family="Arial, 'PingFang SC', sans-serif" font-size="21">Playwright + 登录态缓存</text>
+  <text x="482" y="475" fill="#94a3b8" font-family="Arial, 'PingFang SC', sans-serif" font-size="21">CSV / JSON / Excel / DB 存储</text>
+  <text x="842" y="400" fill="#e5e7eb" font-family="Arial, 'PingFang SC', sans-serif" font-size="26" font-weight="700">使用边界</text>
+  <text x="842" y="442" fill="#fbbf24" font-family="Arial, 'PingFang SC', sans-serif" font-size="21">非商业学习许可证</text>
+  <text x="842" y="475" fill="#94a3b8" font-family="Arial, 'PingFang SC', sans-serif" font-size="21">禁止大规模爬取与违规用途</text>
+  <text x="92" y="565" fill="#64748b" font-family="Arial, 'PingFang SC', sans-serif" font-size="20">收藏用途：自媒体公开数据研究、评论分析、内容结构拆解、合规边界参考</text>
+</svg>

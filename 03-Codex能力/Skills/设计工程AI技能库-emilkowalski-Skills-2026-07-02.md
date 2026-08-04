@@ -1,13 +1,13 @@
 ---
 标题: "设计工程 AI 技能库：emilkowalski Skills"
-类型: "开源项目"
+类型: "设计工程 Agent Skills"
 分类: "03-Codex能力/Skills"
 来源: "GitHub / emilkowalski / https://github.com/emilkowalski/skills"
 创建时间: "2026-07-02 05:06"
-标签: ["Codex能力", "Skills", "设计工程", "动画设计", "前端界面", "AI代理", "开源项目"]
+标签: ["Codex能力", "Skills", "设计工程", "动画设计", "前端界面", "AI代理", "UI原型", "开源项目"]
 状态: "收集"
 价值评分: 5
-可用于: ["AI代理界面审美补强", "前端动效评审", "动画术语查询", "设计工程学习", "提示词系统参考"]
+可用于: ["AI代理界面审美补强", "前端动效评审与改进", "UI库选型", "多方向界面原型", "设计工程学习", "提示词系统参考"]
 相关项目: []
 ---
 
@@ -17,67 +17,66 @@
 
 ![](../../_附件/收藏预览/emilkowalski-Skills-2026-07-16.png)
 
-> emilkowalski Skills GitHub 页面截图，直观看设计工程 AI 技能库的项目入口。
-
+> emilkowalski Skills 的 GitHub 页面截图，展示面向设计工程的 Agent Skill 集合入口。
 
 ## 一句话价值
 
-这不是普通的 Skill 收藏仓库，而是一套把“界面审美、动效判断和设计工程经验”结构化交给 AI 代理的能力包，适合拿来提升前端与产品界面的完成度。
+一组将 UI 品味、动效判断、平台设计原则和原型探索流程编码为 Agent 指令的 Skills，适合提升 AI 生成前端的完成度。
 
 ## 内容摘要
 
-这是 Emil Kowalski 发布在 GitHub 上的一个公开 Skills 仓库，定位非常明确：帮助设计师、前端工程师和 AI 代理做出更有质感的界面，而不是只做“能运行”的界面。
+这是 Emil Kowalski 维护的开源设计工程 Skill 仓库，README 定位为 `Skills For Design Engineers`。它不是让 AI 自动决定视觉风格的素材包，而是给代理补充具体的设计、动效、性能和可访问性判断规则。
 
-仓库当前的核心内容主要包括三类：
+截至 `2026-08-05`，README 列出 8 个 Skills：
 
-1. `emil-design-eng`：主 Skill，系统化整理了他对 UI 打磨、组件细节、按钮反馈、弹层动效、节奏控制和界面质感的判断标准。
-2. `review-animations`：专门用来严格审查动画代码，强调动效是否合理、是否顺滑、是否过度、是否影响性能和可用性。
-3. `animation-vocabulary`：把模糊的动画描述翻译成准确术语，比如用户只会说“那个弹出来有点回弹的效果”，它会帮你对应成更适合拿去提示 AI 或和设计师沟通的词汇。
+1. `emil-design-eng`：面向 UI 打磨和动效设计的主 Skill，涵盖评审输出、动效频率、easing、时长、transform-origin、性能和 `prefers-reduced-motion` 等规则。
+2. `review-animations`：对已有动画实现做严格审查，找出不自然、无必要或影响性能和可用性的动效。
+3. `improve-animations`：基于全仓动画实现制定并执行改进计划。
+4. `find-animation-opportunities`：识别真正值得加入动效的位置，避免为动而动。
+5. `animation-vocabulary`：将口语化的动效感受映射为可用于需求和提示词的准确术语。
+6. `apple-design`：将 Apple 设计原则用于产品界面与交互决策。
+7. `pick-ui-library`：按项目需求选择合适的 UI 组件库。
+8. `prototype`：在隔离的原型区做 3 个真正不同的方向，并用可切换选择器供用户比较；不直接改动生产代码。
 
-从仓库说明看，它的核心主张不是“让 AI 自动帮你做设计”，而是“把专业设计工程经验塞进 AI 的工作上下文里”，让代理少犯低级但很影响质感的错误，比如错误 easing、错误 transform-origin、频繁场景用了过重动画、为了炫而炫的动效等。
-
-截至 `2026-07-02` 我检查时，这个仓库创建于 `2026-03-16`，采用 `MIT License`，GitHub 约有 `4148` 个 star，说明它已经被不少关注 AI 编程、前端体验和设计工程的人拿来当作增强型 Skill 资源。
+本次只更新收藏资料和本地备份，未将该仓库安装到 Codex 或当前项目。远端默认分支为 `main`，本次记录的 HEAD 为 `da80201b64de7d608a6dc5f723797ce6c65b692b`，许可证为 MIT。
 
 ## 为什么值得收藏
 
-1. 它解决的是 AI 时代一个很真实的问题：代码能生成，但“手感”和“审美判断”经常不过关。
-2. 它不是空泛谈设计，而是把具体规则写进 Skill，可直接喂给代理使用。
-3. 对做前端、产品、落地页、作品集、品牌官网的人都很有价值，因为这些场景最容易被界面质感拉开差距。
-4. 它同时覆盖“生成前的判断标准”“生成后的审查标准”“沟通时的准确术语”，比只收藏一个提示词更完整。
-5. 很适合当作你自己 Skill 系统的参考样板，学习怎么把个人经验沉淀成可复用的 Agent 能力模块。
+1. 它补的是 AI 前端最容易缺失的判断层：代码可运行不代表界面、动效和反馈有质感。
+2. 规则足够具体，可直接作为代理工作的上下文、评审清单或自建 Skill 的结构样本。
+3. 覆盖从做之前的原型分叉、UI 库选型，到做之后的动效审查与改进，使用链条完整。
+4. `prototype` 的隔离探索机制很实用：先提供可比较的真实方向，再选择，不用让试验污染生产实现。
+5. MIT 许可证和本地快照便于长期参考、二次整理与版本对照。
 
 ## 未来可以怎么用
 
-1. 在让 AI 写前端界面前，先把 `emil-design-eng` 作为上游 Skill 注入，减少普通生成式界面的“AI 味”。
-2. 在动效已经做出来之后，用 `review-animations` 再跑一轮，专门抓 easing、时长、弹层原点、性能和 reduced motion 等细节问题。
-3. 当你只知道自己想要“有弹性一点”“像从按钮里长出来一样”的效果时，用 `animation-vocabulary` 先找准术语，再去写提示词或需求说明。
-4. 可以把它拆成你自己的中文版规范，沉淀成适合自己项目风格的 Skill、规则集或设计评审清单。
-5. 做作品集站、品牌站、SaaS 后台、交互 demo 时，都能把它当成“质感校对器”，专门补齐最后 20% 的完成度。
-6. 如果以后你要整理自己的 Codex 能力库，这个仓库本身也很适合当结构参考，学习如何把经验拆成主 Skill、审查 Skill、术语 Skill 三层。
+1. 生成界面前，用 `emil-design-eng` 与 `apple-design` 约束交互、密度、反馈和无障碍细节。
+2. 动效完成后，依次用 `review-animations` 和 `improve-animations` 发现并修正问题。
+3. 产品还没有明确视觉方向时，用 `prototype` 先在隔离区生成三种可操作的方案再决定。
+4. 需要新增组件库时，以 `pick-ui-library` 的判断框架比较维护成本、可访问性和项目适配度。
+5. 将其中稳定有效的规则整理为自己的中文 Agent Skill、设计验收清单或 `AGENTS.md` 约束。
 
 ## 原始内容 / 链接
 
-- 链接：https://github.com/emilkowalski/skills
-- 来源平台：GitHub
-- 作者或账号：emilkowalski
-
-补充说明：
-
-- README 的定位是 `Skills For Design Engineers`，明确强调这套能力是给设计师和工程师做更好界面用的。
-- 安装方式是 `npx skills@latest add emilkowalski/skills`。
-- 仓库主页还关联到作者的动效课程与方法论站点 `animations.dev`，说明这套 Skill 背后不是临时拼接的提示词，而是来自长期设计工程实践。
+- 仓库：[emilkowalski/skills](https://github.com/emilkowalski/skills)
+- 作者：emilkowalski
+- 安装命令（仅供后续需要时参考，未执行）：`npx skills@latest add emilkowalski/skills`
+- 当前 README 快照：[README-2026-08-05.md](../../_附件/项目备份/emilkowalski-Skills/README-2026-08-05.md)
+- 许可证快照：[LICENSE-2026-08-05.txt](../../_附件/项目备份/emilkowalski-Skills/LICENSE-2026-08-05.txt)
+- 代表性 Skill 快照：[emil-design-eng](../../_附件/项目备份/emilkowalski-Skills/emil-design-eng-SKILL-2026-08-05.md)、[prototype](../../_附件/项目备份/emilkowalski-Skills/prototype-SKILL-2026-08-05.md)
+- 完整源码快照：[main 分支 zip](../../_附件/项目备份/emilkowalski-Skills/emilkowalski-skills-main-2026-08-05.zip)
+- 远端 refs 快照：[refs-2026-08-05.txt](../../_附件/项目备份/emilkowalski-Skills/refs-2026-08-05.txt)
 
 ## 相关联想
 
-1. 很适合以后单独建立一个“AI 审美补强 Skill”子索引，把界面、动效、品牌表达、文案语气分别沉淀。
-2. 可以继续收藏作者关于 `Agents with Taste`、`animations.dev`、`easing` 相关内容，拼成一套更完整的前端质感知识链。
-3. 如果后续你常做落地页、作品集或产品官网，可以再从这张卡片反向延伸出“按钮反馈规范”“弹层动效规范”“高频动作不动效规范”等细分卡片。
-4. 这类仓库也提示了一个方向：未来高价值 Skill 不只是会调 API，而是会把审美、判断和经验显式编码进工作流。
+1. 可以把 "前端生成" 与 "动效审查" 拆成两个代理阶段，前者建立可用实现，后者专门收敛手感、性能和可访问性。
+2. 可继续收集成熟团队的设计原则、动效规范和组件库选型文档，形成自己的设计工程 Skill 索引。
+3. `prototype` 的三方向比较机制也可用于落地页、品牌页和产品功能的早期决策。
 
 ## 适合反向调用的场景
 
-1. 我收藏过哪些适合增强 AI 前端审美的 Skill？
-2. 有没有能帮我检查动画是否高级、是否合理的素材？
-3. 我现在要做一个界面或落地页，有哪些收藏能减少 AI 生成的粗糙感？
-4. 我想搭自己的 Codex Skill 库，有没有结构上值得参考的开源项目？
-5. 我只会描述动画感觉，不知道专业术语时，有没有现成素材能帮我命名？
+1. 我收藏过哪些能提升 AI 前端审美和交互细节的 Skill？
+2. 现有界面的动画是否合理、流畅并兼顾 reduced motion？
+3. 我需要先比较几个真实的 UI 方向，有什么收藏能约束原型流程？
+4. 新项目该怎么选择 UI 组件库？
+5. 我想搭自己的设计工程 Agent 规则库，有什么开源结构可参考？

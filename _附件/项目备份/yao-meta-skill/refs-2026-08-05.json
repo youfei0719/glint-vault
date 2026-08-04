@@ -1,0 +1,23 @@
+{
+  "full_name": "yaojingang/yao-meta-skill",
+  "html_url": "https://github.com/yaojingang/yao-meta-skill",
+  "description": "YAO = Yielding AI Outcomes. A rigorous engineering, evaluation, governance, and portability system for reusable agent skills.",
+  "created_at": "2026-03-31T11:59:35Z",
+  "updated_at": "2026-08-04T18:16:12Z",
+  "pushed_at": "2026-07-16T14:37:36Z",
+  "stargazers_count": 2234,
+  "forks_count": 213,
+  "language": "Python",
+  "license": "MIT",
+  "topics": [
+    "agent-skills",
+    "ai-agents",
+    "evaluation",
+    "governance",
+    "meta-skill",
+    "portability",
+    "skill-engineering",
+    "workflow-automation"
+  ],
+  "default_branch": "main"
+}

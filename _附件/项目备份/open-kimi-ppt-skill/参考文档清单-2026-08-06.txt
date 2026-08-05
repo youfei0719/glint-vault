@@ -1,0 +1,12 @@
+skills/open-kimi-ppt/reference/fonts.md
+skills/open-kimi-ppt/reference/general-poster.md
+skills/open-kimi-ppt/reference/pptd.md
+skills/open-kimi-ppt/reference/shapes.md
+skills/open-kimi-ppt/reference/slides_categories.md
+skills/open-kimi-ppt/reference/slides_categories/academic-research.md
+skills/open-kimi-ppt/reference/slides_categories/analysis-decision.md
+skills/open-kimi-ppt/reference/slides_categories/brand-creative.md
+skills/open-kimi-ppt/reference/slides_categories/business-plan.md
+skills/open-kimi-ppt/reference/slides_categories/education-training.md
+skills/open-kimi-ppt/reference/slides_categories/management-report.md
+skills/open-kimi-ppt/reference/slides_categories/tech-engineering.md

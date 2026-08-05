@@ -1,0 +1,11 @@
+ad8a028292fda7e019f061107092b84c85dcc0351f47e7fb2370114bbc8fe5c5  _附件/项目备份/open-kimi-ppt-skill/LICENSE-2026-08-06.txt
+ff69b4f4283f5eac7a52b1c12ef3d78db3af46597f83f56b4133c30a83cee69d  _附件/项目备份/open-kimi-ppt-skill/README-2026-08-06.md
+f1bd34eba239e512345eb8366909b940423b74b0c09178c20b52e81586742139  _附件/项目备份/open-kimi-ppt-skill/README_EN-2026-08-06.md
+7ff9cc8399f2b9c7615c32b18cbd77cb20825400de7821093e4b9c42f3c9a283  _附件/项目备份/open-kimi-ppt-skill/SKILL-2026-08-06.md
+ac5a764a251a29a6cb16f33cc1b3cd511adb3e1247488df8bf5807e0534e52a5  _附件/项目备份/open-kimi-ppt-skill/open-kimi-ppt-skill-main-2026-08-06.bundle
+eb179ec7ef3eee5099cf378069f558d027e7a6a039c80af55cacbe4d387b729d  _附件/项目备份/open-kimi-ppt-skill/open-kimi-ppt-skill-main-2026-08-06.zip
+1711bbed8b4e62e47bd94ba8489a62e4e7d06fb6ebf24fb8e29ee73baf8ea0a3  _附件/项目备份/open-kimi-ppt-skill/reference-pptd-2026-08-06.md
+68caf427a5f3290d3a8660f3e94f4ee5d8bcb9a1f50a610866c603a790964990  _附件/项目备份/open-kimi-ppt-skill/refs-2026-08-06.txt
+550d209ec0684794e8a305f4bd7452a3a6a8b3593c06873f9eaa85b5920f1bb2  _附件/项目备份/open-kimi-ppt-skill/repo-metadata-2026-08-06.json
+089d2460733db2555ff741491c777e9254ce9884d6e8c5c0428609334b194e4f  _附件/项目备份/open-kimi-ppt-skill/参考文档清单-2026-08-06.txt
+d30fce1e7d0ebedcd86c6aef9b8e7d7b8590d8d108847a57ce0c820bb0a14716  _附件/项目备份/open-kimi-ppt-skill/恢复说明-2026-08-06.md

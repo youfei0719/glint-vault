@@ -1,0 +1,27 @@
+# UI SFX
+
+> UI SFX is an open-source semantic interface sound system with 78 cues, 12 interchangeable sound packs, 72 one-shots, and 6 seamless loops for web, mobile, SaaS, media, and games.
+
+UI SFX separates interaction meaning from sonic personality: product code calls semantic cues such as `success`, `open`, or `processing`, while a pack controls how the whole interface feels. The TypeScript runtime is MIT licensed and the generated audio library is CC0.
+
+## Start here
+
+- [Agent integration guide](https://uisfx.com/docs/agent-guide.md): Framework-neutral implementation contract, lifecycle rules, accessibility requirements, cue catalog, and copy-ready coding-agent prompt.
+- [Copy-ready implementation prompt](https://uisfx.com/agent-prompt.txt): Plain-text prompt that asks a coding agent to integrate UI SFX across every meaningful product interaction.
+- [UI sound design documentation](https://uisfx.com/ui-sound-design.md): Clean Markdown counterpart to the interactive showcase.
+- [Full LLM context](https://uisfx.com/llms-full.txt): Expanded product, API, pack, cue, accessibility, and licensing context.
+
+## Package and source
+
+- [npm package](https://www.npmjs.com/package/uisfx): Installable `uisfx` runtime and audio assets.
+- [GitHub repository](https://github.com/romainsimon/uisfx): Source, contribution guide, issues, and licenses.
+- [Package README](https://github.com/romainsimon/uisfx/blob/main/packages/uisfx/README.md): API examples for the runtime, bindings, loops, and packaged audio files.
+- [Cue taxonomy](https://github.com/romainsimon/uisfx/blob/main/docs/taxonomy.md): Semantic intent and usage guidance for all cue families.
+
+## Machine-readable data
+
+- [Semantic cue catalog](https://uisfx.com/uisfx-catalog.json): Compact JSON for packs, categories, cue names, playback modes, and integration URLs.
+
+## Optional
+
+- [Complete asset manifest](https://uisfx.com/uisfx-manifest.json): Full 936-asset package manifest with sizes, formats, durations, paths, packs, categories, and licenses. Asset paths are npm-package paths, not website media URLs.

@@ -25,6 +25,21 @@
 
 一个原 NextUI 演进来的现代 React UI 组件库，基于 React 19、Tailwind CSS v4、React Aria Components 和 compound component API，适合快速搭建可访问、可主题化、AI 友好的产品界面。
 
+## AI 选用指南
+
+| 项目 | 选用说明 |
+| --- | --- |
+| 优先选用条件 | React 产品需要表单、弹窗、表格、日期选择器等基础交互控件，并希望统一主题和可访问性基础。 |
+| 不适合或暂缓条件 | 只缺一个装饰动效时无需迁移组件基座；非 React 项目不可直接套用。 |
+| 复用方式 | 安装依赖 |
+| 输入与产出 | React 版本、主题系统、控件清单 → 统一的基础 UI 实现。 |
+| 首次读取入口 | [本卡](./现代React组件库-HeroUI-2026-07-23.md) →「原始内容 / 链接」；随后读取[本地历史资料](../../_附件/项目备份/HeroUI/heroui-react-SKILL-2026-07-23.md) |
+| 同类选择依据 | HeroUI 做控件基座；BoardUI 给页面设计参考；beUI 可补局部产品交互，先检查与现有体系的重复成本。 对照：[Dashboard 设计系统：BoardUI](./Dashboard设计系统-BoardUI-2026-07-09.md)、[动画 React 组件库：beUI](./动画React组件库-beUI-2026-09-16.md)。 |
+| 接入前提与待核实项 | 历史卡片研究 v3，不能混用 v2 API；原卡记录仓库与包元数据许可不同，目标包版本、样式导入和许可需复核。 |
+| 检索词 | HeroUI NextUI React Aria 表单 table modal date-picker Tailwind v4 |
+
+> 选用说明整理于 2026-09-20：适用与比较为基于收藏证据的建议；正文中的版本、数量、价格与功能范围按原收录时间理解。本次未安装或运行所收藏的工具，当前环境安装状态另查。未对外部来源作全量实时复核。
+
 ## 内容摘要
 
 `heroui-inc/heroui` 是 HeroUI v3 的 monorepo。项目定位是 production-ready React UI library，曾用名 NextUI。它的核心包是 `@heroui/react` 和 `@heroui/styles`，文档站在 `apps/docs`，组件源码在 `packages/react/src/components/`，样式和 Tailwind 变体在 `packages/styles/`。

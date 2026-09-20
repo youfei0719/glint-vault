@@ -23,6 +23,21 @@
 
 letsfinddomain-skill 是一个只读 AI Skill，用于根据产品 brief 生成域名候选、批量查询可用性、比较首年价和续费价，并在购买前提醒明显品牌冲突。
 
+## AI 选用指南
+
+| 项目 | 选用说明 |
+| --- | --- |
+| 优先选用条件 | 项目命名阶段需要批量生成域名候选、查注册情况并比较首年与续费成本。 |
+| 不适合或暂缓条件 | 购买、转移或改 DNS 不属于此 Skill；RDAP 未命中不能当成确定可购买。 |
+| 复用方式 | 读取 Skill；查询服务 |
+| 输入与产出 | 产品定位、命名风格、TLD 与预算 → 带查询依据和时间的候选清单。 |
+| 首次读取入口 | [本卡](./域名命名与可用性查询Skill-letsfinddomain-2026-07-27.md) →「内容摘要」；随后读取[本地历史资料](../../_附件/项目备份/letsfinddomain-skill/SKILL-2026-07-27.md) |
+| 同类选择依据 | letsfinddomain 用于命名与只读查询；Cloudflare 收藏卡只是进入已有账号管理页面。 对照：[Cloudflare 仪表盘管理入口](../../04-工具网站/服务平台/Cloudflare仪表盘管理入口-2026-07-08.md)。 |
+| 接入前提与待核实项 | 注册商 API 可用性、凭据和结果时间影响可信度；价格与可注册状态必须当次查询，不能复用历史值。 |
+| 检索词 | letsfinddomain 域名 命名 RDAP TLD premium 续费 注册商 |
+
+> 选用说明整理于 2026-09-20：适用与比较为基于收藏证据的建议；正文中的版本、数量、价格与功能范围按原收录时间理解。本次未安装或运行所收藏的工具，当前环境安装状态另查。未对外部来源作全量实时复核。
+
 ## 内容摘要
 
 `meepo-it/letsfinddomain-skill` 是一个面向 AI 工具的域名命名与查询 Skill。仓库描述为：`A read-only AI skill for finding domain names, checking availability in bulk, and comparing renewal prices.`

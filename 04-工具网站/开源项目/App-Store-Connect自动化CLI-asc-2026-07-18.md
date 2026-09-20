@@ -23,6 +23,21 @@
 
 `asc` 是一个面向 App Store Connect API 的快速、轻量、可脚本化 CLI，可把 iOS、macOS、tvOS、visionOS 的 TestFlight、构建、提交、签名、截图、订阅、分析和元数据流程接入终端、IDE 或 CI/CD。
 
+## AI 选用指南
+
+| 项目 | 选用说明 |
+| --- | --- |
+| 优先选用条件 | iOS/macOS 项目需要查 App Store Connect、TestFlight、构建、元数据或发布状态，适合脚本化流程。 |
+| 不适合或暂缓条件 | 不是应用编译器或 UI 框架；读取收藏不自动授权发布或修改账号资源。 |
+| 复用方式 | 安装 CLI；读取相关 Skill |
+| 输入与产出 | 应用标识、认证上下文、目标发布任务 → JSON 查询结果或明确范围内的发布操作。 |
+| 首次读取入口 | [本卡](./App-Store-Connect自动化CLI-asc-2026-07-18.md) →「原始内容 / 链接」；随后读取[本地历史资料](../../_附件/项目备份/ASC-CLI/README-2026-07-18.md) |
+| 同类选择依据 | asc 管 Apple 应用发布；Native SDK 管桌面应用实现；二者可能互补但不互相替代。 对照：[原生桌面应用开发工具包：Native SDK](./原生桌面应用开发工具包-Native-SDK-2026-07-18.md)。 |
+| 接入前提与待核实项 | 需 Apple 账号权限与当前 CLI 认证；先查版本和子命令帮助，备份里的命令不保证当前可用。 |
+| 检索词 | asc App Store Connect TestFlight builds metadata CI/CD iOS发布 |
+
+> 选用说明整理于 2026-09-20：适用与比较为基于收藏证据的建议；正文中的版本、数量、价格与功能范围按原收录时间理解。本次未安装或运行所收藏的工具，当前环境安装状态另查。未对外部来源作全量实时复核。
+
 ## 内容摘要
 
 asc 的官网是 `https://asccli.sh/`，GitHub 仓库是 `rorkai/App-Store-Connect-CLI`。项目 README 将它描述为一个 fast、lightweight、scriptable 的 App Store Connect API CLI，强调可以从 terminal、IDE 或 CI/CD pipeline 自动化 Apple 平台应用发布工作流。
@@ -80,7 +95,7 @@ GitHub API 当前显示项目主语言是 Go，topics 包含 `app-store-connect`
 
 ```text
 请参考我的收藏：
-/Users/youfei/Desktop/obsidian/04-工具网站/开源项目/App-Store-Connect自动化CLI-asc-2026-07-18.md
+Vault 根目录相对路径：04-工具网站/开源项目/App-Store-Connect自动化CLI-asc-2026-07-18.md
 
 当当前项目涉及 iOS、macOS、TestFlight、App Store Connect、发布自动化或 CI/CD 时，请优先考虑 asc：
 1. 检查是否需要 App Store Connect API Key；

@@ -23,6 +23,21 @@
 
 一套可复制粘贴的 AI-native 界面原语参考，把 Agent 的加载、思考、工具调用、人工批准、任务进度、检索上下文、数据修改和内容改写做成具体可交互的组件模式。
 
+## AI 选用指南
+
+| 项目 | 选用说明 |
+| --- | --- |
+| 优先选用条件 | Agent 产品需要任务、工具调用、来源、审批或数据改动的清晰界面语义。 |
+| 不适合或暂缓条件 | 只缺转圈或图片占位时先看 Generative Loaders；组件示例不能替代 Agent 后端。 |
+| 复用方式 | 视觉参考；复制代码 |
+| 输入与产出 | 任务状态、来源与操作对象 → Task Rows、Tool Chips、Approval Card 等组件规格或示例改造。 |
+| 首次读取入口 | [本卡](./AI原生界面组件参考库-Beautiful-UI-2026-08-17.md) →「组件选型速查」；随后读取[本地历史资料](../../_附件/网页快照/Beautiful-UI-2026-08-10/index.html) |
+| 同类选择依据 | Beautiful UI 侧重人机协作模式且提供查看/复制代码入口；beUI 提供 registry 组件；Generative Loaders 聚焦等待态。 对照：[动画 React 组件库：beUI](./动画React组件库-beUI-2026-09-16.md)、[生成式 UI 加载动效 React 组件库：Generative Loaders](../动效/生成式UI加载动效React组件库-Generative-Loaders-2026-08-10.md)。 |
+| 接入前提与待核实项 | 具体示例的框架、依赖与状态连接需查看源码；静态官网快照不保证包含所有交互代码。 |
+| 检索词 | Beautiful UI Approval Card Tool Chips Task Rows Context Cards Diff Table Agent工作台 |
+
+> 选用说明整理于 2026-09-20：适用与比较为基于收藏证据的建议；正文中的版本、数量、价格与功能范围按原收录时间理解。本次未安装或运行所收藏的工具，当前环境安装状态另查。未对外部来源作全量实时复核。
+
 ## 内容摘要
 
 Beautiful UI 由 Turbo Product Design Studio 制作，官网当前展示 19 个组件示例。它不追求泛化的网页区块，而是针对“Agent 要和人一起完成工作”时最常见的界面状态：用户需要知道模型正在做什么、为什么建议某个动作、哪些数据会变、何时应由人确认。

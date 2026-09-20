@@ -23,6 +23,21 @@
 
 面向 React 前端的高质量组件、Dashboard 和 UI Block 参考库，适合快速拼装产品页面或提取具体区块的结构与视觉处理方式。
 
+## AI 选用指南
+
+| 项目 | 选用说明 |
+| --- | --- |
+| 优先选用条件 | 需要 React SaaS 或 Dashboard 的成组区块、布局与信息密度参考。 |
+| 不适合或暂缓条件 | 要求完全免费且许可已明确时，不能直接承诺可复制所有区块。 |
+| 复用方式 | 视觉参考；复制代码（取得对应访问权限后） |
+| 输入与产出 | 业务模块与数据密度 → 区块选型及按现有组件改造的页面。 |
+| 首次读取入口 | [本卡](./React组件与Dashboard区块库-Watermelon-UI-2026-08-22.md) →「内容摘要」；随后读取[本地历史资料](../../_附件/网页快照/Watermelon-UI-2026-08-22/index.html) |
+| 同类选择依据 | Watermelon UI 看整块构图；BoardUI 看后台设计拆解；HeroUI 做基础控件。 对照：[Dashboard 设计系统：BoardUI](./Dashboard设计系统-BoardUI-2026-07-09.md)、[现代 React 组件库：HeroUI](./现代React组件库-HeroUI-2026-07-23.md)。 |
+| 接入前提与待核实项 | 原卡已记录 Premium、Free/Pro 未逐项确认；不采用“600+ 免费开源”作为事实，具体素材下载与许可待核实。 |
+| 检索词 | Watermelon UI Dashboard Blocks SaaS布局 Premium React区块 |
+
+> 选用说明整理于 2026-09-20：适用与比较为基于收藏证据的建议；正文中的版本、数量、价格与功能范围按原收录时间理解。本次未安装或运行所收藏的工具，当前环境安装状态另查。未对外部来源作全量实时复核。
+
 ## 内容摘要
 
 Watermelon UI 官网定位为“Premium React Components, Dashboards & Blocks”，提供高质量 React 组件、Dashboard 和 UI blocks，支持以复制粘贴方式加速交付。页面关键词包括 React components、Tailwind CSS、shadcn/ui、frontend 和 design system，并有组件搜索入口。它适合观察仪表盘、内容区、数据布局和完整模块如何组织，再把结构换成项目自身的视觉 token 和业务数据。

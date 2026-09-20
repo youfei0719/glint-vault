@@ -23,6 +23,21 @@
 
 一个面向 Codex、Claude Code、Cursor 等 Agent 的非官方 Kimi Slides 兼容 Skill，以 YAML 版 PPTD 描述演示文稿，默认同时交付可继续编辑的 PPTD 项目与可使用的 PPTX 成品。
 
+## AI 选用指南
+
+| 项目 | 选用说明 |
+| --- | --- |
+| 优先选用条件 | 需要完整 PPTD 源项目、逐页编辑与 PPTX 交付，并愿意使用本地编辑器流程。 |
+| 不适合或暂缓条件 | 只要一张图表或一段视频时不选；无本地文件执行能力的 AI 无法直接运行生成器。 |
+| 复用方式 | 读取 Skill；使用本地生成器 |
+| 输入与产出 | 主题、受众、页数、目标、素材 → PPTD 项目及 PPTX，逐页验收。 |
+| 首次读取入口 | [本卡](./Kimi-Slides兼容PPT生成Skill-open-kimi-ppt-2026-08-06.md) →「本地备份与恢复教程」；随后读取[本地历史资料](../../_附件/项目备份/open-kimi-ppt-skill/SKILL-2026-08-06.md) |
+| 同类选择依据 | open-kimi-ppt 以 PPTD 项目为核心；DashiAI PPT 以可编辑 HTML 演示为核心；Lieflat Charts 专注图表。 对照：[可编辑演示文稿生成 Skill：DashiAI PPT](./可编辑演示文稿生成Skill-DashiAI-PPT-2026-07-08.md)、[单色数据可视化 Skill：Lieflat Charts](./单色数据可视化Skill-Lieflat-Charts-2026-07-23.md)。 |
+| 接入前提与待核实项 | 原卡明确未安装未运行；编辑器依赖浏览器文件访问能力，远程字体图片不保证离线；实际导出保真度需试样。 |
+| 检索词 | open-kimi-ppt Kimi Slides PPTD YAML PPTX 本地编辑器 |
+
+> 选用说明整理于 2026-09-20：适用与比较为基于收藏证据的建议；正文中的版本、数量、价格与功能范围按原收录时间理解。本次未安装或运行所收藏的工具，当前环境安装状态另查。未对外部来源作全量实时复核。
+
 ## 内容摘要
 
 `Binaryify/open-kimi-ppt-skill` 让兼容 `SKILL.md` 的 Agent 创建、编辑、复刻、读取和导出演示文稿。它不只是导出单一文件：默认产物包括一个完整 PPTD 项目目录和对应 PPTX。PPTD 是面向 Agent 的 YAML 演示文稿 DSL，保留主题、页面布局、元素位置和资源引用；每页自包含，便于局部修改。

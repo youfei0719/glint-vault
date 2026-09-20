@@ -23,6 +23,21 @@
 
 NameThatUI 是一个 UI 视觉词典：当你不知道某个界面元素叫什么时，可以通过视觉和模糊描述找到它的真实名称、平台 API 符号、组件差异和可复制给 Codex 的精确提示词。
 
+## AI 选用指南
+
+| 项目 | 选用说明 |
+| --- | --- |
+| 优先选用条件 | 描述“这个控件叫什么”或向 AI 下 UI 需求时，先校准组件名、平台术语与交互语义。 |
+| 不适合或暂缓条件 | 已经明确组件与 API，只缺生产代码时不当作实现库。 |
+| 复用方式 | 套用方法；视觉参考 |
+| 输入与产出 | 模糊界面描述或截图 → 准确术语、平台 API 线索和可执行需求。 |
+| 首次读取入口 | [本卡](./UI元素命名视觉词典-NameThatUI-2026-07-18.md) →「适合反向调用的场景」 |
+| 同类选择依据 | NameThatUI 解决名称；Component Gallery 提供同类案例；Vibe 视觉词典决定页面四层结构。 对照：[界面组件设计案例库：Component Gallery](./界面组件设计案例库-Component-Gallery-2026-07-16.md)、[Vibe Coding 视觉词典：布局、结构、导航与组件](../交互细节/Vibe-Coding视觉词典-布局结构导航组件-2026-08-05.md)。 |
+| 接入前提与待核实项 | Web、AppKit、SwiftUI 术语不一定一一对应，目标平台 API 仍需复核。 |
+| 检索词 | NameThatUI UI视觉词典 控件命名 modal dialog scrim AppKit SwiftUI |
+
+> 选用说明整理于 2026-09-20：适用与比较为基于收藏证据的建议；正文中的版本、数量、价格与功能范围按原收录时间理解。本次未安装或运行所收藏的工具，当前环境安装状态另查。未对外部来源作全量实时复核。
+
 ## 内容摘要
 
 NameThatUI 的官网标题是 `What Is This UI Element Called?`，定位为 UI visual dictionary。它的价值点很直接：你可以用很口语化的描述搜索，例如“菜单图标背后的浅色胶囊”“弹窗背后的深色透明层”“输入框里会消失的灰色文字”，然后找到对应的真实 UI 名称、API 名称、组件结构和 agent prompt。
@@ -72,7 +87,7 @@ NameThatUI 的官网标题是 `What Is This UI Element Called?`，定位为 UI v
 
 ```text
 请参考我的收藏：
-/Users/youfei/Desktop/obsidian/01-界面设计/组件/UI元素命名视觉词典-NameThatUI-2026-07-18.md
+Vault 根目录相对路径：01-界面设计/组件/UI元素命名视觉词典-NameThatUI-2026-07-18.md
 
 在设计或重构当前项目 UI 前，先用 NameThatUI 的思路做组件命名和 UX 选型：
 1. 列出页面里需要的核心 UI 元素，并给出准确英文组件名；

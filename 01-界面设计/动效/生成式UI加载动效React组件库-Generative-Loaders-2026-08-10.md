@@ -23,6 +23,21 @@
 
 一个专为 AI 生成等待态设计的 React 组件库，把“流式文本正在产生、按钮正在等待、图片正在生成”拆为可直接接入、具备无障碍语义的加载动效。
 
+## AI 选用指南
+
+| 项目 | 选用说明 |
+| --- | --- |
+| 优先选用条件 | React 聊天需要流式文字展示，按钮需要等待反馈，或图片生成需要稳定占位。 |
+| 不适合或暂缓条件 | 需要完整 Agent 工作台或工具审批流程时不够；不支持直接把 React 组件装进纯 JavaScript 页面。 |
+| 复用方式 | 安装依赖；视觉参考 |
+| 输入与产出 | 累计回答文本、任务等待状态、图片画幅 → TextLoader、InlineLoader 或 ImageLoader。 |
+| 首次读取入口 | [本卡](./生成式UI加载动效React组件库-Generative-Loaders-2026-08-10.md) →「快速使用」；随后读取[本地历史资料](../../_附件/网页快照/Generative-Loaders-2026-08-10/docs.html)；[官方入口](https://github.com/kasturikhanke/generative-loaders) |
+| 同类选择依据 | 本卡聚焦生成等待与呈现；Beautiful UI 负责工作流语义；beUI 可提供更完整的 Agent 组件。 对照：[AI 原生界面组件参考库：Beautiful UI](../组件/AI原生界面组件参考库-Beautiful-UI-2026-08-17.md)、[动画 React 组件库：beUI](../组件/动画React组件库-beUI-2026-09-16.md)。 |
+| 接入前提与待核实项 | 2026-09-20 官方仓库确认 React 18+、三类 Loader 和样式导入；官网读取失败，可查仓库与本地文档。历史 Node 20+ 要求及目标包版本需在接入时复核，本次未运行安装。 |
+| 检索词 | Generative Loaders TextLoader InlineLoader ImageLoader 流式文本 图片生成 loading |
+
+> 选用说明整理于 2026-09-20：适用与比较为基于收藏证据的建议；正文中的版本、数量、价格与功能范围按原收录时间理解。本次未安装或运行所收藏的工具，当前环境安装状态另查。本次另作官方页面复核：官方仓库：React 18+、三类 Loader 与样式导入；官网读取失败，未运行安装。
+
 ## 内容摘要
 
 Generative Loaders 是 Kasturi Khanke 制作的 React 组件库，官网当前提供三组 Loader：`Text loaders` 16 个、`Inline loaders` 18 个、`Image loaders` 12 个。它把生成式产品常见但容易做得生硬的等待状态，转成有明确使用场景的三类组件：

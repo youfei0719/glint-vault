@@ -23,6 +23,21 @@
 
 一组将 UI 品味、动效判断、平台设计原则和原型探索流程编码为 Agent 指令的 Skills，适合提升 AI 生成前端的完成度。
 
+## AI 选用指南
+
+| 项目 | 选用说明 |
+| --- | --- |
+| 优先选用条件 | 现有界面要评审和改善动画、密度、性能、无障碍，或先探索几个 UI 原型方向。 |
+| 不适合或暂缓条件 | 需要某个现成组件源码时先查对应组件库；不能保证一次提示就得到理想审美。 |
+| 复用方式 | 读取 Skill；套用评审方法 |
+| 输入与产出 | 代码、界面状态与设计目标 → 问题清单、原型方向或动效修改方案。 |
+| 首次读取入口 | [本卡](./设计工程AI技能库-emilkowalski-Skills-2026-07-02.md) →「未来可以怎么用」；随后读取[本地历史资料](../../_附件/项目备份/emilkowalski-Skills/README-2026-08-05.md) |
+| 同类选择依据 | Emil Skills 负责设计工程判断；Transitions.dev 提供过渡示例；YAO Meta Skill 负责 Skill 工程化。 对照：[Web 过渡动效参考库：Transitions.dev](../../01-界面设计/动效/Web过渡动效参考库-Transitions-dev-2026-07-07.md)、[Agent Skill 全生命周期工程化框架：YAO Meta Skill](./Agent-Skill全生命周期工程化框架-YAO-Meta-Skill-2026-08-05.md)。 |
+| 接入前提与待核实项 | 先按目标选 review-animations、improve-animations、prototype 等入口；备份不是当前安装证明，命令按当前版本核实。 |
+| 检索词 | Emil Kowalski emil-design-eng review-animations improve-animations prototype 动效评审 |
+
+> 选用说明整理于 2026-09-20：适用与比较为基于收藏证据的建议；正文中的版本、数量、价格与功能范围按原收录时间理解。本次未安装或运行所收藏的工具，当前环境安装状态另查。未对外部来源作全量实时复核。
+
 ## 内容摘要
 
 这是 Emil Kowalski 维护的开源设计工程 Skill 仓库，README 定位为 `Skills For Design Engineers`。它不是让 AI 自动决定视觉风格的素材包，而是给代理补充具体的设计、动效、性能和可访问性判断规则。

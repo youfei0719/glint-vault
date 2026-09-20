@@ -23,6 +23,21 @@
 
 一个收录 120 个动画 React 组件的 MIT 开源组件库，覆盖 Motion 组件、AI Agent 界面、图表和 Blocks，全部通过 shadcn registry 把源码复制进项目，可自由改造。
 
+## AI 选用指南
+
+| 项目 | 选用说明 |
+| --- | --- |
+| 优先选用条件 | React 项目需要可修改源码的产品组件，尤其是 Agent 消息、工具审批、结果、引用或金融数据展示。 |
+| 不适合或暂缓条件 | 非 React 项目不能直接安装；只需一种等待态时先比较专用 Loader。 |
+| 复用方式 | 复制源码 |
+| 输入与产出 | 业务状态、主题与目标组件 → registry 提供的源码及本地改造。 |
+| 首次读取入口 | [本卡](./动画React组件库-beUI-2026-09-16.md) →「原始内容 / 链接」；随后读取[本地历史资料](../../_附件/网页快照/beUI-2026-09-16/llms.txt) |
+| 同类选择依据 | beUI 可从 registry 获取组件与依赖；Beautiful UI 用于交互模式；Amicro 偏卡片编排；RareUI 可比较球体与特色侧边栏。 对照：[AI 原生界面组件参考库：Beautiful UI](./AI原生界面组件参考库-Beautiful-UI-2026-08-17.md)、[React 微交互与过渡组件库：Amicro](../动效/React微交互与过渡组件库-Amicro-2026-08-23.md)、[独特交互动效组件库：RareUI](./独特交互动效组件库-RareUI-2026-09-20.md)。 |
+| 接入前提与待核实项 | 历史记录是 React 19、Tailwind 4 与 Motion；MIT 核心和 Pro 产品分开核对。源码归项目维护，不代表没有升级和兼容成本。 |
+| 检索词 | beUI registry llms.txt Approval Card Tool Result Streaming Response Heat Calendar Agent组件 |
+
+> 选用说明整理于 2026-09-20：适用与比较为基于收藏证据的建议；正文中的版本、数量、价格与功能范围按原收录时间理解。本次未安装或运行所收藏的工具，当前环境安装状态另查。未对外部来源作全量实时复核。
+
 ## 内容摘要
 
 beUI（GitHub 仓库 `starc007/ui-components`，作者 Saurabh）定位为「Animated components for React and Next.js」，主张 copy the source, own the code：组件不锁在 npm 包里，而是通过 shadcn registry 以 `bunx --bun shadcn add @beui/<slug>` 或 `npx shadcn@latest add @beui/<slug>` 把 TypeScript 源码写入项目目录，再自行调整样式、弹簧参数和业务状态。

@@ -23,6 +23,21 @@
 
 Native SDK 是 Vercel Labs 推出的原生桌面应用工具包：用 `.native` 声明界面，用 TypeScript 或 Zig 写核心逻辑，由 Zig 引擎直接绘制到真实 OS 窗口，目标是在不依赖浏览器、WebView 或运行时 JS 的前提下获得现代 UI 表达力和原生性能。
 
+## AI 选用指南
+
+| 项目 | 选用说明 |
+| --- | --- |
+| 优先选用条件 | 探索不依赖 WebView 的桌面应用、TypeScript/Zig 逻辑与 Agent 可操作的原生 UI 架构。 |
+| 不适合或暂缓条件 | 成熟移动端发布或要求直接运行 React DOM 组件时不优先选；不能当成 Electron 的无成本替换。 |
+| 复用方式 | 使用 SDK；架构参考 |
+| 输入与产出 | 平台、交互模型、系统集成要求 → 桌面原型及自动化接口方案。 |
+| 首次读取入口 | [本卡](./原生桌面应用开发工具包-Native-SDK-2026-07-18.md) →「内容摘要」；随后读取[本地历史资料](../../_附件/项目备份/Native-SDK/README-2026-07-18.md) |
+| 同类选择依据 | Native SDK 是应用实现工具包；Recordly 是完成录屏任务的应用；asc 负责 Apple 发布链路。 对照：[开源演示视频录屏编辑器：Recordly](./开源演示视频录屏编辑器-Recordly-2026-07-09.md)、[App Store Connect 自动化 CLI：asc](./App-Store-Connect自动化CLI-asc-2026-07-18.md)。 |
+| 接入前提与待核实项 | 历史 README 以 macOS 最成熟，移动端实验性；必须重新验证目标平台、系统能力与打包链路。 |
+| 检索词 | Native SDK .native TypeScript Zig 原生桌面 automation server accessibility snapshot |
+
+> 选用说明整理于 2026-09-20：适用与比较为基于收藏证据的建议；正文中的版本、数量、价格与功能范围按原收录时间理解。本次未安装或运行所收藏的工具，当前环境安装状态另查。未对外部来源作全量实时复核。
+
 ## 内容摘要
 
 Native SDK 的定位是 `Toolkit for building native desktop apps`。它想解决的问题是：开发者喜欢 Web 技术的表达力、迭代速度和可控 UI，但不一定想把整个浏览器运行时塞进桌面应用。Native SDK 的路线是保留声明式视图和 TypeScript 逻辑体验，同时把渲染、运行和打包落到原生层。
@@ -83,7 +98,7 @@ GitHub API 当前显示项目主语言是 Zig，同时包含 TypeScript、Object
 
 ```text
 请参考我的收藏：
-/Users/youfei/Desktop/obsidian/04-工具网站/开源项目/原生桌面应用开发工具包-Native-SDK-2026-07-18.md
+Vault 根目录相对路径：04-工具网站/开源项目/原生桌面应用开发工具包-Native-SDK-2026-07-18.md
 
 当我要做桌面应用、原生客户端、Agent 可操作软件、跨平台工具或本地生产力产品时，请优先参考 Native SDK 的这些思路：
 1. 用声明式视图描述 UI，但不要默认依赖浏览器或 WebView；

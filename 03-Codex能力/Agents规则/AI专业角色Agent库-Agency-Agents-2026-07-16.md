@@ -23,6 +23,21 @@
 
 一个把“AI 代理应该扮演什么专业角色、遵守什么规则、交付什么结果、如何装进不同工具”系统化整理的大型 Agent 角色库，适合拆成自己的 Codex / Claude Code / Cursor 专业团队能力层。
 
+## AI 选用指南
+
+| 项目 | 选用说明 |
+| --- | --- |
+| 优先选用条件 | 要设计专业 Agent 的角色、职责、输入输出和评审标准，或规划多角色分工。 |
+| 不适合或暂缓条件 | 单步任务不必组建团队；角色 Markdown 不意味着客户端已经支持或安装该 Agent。 |
+| 复用方式 | 套用方法；读取角色模板 |
+| 输入与产出 | 任务边界与交付物 → 少量角色说明及交接约定。 |
+| 首次读取入口 | [本卡](./AI专业角色Agent库-Agency-Agents-2026-07-16.md) →「内容摘要」 |
+| 同类选择依据 | Agency Agents 提供角色素材；YAO Meta Skill 用于封装和评估重复能力；Vibe 开发心得用于项目执行纪律。 对照：[Agent Skill 全生命周期工程化框架：YAO Meta Skill](../Skills/Agent-Skill全生命周期工程化框架-YAO-Meta-Skill-2026-08-05.md)、[AI 协作执行心得：Vibe 开发 5 条](../工作流/AI协作执行心得-Vibe开发-2026-07-03.md)。 |
+| 接入前提与待核实项 | 先查看目标角色文件，再确认客户端格式；转换与安装脚本需读后使用，收藏中的多 Agent 示例不自动授权并行执行。 |
+| 检索词 | Agency Agents agent roster PM QA reviewer 角色提示词 多代理 分工 |
+
+> 选用说明整理于 2026-09-20：适用与比较为基于收藏证据的建议；正文中的版本、数量、价格与功能范围按原收录时间理解。本次未安装或运行所收藏的工具，当前环境安装状态另查。未对外部来源作全量实时复核。
+
 ## 内容摘要
 
 `msitarzewski/agency-agents` 官方定位是 `The Agency: AI Specialists Ready to Transform Your Workflow`。它不是单个提示词，也不是只给 Claude Code 用的小集合，而是一套按专业分工组织的 AI agent roster。每个 agent 文件通常包含 frontmatter、身份设定、角色记忆、核心使命、关键规则、工作流、交付物、成功指标和沟通风格。

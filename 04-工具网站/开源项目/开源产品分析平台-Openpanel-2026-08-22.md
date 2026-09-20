@@ -23,6 +23,21 @@
 
 一个可自托管的开源 Web / 产品分析平台，把漏斗、cohort、用户档案、Session Replay、实时看板、A/B 测试、收入追踪与 MCP 数据问答放在同一套分析基础设施中。
 
+## AI 选用指南
+
+| 项目 | 选用说明 |
+| --- | --- |
+| 优先选用条件 | 产品需要埋点、漏斗、留存或会话回放，并愿意评估托管或自托管的数据分析服务。 |
+| 不适合或暂缓条件 | 只想画一张数据图或查看基础设施存活时不必部署分析平台。 |
+| 复用方式 | 使用服务；使用项目源码 |
+| 输入与产出 | 事件字典、用户标识、分析问题 → 埋点方案与分析看板。 |
+| 首次读取入口 | [本卡](./开源产品分析平台-Openpanel-2026-08-22.md) →「内容摘要」；随后读取[本地历史资料](../../_附件/网页快照/Openpanel-2026-08-22/README.md) |
+| 同类选择依据 | Openpanel 分析产品行为；TokHub 监控模型服务；Lieflat Charts 呈现已有数据。 对照：[AI API 中转站监控与网关系统：TokHub](./AI-API中转站监控与网关系统-TokHub-2026-07-07.md)、[单色数据可视化 Skill：Lieflat Charts](../../03-Codex能力/Skills/单色数据可视化Skill-Lieflat-Charts-2026-07-23.md)。 |
+| 接入前提与待核实项 | 历史许可证记录为 AGPL-3.0；部署前核实目标版本许可与数据处理要求。MCP 查询能力不代表当前 AI 已连接账号。 |
+| 检索词 | Openpanel Mixpanel GA4 漏斗 留存 cohort Session Replay 埋点 |
+
+> 选用说明整理于 2026-09-20：适用与比较为基于收藏证据的建议；正文中的版本、数量、价格与功能范围按原收录时间理解。本次未安装或运行所收藏的工具，当前环境安装状态另查。未对外部来源作全量实时复核。
+
 ## 内容摘要
 
 Openpanel 是 “open-source alternative to Mixpanel”。README 描述其结合 Mixpanel 的分析能力、Plausible 的易用性和 Google Analytics 替代定位。功能包含漏斗、cohort、用户档案、会话历史、带隐私控制的 Session Replay、实时仪表盘、A/B 测试、事件 / 漏斗通知、无 Cookie 追踪、GDPR 取向、多端 SDK、收入与订阅 / LTV 追踪及 Google Search Console 等集成。

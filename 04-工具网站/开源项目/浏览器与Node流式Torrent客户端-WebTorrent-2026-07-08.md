@@ -24,6 +24,21 @@
 
 一个用 JavaScript 实现的流式 Torrent 客户端，同时覆盖 Node.js 和浏览器场景，适合研究 WebRTC P2P、浏览器文件分发和流媒体按需加载。
 
+## AI 选用指南
+
+| 项目 | 选用说明 |
+| --- | --- |
+| 优先选用条件 | JavaScript 项目要探索 Torrent 流式读取、边下边播或浏览器 WebRTC 对等分发。 |
+| 不适合或暂缓条件 | 普通文件上传下载不一定需要 P2P；浏览器不能直接连接普通 UDP/TCP Torrent peers。 |
+| 复用方式 | 安装依赖；架构参考 |
+| 输入与产出 | 分发内容、运行环境、peer 与 tracker 方案 → 流式读取或 P2P 原型。 |
+| 首次读取入口 | [本卡](./浏览器与Node流式Torrent客户端-WebTorrent-2026-07-08.md) →「内容摘要」 |
+| 同类选择依据 | WebTorrent 负责分发协议；Yoinks 从网站取得视频；Recordly 制作视频，三者不是互换下载方案。 对照：[终端视频下载工具：Yoinks](./终端视频下载工具-Yoinks-2026-07-18.md)、[开源演示视频录屏编辑器：Recordly](./开源演示视频录屏编辑器-Recordly-2026-07-09.md)。 |
+| 接入前提与待核实项 | 浏览器需兼容 WebRTC peers，Node 与浏览器接口能力不同；网络连通性、做种条件及目标版本要实测。 |
+| 检索词 | WebTorrent magnet WebRTC torrent P2P streaming Node 边下边播 |
+
+> 选用说明整理于 2026-09-20：适用与比较为基于收藏证据的建议；正文中的版本、数量、价格与功能范围按原收录时间理解。本次未安装或运行所收藏的工具，当前环境安装状态另查。未对外部来源作全量实时复核。
+
 ## 内容摘要
 
 WebTorrent 是 `webtorrent/webtorrent` 开源项目，定位是 streaming torrent client for Node.js and the web。它把 BitTorrent 客户端能力做成 JavaScript 包，在 Node.js 中可以通过 TCP / UDP 与传统 Torrent 客户端通信，在浏览器中则使用 WebRTC data channels 做点对点传输，不需要浏览器插件或扩展。

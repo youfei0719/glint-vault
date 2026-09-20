@@ -24,6 +24,21 @@
 
 一个面向 AI coding agents 的网站反向重建模板：给定目标 URL 后，通过 `/clone-website` 工作流抓取设计、提取样式和资产，并生成现代 Next.js 代码库。
 
+## AI 选用指南
+
+| 项目 | 选用说明 |
+| --- | --- |
+| 优先选用条件 | 要将已有网站重建成 Next.js 项目，需要侦察、组件规格、实现与视觉对比的工程骨架。 |
+| 不适合或暂缓条件 | 已有不同技术栈且不计划迁移时不整套引入；复杂 WebGL 也不保证模板可直接还原。 |
+| 复用方式 | 使用项目模板；套用方法 |
+| 输入与产出 | 目标站与范围、截图、响应式行为 → Next.js 重建项目和验证结果。 |
+| 首次读取入口 | [本卡](./AI网站反向重建模板-ai-website-cloner-2026-07-09.md) →「内容摘要」 |
+| 同类选择依据 | ai-website-cloner 提供工程模板；web-clone 先判断路线与证据；HeroUI 可作为控件方案另行比较。 对照：[网站复刻真源码优先方法论：web-clone](../Skills/网站复刻真源码优先方法论-web-clone-2026-07-09.md)、[现代 React 组件库：HeroUI](../../01-界面设计/组件/现代React组件库-HeroUI-2026-07-23.md)。 |
+| 接入前提与待核实项 | 原卡记录 Next.js 16、React 19、Tailwind 4；先查当前依赖和已有项目兼容性，多 Agent 流程需符合当前任务权限。 |
+| 检索词 | ai-website-cloner-template clone-website Next.js 迁移 组件规格 visual diff |
+
+> 选用说明整理于 2026-09-20：适用与比较为基于收藏证据的建议；正文中的版本、数量、价格与功能范围按原收录时间理解。本次未安装或运行所收藏的工具，当前环境安装状态另查。未对外部来源作全量实时复核。
+
 ## 内容摘要
 
 `JCodesMore/ai-website-cloner-template` 是一个可复用模板，用于把已有网站反向重建成干净的 Next.js 项目。它建议先用 GitHub 的 `Use this template` 创建自己的项目副本，再让 AI coding agent 在这个项目里运行 `/clone-website <target-url>`。

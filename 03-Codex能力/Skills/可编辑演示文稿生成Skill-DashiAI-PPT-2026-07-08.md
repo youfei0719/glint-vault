@@ -24,6 +24,21 @@
 
 一个面向 AI Agent 的 PPT 生成 Skill，把文档和汇报目标转成可离线打开、可浏览器编辑、可导出 PPTX / PDF 的 HTML 演示文稿。
 
+## AI 选用指南
+
+| 项目 | 选用说明 |
+| --- | --- |
+| 优先选用条件 | 需要可离线打开、可编辑的 HTML 演示，再导出 PDF 或 PPTX，适合主题化汇报。 |
+| 不适合或暂缓条件 | 只需图表或要求以 PPTD 作为源格式时应比较其他候选。 |
+| 复用方式 | 读取 Skill；使用本地生成器 |
+| 输入与产出 | 内容大纲、风格、图片与页数 → 可编辑 HTML 演示及所需导出文件。 |
+| 首次读取入口 | [本卡](./可编辑演示文稿生成Skill-DashiAI-PPT-2026-07-08.md) →「内容摘要」 |
+| 同类选择依据 | DashiAI PPT 以 HTML 编辑演示为中心；open-kimi-ppt 以 PPTD 项目为中心；Lieflat Charts 提供数据图表。 对照：[Kimi Slides 兼容 PPT 生成 Skill：open-kimi-ppt](./Kimi-Slides兼容PPT生成Skill-open-kimi-ppt-2026-08-06.md)、[单色数据可视化 Skill：Lieflat Charts](./单色数据可视化Skill-Lieflat-Charts-2026-07-23.md)。 |
+| 接入前提与待核实项 | 原卡描述本地 Node.js 工作流；读取当前可用 Skill 与生成器说明，再核查导出限制、依赖和素材引用。不能从收藏推断已安装。 |
+| 检索词 | DashiAI PPT dashiai-ppt goal.json HTML演示 PPTX PDF |
+
+> 选用说明整理于 2026-09-20：适用与比较为基于收藏证据的建议；正文中的版本、数量、价格与功能范围按原收录时间理解。本次未安装或运行所收藏的工具，当前环境安装状态另查。未对外部来源作全量实时复核。
+
 ## 内容摘要
 
 `chuspeeism/dashiAI-ppt-skill` 是一个 DashiAI PPT Skill 仓库，核心能力放在 `skills/dashiai-ppt/SKILL.md`。它面向 Claude Code、Codex、Cursor 等能读写本地文件并执行命令的 Agent，把用户的自然语言需求整理成结构化计划，再调用本地 Node.js 生成器输出 HTML 横向翻页 PPT。

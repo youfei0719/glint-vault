@@ -24,6 +24,21 @@
 
 一个面向 AI Agent 的开源 connector gateway，用来把用户已授权的第三方应用账号、安全边界、Action 目录和运行日志统一放在可审查的 runtime 里，适合参考 AI 工具连接层和自托管 MCP / OpenAPI 网关设计。
 
+## AI 选用指南
+
+| 项目 | 选用说明 |
+| --- | --- |
+| 优先选用条件 | Agent 需要一次连接账号后调用多个 SaaS 的动作，并通过 MCP、SDK 或 OpenAPI 统一访问。 |
+| 不适合或暂缓条件 | 只需转发模型 API 或做模型健康监控时不选；目录里有某应用不等于已获授权。 |
+| 复用方式 | 使用项目源码；架构参考 |
+| 输入与产出 | 目标应用、所需动作、账号授权 → 连接器运行时与受控工具接口。 |
+| 首次读取入口 | [本卡](./AI-Agent开源连接器网关-OpenConnector-2026-07-12.md) →「内容摘要」 |
+| 同类选择依据 | OpenConnector 处理第三方应用动作；TokHub 处理模型请求；Agency Agents 定义角色而不是连接层。 对照：[AI API 中转站监控与网关系统：TokHub](./AI-API中转站监控与网关系统-TokHub-2026-07-07.md)、[AI 专业角色 Agent 库：Agency Agents](../../03-Codex能力/Agents规则/AI专业角色Agent库-Agency-Agents-2026-07-16.md)。 |
+| 接入前提与待核实项 | 历史部署涉及 Workers、D1、R2；实际 provider、权限范围、凭据配置和维护状态需查目标版本。 |
+| 检索词 | OpenConnector Composio MCP OpenAPI SaaS连接器 OAuth Action工具网关 |
+
+> 选用说明整理于 2026-09-20：适用与比较为基于收藏证据的建议；正文中的版本、数量、价格与功能范围按原收录时间理解。本次未安装或运行所收藏的工具，当前环境安装状态另查。未对外部来源作全量实时复核。
+
 ## 内容摘要
 
 OpenConnector 是 `oomol-lab/open-connector` 开源项目，官方定位为面向 AI Agent 的开源连接器网关，也是 Composio 的开源替代方案。它的核心思路是：用户应用账号只连接一次，然后把共享的 provider catalog 和预置 Action 暴露给 Agent 或应用使用。

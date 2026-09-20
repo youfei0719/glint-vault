@@ -24,6 +24,21 @@
 
 BoardUI 是一个面向 React + Tailwind CSS + Figma 的 dashboard design system / UI kit，适合学习后台界面、按钮、数据表格、KPI 卡片、可视化组件和 SaaS 产品 UX 的设计语言。
 
+## AI 选用指南
+
+| 项目 | 选用说明 |
+| --- | --- |
+| 优先选用条件 | SaaS 后台需要指标卡、表格、筛选器、侧边栏与图表的信息密度参考。 |
+| 不适合或暂缓条件 | 需要已经封装好的可安装控件时，应再选择组件基座。 |
+| 复用方式 | 视觉参考；套用方法 |
+| 输入与产出 | 指标、数据字段、筛选操作 → Dashboard 模块划分与布局规格。 |
+| 首次读取入口 | [本卡](./Dashboard设计系统-BoardUI-2026-07-09.md) →「原始内容 / 链接」；随后读取[本地历史资料](../../_附件/网页快照/BoardUI-2026-07-09/BoardUI设计拆解.md) |
+| 同类选择依据 | BoardUI 用于后台整体设计拆解；HeroUI 用于基础控件实现；Watermelon UI 提供区块参考。 对照：[现代 React 组件库：HeroUI](./现代React组件库-HeroUI-2026-07-23.md)、[React 组件与 Dashboard 区块库：Watermelon UI](./React组件与Dashboard区块库-Watermelon-UI-2026-08-22.md)。 |
+| 接入前提与待核实项 | 保存的是页面快照与设计拆解，不把构建后脚本当成原组件库；复制实现前核实来源与许可。 |
+| 检索词 | BoardUI Dashboard KPI data table filter sidebar 后台 数据看板 |
+
+> 选用说明整理于 2026-09-20：适用与比较为基于收藏证据的建议；正文中的版本、数量、价格与功能范围按原收录时间理解。本次未安装或运行所收藏的工具，当前环境安装状态另查。未对外部来源作全量实时复核。
+
 ## 内容摘要
 
 BoardUI 官网当前定位为 `A design system for dashboards, powered by React + Tailwind CSS + TanStack`，核心价值主张是 `Copy, paste, ship.`。它展示了一套以 dashboard 为核心的 UI 组件风格，包括 waitlist 首屏、KPI 指标卡、分段控件、筛选型数据表格、侧边栏 app shell、人员卡片、收入趋势图、活动热力图和汇总指标条。

@@ -23,6 +23,21 @@
 
 一个用于创建 AI persona 的 Skill 框架，把人物语料蒸馏成可对话的思维风格、沟通模式、价值观、典型语录和主题知识边界。
 
+## AI 选用指南
+
+| 项目 | 选用说明 |
+| --- | --- |
+| 优先选用条件 | 要将公开或授权资料整理成可对话的人格结构、主题知识和来源索引。 |
+| 不适合或暂缓条件 | 只想统一文章语言与结构时选 Writing DNA；不提供语音识别或音色合成。 |
+| 复用方式 | 读取 Skill；套用方法 |
+| 输入与产出 | 人物材料、用途边界、来源 → persona、quotes、knowledge 与 sources 文件。 |
+| 首次读取入口 | [本卡](./人格思维风格蒸馏Skill-Soul-Skill-2026-07-23.md) →「内容摘要」；随后读取[本地历史资料](../../_附件/项目备份/Soul-Skill/create-soul-SKILL-2026-07-23.md) |
+| 同类选择依据 | Soul Skill 建人格与知识层；Writing DNA 建写作规则；Talk to 峰哥提供实时语音链路参考。 对照：[写作风格蒸馏 Skill：Writing DNA](./写作风格蒸馏Skill-Writing-DNA-2026-07-23.md)、[实时语音人格音色克隆项目：Talk to 峰哥](../../04-工具网站/开源项目/实时语音人格音色克隆项目-Talk-to-Fengge-2026-07-18.md)。 |
+| 接入前提与待核实项 | 先阅读备份 Skill 确认输入要求，真实人物使用需明确授权和身份表达；收藏不证明当前客户端已安装。 |
+| 检索词 | soul.skill create-soul persona quotes knowledge 数字分身 人格蒸馏 |
+
+> 选用说明整理于 2026-09-20：适用与比较为基于收藏证据的建议；正文中的版本、数量、价格与功能范围按原收录时间理解。本次未安装或运行所收藏的工具，当前环境安装状态另查。未对外部来源作全量实时复核。
+
 ## 内容摘要
 
 `larashero3-dotcom/soul.skill` 是一个“创建灵魂 / persona”的 Agent Skill 框架，目标是把某个人的公开或授权材料蒸馏成一个可被 AI 使用的人格 Skill。它支持 Claude Code、OpenClaw、Moxt 等 Agent 环境，核心入口是 `create-soul/SKILL.md`。

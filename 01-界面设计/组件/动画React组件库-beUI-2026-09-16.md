@@ -32,7 +32,7 @@
 | 复用方式 | 复制源码 |
 | 输入与产出 | 业务状态、主题与目标组件 → registry 提供的源码及本地改造。 |
 | 首次读取入口 | [本卡](./动画React组件库-beUI-2026-09-16.md) →「原始内容 / 链接」；随后读取[本地历史资料](../../_附件/网页快照/beUI-2026-09-16/llms.txt) |
-| 同类选择依据 | beUI 可从 registry 获取组件与依赖；Beautiful UI 用于交互模式；Amicro 偏卡片编排；RareUI 可比较球体与特色侧边栏。 对照：[AI 原生界面组件参考库：Beautiful UI](./AI原生界面组件参考库-Beautiful-UI-2026-08-17.md)、[React 微交互与过渡组件库：Amicro](../动效/React微交互与过渡组件库-Amicro-2026-08-23.md)、[独特交互动效组件库：RareUI](./独特交互动效组件库-RareUI-2026-09-20.md)。 |
+| 同类选择依据 | beUI 可从 registry 获取组件与依赖，优先用于 Agent 工具审批、结果展示和金融图表；Great UI 更突出页面过渡、文字／图片实验效果、社交卡片与设备模型；Beautiful UI 用于交互模式；Amicro 偏卡片编排；RareUI 可比较球体与特色侧边栏。 对照：[动画 React 组件源码库：Great UI](./动画React组件源码库-Great-UI-2026-09-22.md)、[AI 原生界面组件参考库：Beautiful UI](./AI原生界面组件参考库-Beautiful-UI-2026-08-17.md)、[React 微交互与过渡组件库：Amicro](../动效/React微交互与过渡组件库-Amicro-2026-08-23.md)、[独特交互动效组件库：RareUI](./独特交互动效组件库-RareUI-2026-09-20.md)。 |
 | 接入前提与待核实项 | 历史记录是 React 19、Tailwind 4 与 Motion；MIT 核心和 Pro 产品分开核对。源码归项目维护，不代表没有升级和兼容成本。 |
 | 检索词 | beUI registry llms.txt Approval Card Tool Result Streaming Response Heat Calendar Agent组件 |
 

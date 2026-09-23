@@ -1,6 +1,6 @@
 # AI 选材核查报告
 
-核查日期：2026-09-22。范围为 00—11 类及归档目录中的收藏，当前共 63 张；工作记录、导航、模板及附件不是独立选型候选。本次新增 Great UI 卡片并保存官方快照，不新增分类、不安装收藏工具、不迁移库外私人附件。
+核查日期：2026-09-23。范围为 00—11 类及归档目录中的收藏，当前共 63 张；工作记录、导航、模板及附件不是独立选型候选。前一轮新增 Great UI 卡片并保存官方快照；本次补强 Rare UI 既有卡片及相关索引，不新增分类、不安装收藏工具、不迁移库外私人附件。
 
 ## 原有情况与处理
 
@@ -19,7 +19,7 @@
 
 - [生成式 UI 加载动效 React 组件库：Generative Loaders](https://github.com/kasturikhanke/generative-loaders)：官方仓库：React 18+、三类 Loader 与样式导入；官网读取失败，未运行安装（2026-09-20）。
 - [网页动画库：Motion](https://motion.dev/docs/quick-start)：官方文档：JavaScript、React、Vue 分入口；未测试各框架实现（2026-09-20）。
-- [独特交互动效组件库：RareUI](https://www.rareui.com/components)：官方目录：球体、导航、输入与反馈组件；未确认具体源码许可（2026-09-20）。
+- [独特交互动效组件库：RareUI](https://www.rareui.com/components)：官方目录按 Display、AI kit、Navigation、Inputs、Feedback 分组，单组件页提供依赖、Props、安装和源码入口；2026-09-23 条款记录 MIT + Commons Clause、署名要求与禁止单独再分发，个别组件页许可仍需逐项核对。
 - [现代 UI 组件区块库：Bag UI](https://github.com/anelkabag/bag-ui)：官方仓库：registry 源码目录与 free/pro 分层；未测试复制安装（2026-09-20）。
 - [动画 React 组件源码库：Great UI](https://www.great-ui.com/components)：官方组件目录收录 49 个组件，提供 Usage 与 TSX 源码；固定仓库提交 `fe61e8e` 的 README 写 MIT，但根 LICENSE 为 Great UI Custom License Agreement，未安装或运行（2026-09-22）。
 
@@ -49,7 +49,7 @@
 | [动画 React 组件库：beUI](../01-界面设计/组件/动画React组件库-beUI-2026-09-16.md) | 需要前置技术条件，并避免“无升级问题”被当作维护承诺。 | 明确复制源码；业务状态、主题与目标组件 → registry 提供的源码及本地改造。 | [动画 React 组件库：beUI](../01-界面设计/组件/动画React组件库-beUI-2026-09-16.md) →「原始内容 / 链接」；[本地历史资料](../_附件/网页快照/beUI-2026-09-16/llms.txt) | 历史记录是 React 19、Tailwind 4 与 Motion；MIT 核心和 Pro 产品分开核对。源码归项目维护，不代表没有升级和兼容成本。 |
 | [开源 SVG 图标库：Tabler Icons](../01-界面设计/组件/开源SVG图标库-Tablericons-2026-07-16.md) | 原卡“默认图标库”容易覆盖已有设计系统。 | 明确使用图标资产；安装依赖（按目标框架选包）；动作清单、尺寸与线宽 → 图标映射和统一样式。 | [开源 SVG 图标库：Tabler Icons](../01-界面设计/组件/开源SVG图标库-Tablericons-2026-07-16.md) →「原始内容 / 链接」 | 原卡未给当前包版本和许可文件，实际安装前查官方框架入口；不猜测导出名。 |
 | [物理感互动 React 组件库：FeralUI](../01-界面设计/组件/物理感互动React组件库-FeralUI-2026-07-18.md) | 现有场景可能把趣味验证码误荐为生产安全方案。 | 明确视觉参考；复制代码（确认源码后）；关键动作、期望反馈、设备约束 → 一个局部物理互动原型。 | [物理感互动 React 组件库：FeralUI](../01-界面设计/组件/物理感互动React组件库-FeralUI-2026-07-18.md) →「内容摘要」 | 原卡以演示与截图为证；目标组件源码、依赖和许可需查，ClawCaptcha 的演示不证明具备反机器人安全能力。 |
-| [独特交互动效组件库：RareUI](../01-界面设计/组件/独特交互动效组件库-RareUI-2026-09-20.md) | 新增卡片的差异描述偏笼统，需明确与三类相近库的选用条件。 | 明确复制源码；视觉参考；组件用途、业务状态、主题 → shadcn 单文件组件及状态接入。 | [独特交互动效组件库：RareUI](../01-界面设计/组件/独特交互动效组件库-RareUI-2026-09-20.md) →「原始内容 / 链接」；[官方复核](https://www.rareui.com/components) | 2026-09-20 复核官方组件目录；具体 React/样式依赖与源码许可证未确认，官网“免费开源”不能替代许可证文件。 |
+| [独特交互动效组件库：RareUI](../01-界面设计/组件/独特交互动效组件库-RareUI-2026-09-20.md) | 原卡已记录组件目录，但选材入口、组件角色和许可边界不够明确。 | 按 Display、AI kit、Navigation、Inputs、Feedback 初筛；读取单组件页的依赖、Props、安装和源码；根据状态选择局部实现，不把它当基础 UI 或 Agent 后端。 | [独特交互动效组件库：RareUI](../01-界面设计/组件/独特交互动效组件库-RareUI-2026-09-20.md) →「AI 选用指南」；[官方组件目录](https://www.rareui.com/components)；[官方条款](https://www.rareui.com/terms) | 2026-09-23 复核官方目录与条款：通常为 MIT + Commons Clause + 署名，禁止单独销售或再包装；个别组件页存在不同使用说明，最终以目标组件页和仓库 LICENSE 为准。 |
 | [动画 React 组件源码库：Great UI](../01-界面设计/组件/动画React组件源码库-Great-UI-2026-09-22.md) | 新增收藏只有官网链接，容易把展示型动效误当成基础 UI 或 npm 组件包；README 与根许可证的 MIT 说法冲突。 | 明确 React 展示型组件、复制源码、页面／主题过渡、文字图片效果、社交卡片和设备模型；补充与 beUI、RareUI、SmoothUI、HeroUI、Motion 的角色差异。 | [动画 React 组件源码库：Great UI](../01-界面设计/组件/动画React组件源码库-Great-UI-2026-09-22.md) →「AI 选用指南」与「许可与使用边界」；[官方组件目录](https://www.great-ui.com/components)；[本地 LICENSE](../_附件/项目备份/Great-UI-2026-09-22/LICENSE) | 49 个数量、仓库版本和许可判断均按 2026-09-22 快照；未逐组件安装／运行或审计无障碍和性能。使用时逐组件核对依赖；接近再分发时向作者确认。 |
 | [现代 React 组件库：HeroUI](../01-界面设计/组件/现代React组件库-HeroUI-2026-07-23.md) | v3 与 v2 差异、许可记录冲突需要在接入前可见。 | 明确安装依赖；React 版本、主题系统、控件清单 → 统一的基础 UI 实现。 | [现代 React 组件库：HeroUI](../01-界面设计/组件/现代React组件库-HeroUI-2026-07-23.md) →「原始内容 / 链接」；[本地历史资料](../_附件/项目备份/HeroUI/heroui-react-SKILL-2026-07-23.md) | 历史卡片研究 v3，不能混用 v2 API；原卡记录仓库与包元数据许可不同，目标包版本、样式导入和许可需复核。 |
 | [现代 UI 组件区块库：Bag UI](../01-界面设计/组件/现代UI组件区块库-BagUI-2026-07-16.md) | 原卡主要是泛化推测；已补查官方仓库确认区块位置与分层。 | 明确复制源码；视觉参考；页面任务、需要的区块、现有主题 → 单个 registry 区块改造。 | [现代 UI 组件区块库：Bag UI](../01-界面设计/组件/现代UI组件区块库-BagUI-2026-07-16.md) →「原始内容 / 链接」；[官方复核](https://github.com/anelkabag/bag-ui) | 2026-09-20 官方仓库确认 registry/default/blocks 与 ui；access.tier 区分 free/pro。README 克隆示例与当前仓库名不同，按当前代码入口核实，不照抄旧命令。 |

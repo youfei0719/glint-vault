@@ -1,6 +1,6 @@
 # AI 选材索引
 
-更新：2026-10-07。当前覆盖 71 张收藏；按主要任务分组，每张只列一次。这里用于初筛，最终选择必须读取原卡的「AI 选用指南」。跨分类搜索可用英文名称、别名和原卡的检索词。
+更新：2026-10-07。当前覆盖 76 张收藏；按主要任务分组，每张只列一次。这里用于初筛，最终选择必须读取原卡的「AI 选用指南」。跨分类搜索可用英文名称、别名和原卡的检索词。
 
 先读[AI 使用入口](../AI使用入口.md)；逐卡证据与缺口见[核查报告](./AI选材核查报告.md)。工作日志单独使用[工作索引](./工作索引.md)。
 
@@ -52,6 +52,8 @@
 | [shadcn 动画 React 组件库：SmoothUI](../01-界面设计/组件/Shadcn动画React组件库-SmoothUI-2026-08-22.md) | shadcn 动画配方，如 Number Flow、Hero 与媒体反馈。 | 复制源码；视觉参考 | React；Free/Pro 分层 |
 | [独特交互动效组件库：RareUI](../01-界面设计/组件/独特交互动效组件库-RareUI-2026-09-20.md) | 按 Display、AI kit、Navigation、Inputs、Feedback 选单组件；适合流体球体、Grid Reveal、特色侧边栏、时长输入、任务列表与通知反馈。 | 复制源码；视觉参考；按单组件页读取依赖、Props 与安装入口 | React + shadcn CLI；通常 MIT + Commons Clause + 署名，个别组件许可需逐页核对 |
 | [动画 React 组件源码库：Great UI](../01-界面设计/组件/动画React组件源码库-Great-UI-2026-09-22.md) | 页面／主题过渡、文字与图片实验效果、社交卡片、浮动菜单和设备模型；以复制源码为主。 | 复制源码；视觉参考；安装目标组件依赖 | React；Tailwind；Motion；根 LICENSE 与 README 的 MIT 声明冲突，禁止再包装分发 |
+| [React 着色器组件库：shadercn](../01-界面设计/动效/React着色器组件库-shadercn-2026-10-07.md) | WebGPU/WGSL 着色器 React 组件，走 shadcn registry 接入。 | 安装依赖；视觉参考 | MIT；需 WebGPU 环境；未安装验证 |
+| [WGSL 计算着色器沙盒：compute.toys](../04-工具网站/在线工具/WGSL计算着色器沙盒-compute-toys-2026-10-07.md) | 在线编写 WGSL 计算着色器的沙盒与 44 页社区画廊。 | 使用工具；视觉参考 | 需 WebGPU 浏览器；作品许可另查 |
 | [等距线框插画生成 Skill：hairline](../01-界面设计/动效/等距线框插画生成Skill-hairline-2026-10-07.md) | 27 个会回应指针的等距线框 SVG 插画；hairline-create Skill 按想法生成单文件 HTML。 | 安装依赖；读取 Skill；视觉参考 | MIT；未安装验证 |
 
 ## 交互音效
@@ -79,6 +81,9 @@
 | [免费动画组件库：Originkit](../04-工具网站/在线工具/免费动画组件库-Originkit-2026-07-06.md) | 文字、图库、粒子与鼠标效果，偏视觉原型。 | 视觉参考；复制代码（确认入口后） | Framer/MCP 接入待确认 |
 | [免费设计库：Uiverse UI Kits](../04-工具网站/在线工具/免费设计库-Uiverse-UI-Kits-2026-07-02.md) | 整套 UI kit 风格比较，确定配色和组件气质。 | 视觉参考 | 各 kit 代码与许可另查 |
 | [零依赖着色器效果库：Paper Shaders](../04-工具网站/在线工具/零依赖着色器效果库-Paper-Shaders-2026-07-03.md) | 图像滤镜、Logo 与背景 shader；React 或 GLSL。 | 安装依赖；视觉参考 | GPU 与移动端性能 |
+| [开源字体 npm 自托管：Fontsource](../01-界面设计/字体与排版/开源字体npm自托管-Fontsource-2026-10-07.md) | 2100+ 开源字体走 npm 自托管，告别 Google Fonts 外链。 | 安装依赖 | MIT；单字体许可另查 |
+| [流式响应排版计算器：Utopia](../01-界面设计/字体与排版/流式响应排版计算器-Utopia-2026-10-07.md) | 字号/间距随视口平滑缩放，生成 CSS clamp。 | 使用工具；套用方法 | 在线计算器 |
+| [像素风终端等宽字体：Departure Mono](../01-界面设计/字体与排版/像素风终端等宽字体-Departure-Mono-2026-10-07.md) | 像素风等宽字体，lo-fi 技术味，OFL 开源。 | 下载字体文件 | OFL |
 
 ## 基础组件与图标
 

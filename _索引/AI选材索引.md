@@ -1,6 +1,6 @@
 # AI 选材索引
 
-更新：2026-10-09。当前覆盖 78 张收藏；按主要任务分组，每张只列一次。这里用于初筛，最终选择必须读取原卡的「AI 选用指南」。跨分类搜索可用英文名称、别名和原卡的检索词。
+更新：2026-10-09。当前覆盖 81 张收藏；按主要任务分组，每张只列一次。这里用于初筛，最终选择必须读取原卡的「AI 选用指南」。跨分类搜索可用英文名称、别名和原卡的检索词。
 
 先读[AI 使用入口](../AI使用入口.md)；逐卡证据与缺口见[核查报告](./AI选材核查报告.md)。工作日志单独使用[工作索引](./工作索引.md)。
 
@@ -95,6 +95,8 @@
 | [现代 React 组件库：HeroUI](../01-界面设计/组件/现代React组件库-HeroUI-2026-07-23.md) | 基础表单、弹窗、表格和日期控件，可作 UI 基座。 | 安装依赖 | v2/v3 与目标包需区分 |
 | [现代 UI 组件区块库：Bag UI](../01-界面设计/组件/现代UI组件区块库-BagUI-2026-07-16.md) | hero、navbar、pricing 等 shadcn 页面区块源码。 | 复制源码；视觉参考 | free/pro；命令先复核 |
 | [旅行主题图标库：Nyatabi Icons](../01-界面设计/组件/旅行主题图标库-Nyatabi-Icons-2026-10-09.md) | 110 个日式圆润线条旅行主题图标；SVG 复制；iOS asset 导出。 | 复制 SVG／导出 asset | 许可未明确，商用前核实 |
+| [终端 UI 组件库：termcn](../01-界面设计/组件/终端UI组件库-termcn-2026-10-09.md) | Ink + OpenTUI 的 React 终端 UI 组件（Table/图表/spinner），20+ 主题。 | 安装依赖（shadcn registry） | 终端/CLI 项目专用 |
+| [富文本编辑器组件：editorcn](../01-界面设计/组件/富文本编辑器组件-editorcn-2026-10-09.md) | Tiptap 底座：工具栏编辑器 + Notion 风块编辑器（slash 命令/bubble menu）+ 扩展 + 静态渲染。 | 安装依赖（shadcn registry） | xiegao2.0 编辑器候选 |
 | [配色对比度检测工具：Colorable](../04-工具网站/在线工具/配色对比度检测工具-Colorable-2026-07-07.md) | 检查前景背景色对比度，校验文字与按钮可读性。 | 使用工具；套用检查方法 | 不是完整无障碍测试 |
 
 ## 代理规则与开发工作流
@@ -102,6 +104,7 @@
 | 素材 | 用途与差异 | 复用方式 | 关键前提 |
 | --- | --- | --- | --- |
 | [AI 专业角色 Agent 库：Agency Agents](../03-Codex能力/Agents规则/AI专业角色Agent库-Agency-Agents-2026-07-16.md) | 专业角色的职责、交付物、评审与交接模板。 | 套用方法；读取角色模板 | 不等于已安装 Agent |
+| [AI Agent 脚手架：agentcn](../04-工具网站/开源项目/AI-agent脚手架-agentcn-2026-10-09.md) | 可安装 AI agent 的开源脚手架：CLI + registry + 可编辑源码进仓库，TS + Vercel AI SDK。 | 安装依赖；复制源码思路 | xiegao2.0 结构参考 |
 | [Agent Skill 全生命周期工程化框架：YAO Meta Skill](../03-Codex能力/Skills/Agent-Skill全生命周期工程化框架-YAO-Meta-Skill-2026-08-05.md) | 将重复流程封装为可评估、发布与维护的 Skill。 | 读取 Skill；套用方法 | 一次性任务无需重治理 |
 | [微信小程序全生命周期 AI 开发 Skill：wechat-miniprogram-builder](../03-Codex能力/Skills/微信小程序全生命周期AI开发Skill-wechat-miniprogram-builder-2026-08-03.md) | 微信小程序按选题、开发、审核和推广阶段取资料。 | 读取 Skill；套用方法 | 平台规则执行时复核 |
 | [网站复刻真源码优先方法论：web-clone](../03-Codex能力/Skills/网站复刻真源码优先方法论-web-clone-2026-07-09.md) | 网站复刻前做证据分级、侦察与路线判断。 | 读取 Skill；套用方法 | 不是现成项目工程 |

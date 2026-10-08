@@ -1,6 +1,6 @@
 # AI 选材索引
 
-更新：2026-10-09。当前覆盖 81 张收藏；按主要任务分组，每张只列一次。这里用于初筛，最终选择必须读取原卡的「AI 选用指南」。跨分类搜索可用英文名称、别名和原卡的检索词。
+更新：2026-10-09。当前覆盖 87 张收藏；按主要任务分组，每张只列一次。这里用于初筛，最终选择必须读取原卡的「AI 选用指南」。跨分类搜索可用英文名称、别名和原卡的检索词。
 
 先读[AI 使用入口](../AI使用入口.md)；逐卡证据与缺口见[核查报告](./AI选材核查报告.md)。工作日志单独使用[工作索引](./工作索引.md)。
 
@@ -97,6 +97,12 @@
 | [旅行主题图标库：Nyatabi Icons](../01-界面设计/组件/旅行主题图标库-Nyatabi-Icons-2026-10-09.md) | 110 个日式圆润线条旅行主题图标；SVG 复制；iOS asset 导出。 | 复制 SVG／导出 asset | 许可未明确，商用前核实 |
 | [终端 UI 组件库：termcn](../01-界面设计/组件/终端UI组件库-termcn-2026-10-09.md) | Ink + OpenTUI 的 React 终端 UI 组件（Table/图表/spinner），20+ 主题。 | 安装依赖（shadcn registry） | 终端/CLI 项目专用 |
 | [富文本编辑器组件：editorcn](../01-界面设计/组件/富文本编辑器组件-editorcn-2026-10-09.md) | Tiptap 底座：工具栏编辑器 + Notion 风块编辑器（slash 命令/bubble menu）+ 扩展 + 静态渲染。 | 安装依赖（shadcn registry） | xiegao2.0 编辑器候选 |
+| [PDF 组件库：pdfcn](../01-界面设计/组件/PDF组件库-pdfcn-2026-10-09.md) | Takumi + Forme 的 React PDF 组件/区块/主题；家族最火 2896★。 | 安装依赖（shadcn registry） | 报表/发票/导出 PDF |
+| [OG 图组件库：ogimagecn](../01-界面设计/组件/OG图组件库-ogimagecn-2026-10-09.md) | Satori 底座的 OG 分享图组件，next/og 渲染。 | 安装依赖（shadcn registry） | 社交分享封面批量生成 |
+| [MDX 图文组件：mdxcn](../01-界面设计/组件/MDX图文组件-mdxcn-2026-10-09.md) | callout/时间线/表格/文字图表；MDX 写标签、README 粘代码块；agent skill。 | 安装依赖；给 agent 配 skill | Agent 写文档标配 |
+| [邮件组件库：emailcn](../01-界面设计/组件/邮件组件库-emailcn-2026-10-09.md) | React Email / MJML React / JSX Email 的邮件组件、区块、主题。 | 安装依赖（shadcn registry） | 通知/营销邮件模板 |
+| [视频组件库：framecn](../01-界面设计/组件/视频组件库-framecn-2026-10-09.md) | Editframe 底座的视频组件与 UI 原语（state atoms/transition hooks）。 | 安装依赖（shadcn registry） | 与 live-panel 生成分工 |
+| [MCP 应用 UI 组件：mcpcn](../01-界面设计/组件/MCP应用UI组件-mcpcn-2026-10-09.md) | Base UI 底座的 ChatGPT/Claude 风格聊天应用组件；53★ 早期。 | 安装依赖（shadcn registry） | 用前确认维护状态 |
 | [配色对比度检测工具：Colorable](../04-工具网站/在线工具/配色对比度检测工具-Colorable-2026-07-07.md) | 检查前景背景色对比度，校验文字与按钮可读性。 | 使用工具；套用检查方法 | 不是完整无障碍测试 |
 
 ## 代理规则与开发工作流

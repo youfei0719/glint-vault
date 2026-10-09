@@ -1,6 +1,6 @@
 # AI 选材索引
 
-更新：2026-10-09。当前覆盖 91 张收藏；按主要任务分组，每张只列一次。这里用于初筛，最终选择必须读取原卡的「AI 选用指南」。跨分类搜索可用英文名称、别名和原卡的检索词。
+更新：2026-10-09。当前覆盖 93 张收藏；按主要任务分组，每张只列一次。这里用于初筛，最终选择必须读取原卡的「AI 选用指南」。跨分类搜索可用英文名称、别名和原卡的检索词。
 
 先读[AI 使用入口](../AI使用入口.md)；逐卡证据与缺口见[核查报告](./AI选材核查报告.md)。工作日志单独使用[工作索引](./工作索引.md)。
 
@@ -115,6 +115,8 @@
 | [AI 专业角色 Agent 库：Agency Agents](../03-Codex能力/Agents规则/AI专业角色Agent库-Agency-Agents-2026-07-16.md) | 专业角色的职责、交付物、评审与交接模板。 | 套用方法；读取角色模板 | 不等于已安装 Agent |
 | [AI Agent 脚手架：agentcn](../04-工具网站/开源项目/AI-agent脚手架-agentcn-2026-10-09.md) | 可安装 AI agent 的开源脚手架：CLI + registry + 可编辑源码进仓库，TS + Vercel AI SDK。 | 安装依赖；复制源码思路 | xiegao2.0 结构参考 |
 | [AI 设计选型方法论：Design with AI（AmirMušić）](../03-Codex能力/Skills/AI设计选型方法论-Design-with-AI-2026-10-09.md) | OpenArt Arena 按创意任务盲测排名选模型；DESIGN_SKILL.md：规范型 skill 指挥多模型。 | 查榜选型；套用 skill 模式 | 榜单随模型迭代更新 |
+| [AI 设计评审 Skill：Amir Design Judgment](../03-Codex能力/Skills/AI设计评审Skill-Amir-Design-Judgment-2026-10-09.md) | 设计师评审眼光的 SKILL.md：细节→感知→契合度→决策→动作；评审/选优/指导改稿。 | 安装 skill；套用评审链路 | v0.1，需 vision 助手 |
+| [概念品牌手册：Luka brandbook](../01-界面设计/灵感库/概念品牌手册-Luka-brandbook-2026-10-09.md) | 虚构咖啡品牌全套手册 + luka-brand.json（agent 可读品牌包）+ 生图保真流程。 | 结构参考；brand JSON 模板 | CC BY 4.0 署名 |
 | [Agent Skill 全生命周期工程化框架：YAO Meta Skill](../03-Codex能力/Skills/Agent-Skill全生命周期工程化框架-YAO-Meta-Skill-2026-08-05.md) | 将重复流程封装为可评估、发布与维护的 Skill。 | 读取 Skill；套用方法 | 一次性任务无需重治理 |
 | [微信小程序全生命周期 AI 开发 Skill：wechat-miniprogram-builder](../03-Codex能力/Skills/微信小程序全生命周期AI开发Skill-wechat-miniprogram-builder-2026-08-03.md) | 微信小程序按选题、开发、审核和推广阶段取资料。 | 读取 Skill；套用方法 | 平台规则执行时复核 |
 | [网站复刻真源码优先方法论：web-clone](../03-Codex能力/Skills/网站复刻真源码优先方法论-web-clone-2026-07-09.md) | 网站复刻前做证据分级、侦察与路线判断。 | 读取 Skill；套用方法 | 不是现成项目工程 |

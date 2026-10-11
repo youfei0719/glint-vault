@@ -45,6 +45,19 @@
 - **传播**：578.7 万浏览、527 回复、5451 转帖、5 万喜欢、6.3 万书签——动画圈的现象级传播。
 - **作者补充**：评论区追加 Drive 文件夹链接，并更新了文档内容，附多张动画标题图。
 
+## 深挖：Drive 文件夹结构（2026-10-12 只读浏览，未下载任何文件）
+
+公开文件夹「Cartoon Network Leaks」共 9 个子文件夹，真实暴露了大厂动画的资产组织方式：
+
+- **DUCK DODGERS**：12 个子文件夹——Backgrounds / Character Art（分 CN 版和 WBCP 版）/ Color Call Outs / Docs / Log Lines / Logos / Main Model Pack / PR / Style Guide (WB) / Theme，另有主题曲音频（11.1 MB）。看点：同一资产按权利方（CN vs 华纳消费者产品部）分开存放。
+- **FOSTERS（ Foster's Home）**：15 个子文件夹——Flash 动画、3D、资产清单、背景、角色美术包、数字墨水注释、主模型转面图、音乐、PR 图等，管线最完整的一组。
+- **Garfield**：Character Art / Fonts / Logo / Movies / Style Guide。
+- **Gumball S2 Rigs**（最实在的一组，47 个文件）：Gumball / Darwin / Anais / 爸妈 / Hector 的 **.fla 角色 puppet rig**（带版本号 VERSION_001–008，分 CS3/CS5），以及按镜头命名的场景文件（`GB200_DARWIN_HURT_BACK_KICK_SC159_FINAL.fla`，SC155–SC161），每个 .fla 配 .jpg 预览 + .swf。命名规范本身就是管线教材：`[剧集代码]_[资产]_[版本]_[Flash版本]`。
+- **The Looney Tunes Show**：13 个子文件夹，含 `DO NOT USE INTERNAL TCS ONLY`（内部专用标记原样泄露）、Main Model Pack / Main Model Color / Style Guide / Production Bgs / Key Art / Show Poster。
+- **PPGZ**（飞天小女警Z）：350 dpi 主角图、主视觉、toontalk；**Looney Tunes Cartoons**：Props；**Robot Chicken**：嵌套文件夹；test 为空。
+
+**三条管线洞察**：①资产按"用途×权利方"二维分类（Model Pack / Style Guide / PR Art × CN/WBCP）；②Flash 木偶动画是"角色 rig 版本化 + 镜头文件引用"的流程；③连内部权限标记（DO NOT USE）都原样流出，说明这是内部共享盘级别的泄露。
+
 ## 为什么值得收藏
 
 1. **职业动画源文件罕见**：FLA 工程文件、PSD 分层、字体——大厂动画怎么做分层和资产管理，平时看不到。

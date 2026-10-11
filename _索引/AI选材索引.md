@@ -1,6 +1,6 @@
 # AI 选材索引
 
-更新：2026-10-09。当前覆盖 94 张收藏；按主要任务分组，每张只列一次。这里用于初筛，最终选择必须读取原卡的「AI 选用指南」。跨分类搜索可用英文名称、别名和原卡的检索词。
+更新：2026-10-09。当前覆盖 95 张收藏；按主要任务分组，每张只列一次。这里用于初筛，最终选择必须读取原卡的「AI 选用指南」。跨分类搜索可用英文名称、别名和原卡的检索词。
 
 先读[AI 使用入口](../AI使用入口.md)；逐卡证据与缺口见[核查报告](./AI选材核查报告.md)。工作日志单独使用[工作索引](./工作索引.md)。
 
@@ -118,6 +118,7 @@
 | [AI 设计评审 Skill：Amir Design Judgment](../03-Codex能力/Skills/AI设计评审Skill-Amir-Design-Judgment-2026-10-09.md) | 设计师评审眼光的 SKILL.md：细节→感知→契合度→决策→动作；评审/选优/指导改稿。 | 安装 skill；套用评审链路 | v0.1，需 vision 助手 |
 | [概念品牌手册：Luka brandbook](../01-界面设计/灵感库/概念品牌手册-Luka-brandbook-2026-10-09.md) | 虚构咖啡品牌全套手册 + luka-brand.json（agent 可读品牌包）+ 生图保真流程。 | 结构参考；brand JSON 模板 | CC BY 4.0 署名 |
 | [文档解析开源模型：Unlimited-OCR（百度）](../04-工具网站/开源项目/文档解析开源模型-Unlimited-OCR-2026-10-12.md) | one-shot 长视野文档解析：图片/多页 PDF 转带版式标记的结构化文本；3B、MIT。 | 部署调用；PDF/截图转文本 | 需 GPU 部署 |
+| [Cartoon Network 制作资产泄露事件（X 爆帖）](../01-界面设计/灵感库/Cartoon-Network制作资产泄露事件-2026-10-12.md) | 据称泄露的 CN 动画制作资产（FLA/PSD/字体），约30部作品；职业动画源文件结构参考。 | 视觉参考；分层学习 | 泄露来源不明，仅摘要 |
 | [Agent Skill 全生命周期工程化框架：YAO Meta Skill](../03-Codex能力/Skills/Agent-Skill全生命周期工程化框架-YAO-Meta-Skill-2026-08-05.md) | 将重复流程封装为可评估、发布与维护的 Skill。 | 读取 Skill；套用方法 | 一次性任务无需重治理 |
 | [微信小程序全生命周期 AI 开发 Skill：wechat-miniprogram-builder](../03-Codex能力/Skills/微信小程序全生命周期AI开发Skill-wechat-miniprogram-builder-2026-08-03.md) | 微信小程序按选题、开发、审核和推广阶段取资料。 | 读取 Skill；套用方法 | 平台规则执行时复核 |
 | [网站复刻真源码优先方法论：web-clone](../03-Codex能力/Skills/网站复刻真源码优先方法论-web-clone-2026-07-09.md) | 网站复刻前做证据分级、侦察与路线判断。 | 读取 Skill；套用方法 | 不是现成项目工程 |

@@ -4,7 +4,7 @@
 分类: "03-Codex能力/Skills"
 来源: "GitHub：chuspeeism/dashiAI-ppt-skill；https://github.com/chuspeeism/dashiAI-ppt-skill"
 创建时间: "2026-07-08 23:24"
-标签: ["Codex能力", "Skills", "AI代理", "PPT", "演示文稿", "HTML幻灯片", "PPTX导出", "本地工具", "Node.js", "可复用"]
+标签: ["Codex能力", "技能", "AI代理", "PPT", "演示文稿", "HTML幻灯片", "PPTX导出", "本地工具", "Node.js", "可复用"]
 状态: "收集"
 价值评分: 4
 可用于: ["PPT生成", "汇报材料", "路演材料", "研究报告", "Agent Skill设计", "可编辑HTML演示"]
@@ -35,7 +35,7 @@
 | 首次读取入口 | [本卡](./可编辑演示文稿生成Skill-DashiAI-PPT-2026-07-08.md) →「内容摘要」 |
 | 同类选择依据 | DashiAI PPT 以 HTML 编辑演示为中心；open-kimi-ppt 以 PPTD 项目为中心；Lieflat Charts 提供数据图表。 对照：[Kimi Slides 兼容 PPT 生成 Skill：open-kimi-ppt](./Kimi-Slides兼容PPT生成Skill-open-kimi-ppt-2026-08-06.md)、[单色数据可视化 Skill：Lieflat Charts](./单色数据可视化Skill-Lieflat-Charts-2026-07-23.md)。 |
 | 接入前提与待核实项 | 原卡描述本地 Node.js 工作流；读取当前可用 Skill 与生成器说明，再核查导出限制、依赖和素材引用。不能从收藏推断已安装。 |
-| 检索词 | DashiAI PPT dashiai-ppt goal.json HTML演示 PPTX PDF |
+| 检索词 | DashiAI PPT dashiai-ppt goal.json HTML演示 PPTX PDF；别名：Skills |
 
 > 选用说明整理于 2026-09-20：适用与比较为基于收藏证据的建议；正文中的版本、数量、价格与功能范围按原收录时间理解。本次未安装或运行所收藏的工具，当前环境安装状态另查。未对外部来源作全量实时复核。
 

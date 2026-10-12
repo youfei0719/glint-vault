@@ -4,7 +4,7 @@
 分类: "01-界面设计/组件"
 来源: "GitHub：heroui-inc/heroui；官网：https://heroui.com；https://github.com/heroui-inc/heroui"
 创建时间: "2026-07-23 16:32"
-标签: ["界面设计", "UI组件", "React组件", "HeroUI", "NextUI", "Tailwind CSS", "React Aria", "TypeScript", "设计系统", "可访问性", "AI辅助开发", "MCP", "llms.txt", "Agent Skills", "可复用", "已备份"]
+标签: ["界面设计", "UI组件", "React组件", "HeroUI", "NextUI", "Tailwind CSS", "React Aria", "TypeScript", "设计系统", "可访问性", "AI辅助开发", "MCP", "llms.txt", "代理技能", "可复用", "已备份"]
 状态: "收集"
 价值评分: 5
 可用于: ["React前端", "Next.js项目", "SaaS后台", "Dashboard", "表单系统", "设计系统", "AI前端生成"]
@@ -36,7 +36,7 @@
 | 首次读取入口 | [本卡](./现代React组件库-HeroUI-2026-07-23.md) →「原始内容 / 链接」；随后读取[本地历史资料](../../_附件/项目备份/HeroUI/heroui-react-SKILL-2026-07-23.md) |
 | 同类选择依据 | HeroUI 做控件基座；BoardUI 给页面设计参考；beUI 可补局部产品交互，先检查与现有体系的重复成本。 对照：[Dashboard 设计系统：BoardUI](./Dashboard设计系统-BoardUI-2026-07-09.md)、[动画 React 组件库：beUI](./动画React组件库-beUI-2026-09-16.md)。 |
 | 接入前提与待核实项 | 历史卡片研究 v3，不能混用 v2 API；原卡记录仓库与包元数据许可不同，目标包版本、样式导入和许可需复核。 |
-| 检索词 | HeroUI NextUI React Aria 表单 table modal date-picker Tailwind v4 |
+| 检索词 | HeroUI NextUI React Aria 表单 table modal date-picker Tailwind v4；别名：Agent Skills |
 
 > 选用说明整理于 2026-09-20：适用与比较为基于收藏证据的建议；正文中的版本、数量、价格与功能范围按原收录时间理解。本次未安装或运行所收藏的工具，当前环境安装状态另查。未对外部来源作全量实时复核。
 

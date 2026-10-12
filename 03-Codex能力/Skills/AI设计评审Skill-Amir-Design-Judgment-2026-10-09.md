@@ -4,7 +4,7 @@
 分类: "03-Codex能力/Skills"
 来源: "X @amirmushich 长文《Design with AI》/ https://github.com/amirmushichge/amir-design-judgment"
 创建时间: "2026-10-09 23:25"
-标签: ["Skill", "设计评审", "AI 设计", "开源项目", "CC-BY-4.0"]
+标签: ["技能", "设计评审", "AI 设计", "开源项目", "CC-BY-4.0"]
 状态: "收集"
 价值评分: 4
 可用于: ["设计稿评审", "多方案选优", "改稿指导", "Skill 方法论"]
@@ -34,7 +34,7 @@
 | 首次读取入口 | [本卡](./AI设计评审Skill-Amir-Design-Judgment-2026-10-09.md) →「内容摘要」；仓库 https://github.com/amirmushichge/amir-design-judgment（SKILL.md 可直读）。 |
 | 同类选择依据 | 库内 Skill：hairline/live-panel（执行型）vs 本 skill（评审判断型）；与 [Design with AI 方法论卡](./AI设计选型方法论-Design-with-AI-2026-10-09.md)的关系：那篇是方法论，这篇是方法论落地的 skill 文件。 |
 | 接入前提与待核实项 | CC BY 4.0（署名可用商用）；需要 vision-capable 的助手；v0.1，评审质量待实测。 |
-| 检索词 | Amir Design Judgment 设计评审 skill SKILL.md 视觉评审 design critique |
+| 检索词 | Amir Design Judgment 设计评审 skill SKILL.md 视觉评审 design critique；别名：Skill |
 
 > 核查记录：整理于 2026-10-09，基于仓库 README 全文 + SKILL.md 用法说明。未实际安装测试评审效果。
 

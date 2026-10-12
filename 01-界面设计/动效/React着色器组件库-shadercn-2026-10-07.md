@@ -73,7 +73,7 @@ shadercn（https://shadercn.run）是一个 WebGPU/WGSL 着色器 React 组件�
 ## 相关联想
 
 - [零依赖着色器效果库：Paper Shaders](../../04-工具网站/在线工具/零依赖着色器效果库-Paper-Shaders-2026-07-03.md)：同属着色器视觉，技术路线互补（GLSL 零依赖 vs WebGPU React 组件）
-- [等距线框插画生成 Skill：hairline](../等距线框插画生成Skill-hairline-2026-10-07.md)：都是"给页面加高级感"的视觉弹药
+- [等距线框插画生成 Skill：hairline](等距线框插画生成Skill-hairline-2026-10-07.md)：都是"给页面加高级感"的视觉弹药
 - shadcn 生态正在"万物皆组件化"：着色器都有 registry 了，值得留意下一个被组件化的视觉品类
 
 ## 适合反向调用的场景

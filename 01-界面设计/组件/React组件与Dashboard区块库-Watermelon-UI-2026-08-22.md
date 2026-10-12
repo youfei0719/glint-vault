@@ -4,7 +4,7 @@
 分类: "01-界面设计/组件"
 来源: "Watermelon UI 官网：https://ui.watermelon.sh/；X 帖：https://x.com/csaba_kissi/status/2090328699992432716"
 创建时间: "2026-08-22"
-标签: ["界面设计", "UI组件", "React组件", "Dashboard", "UI区块", "Tailwind CSS", "shadcn/ui", "可复用"]
+标签: ["界面设计", "UI组件", "React组件", "仪表盘", "UI区块", "Tailwind CSS", "shadcn/ui", "可复用"]
 状态: "收集"
 价值评分: 4
 可用于: ["React 页面搭建", "Dashboard 设计参考", "SaaS 界面区块", "组件选型", "前端原型"]

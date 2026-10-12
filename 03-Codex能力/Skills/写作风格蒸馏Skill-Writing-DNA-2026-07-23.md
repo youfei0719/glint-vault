@@ -4,7 +4,7 @@
 分类: "03-Codex能力/Skills"
 来源: "GitHub：larashero3-dotcom/writing-dna-skill；https://github.com/larashero3-dotcom/writing-dna-skill"
 创建时间: "2026-07-23 15:17"
-标签: ["Codex能力", "Skills", "Agent Skill", "Writing DNA", "写作蒸馏", "写作风格", "风格复刻", "作者分析", "语言DNA", "文章结构", "认知框架", "视觉风格", "AI写作", "可复用", "已备份"]
+标签: ["Codex能力", "技能", "代理技能", "Writing DNA", "写作蒸馏", "写作风格", "风格复刻", "作者分析", "语言DNA", "文章结构", "认知框架", "视觉风格", "AI写作", "可复用", "已备份"]
 状态: "收集"
 价值评分: 5
 可用于: ["写作风格分析", "作者风格蒸馏", "AI写作", "提示词系统", "内容模板", "品牌表达"]
@@ -34,7 +34,7 @@
 | 首次读取入口 | [本卡](./写作风格蒸馏Skill-Writing-DNA-2026-07-23.md) →「内容摘要」；随后读取[本地历史资料](../../_附件/项目备份/Writing-DNA-Skill/SKILL-2026-07-23.md) |
 | 同类选择依据 | Writing DNA 提炼长期写作风格；rnskill 的 rn-renhua 精修单篇表达；Soul Skill 组织人格。 对照：[雪踏乌云 AI Agent Skills 集合：rnskill](./雪踏乌云AI-Agent-Skills集合-rnskill-2026-07-07.md)、[人格思维风格蒸馏 Skill：soul.skill](./人格思维风格蒸馏Skill-Soul-Skill-2026-07-23.md)。 |
 | 接入前提与待核实项 | 原卡建议通常至少 20 篇完整文本；先确认材料使用范围与样本代表性，安装状态需在当前环境另查。 |
-| 检索词 | Writing DNA writing-dna-skill 语言DNA 文章结构 品牌表达 风格蒸馏 |
+| 检索词 | Writing DNA writing-dna-skill 语言DNA 文章结构 品牌表达 风格蒸馏；别名：Skills、Agent Skill |
 
 > 选用说明整理于 2026-09-20：适用与比较为基于收藏证据的建议；正文中的版本、数量、价格与功能范围按原收录时间理解。本次未安装或运行所收藏的工具，当前环境安装状态另查。未对外部来源作全量实时复核。
 

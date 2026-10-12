@@ -4,7 +4,7 @@
 分类: "03-Codex能力/Skills"
 来源: "GitHub：larashero3-dotcom/soul.skill；https://github.com/larashero3-dotcom/soul.skill"
 创建时间: "2026-07-23 15:17"
-标签: ["Codex能力", "Skills", "Agent Skill", "soul.skill", "人格蒸馏", "数字分身", "AI人格", "思维风格", "沟通模式", "知识边界", "语料采集", "persona", "可复用", "已备份"]
+标签: ["Codex能力", "技能", "代理技能", "soul.skill", "人格蒸馏", "数字分身", "AI人格", "思维风格", "沟通模式", "知识边界", "语料采集", "人格设定", "可复用", "已备份"]
 状态: "收集"
 价值评分: 5
 可用于: ["AI人格", "数字分身", "Persona Skill", "语料蒸馏", "对话风格", "知识库结构"]
@@ -34,7 +34,7 @@
 | 首次读取入口 | [本卡](./人格思维风格蒸馏Skill-Soul-Skill-2026-07-23.md) →「内容摘要」；随后读取[本地历史资料](../../_附件/项目备份/Soul-Skill/create-soul-SKILL-2026-07-23.md) |
 | 同类选择依据 | Soul Skill 建人格与知识层；Writing DNA 建写作规则；Talk to 峰哥提供实时语音链路参考。 对照：[写作风格蒸馏 Skill：Writing DNA](./写作风格蒸馏Skill-Writing-DNA-2026-07-23.md)、[实时语音人格音色克隆项目：Talk to 峰哥](../../04-工具网站/开源项目/实时语音人格音色克隆项目-Talk-to-Fengge-2026-07-18.md)。 |
 | 接入前提与待核实项 | 先阅读备份 Skill 确认输入要求，真实人物使用需明确授权和身份表达；收藏不证明当前客户端已安装。 |
-| 检索词 | soul.skill create-soul persona quotes knowledge 数字分身 人格蒸馏 |
+| 检索词 | soul.skill create-soul persona quotes knowledge 数字分身 人格蒸馏；别名：Skills、Agent Skill |
 
 > 选用说明整理于 2026-09-20：适用与比较为基于收藏证据的建议；正文中的版本、数量、价格与功能范围按原收录时间理解。本次未安装或运行所收藏的工具，当前环境安装状态另查。未对外部来源作全量实时复核。
 

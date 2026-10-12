@@ -1,0 +1,12 @@
+name: 收藏附件完整性
+on: [push, pull_request]
+jobs:
+  attachments:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python3 _维护/测试附件校验.py
+      - run: python3 _维护/检查收藏附件.py --revision HEAD

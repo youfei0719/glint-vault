@@ -4,7 +4,7 @@
 分类: "01-界面设计/组件"
 来源: "NameThatUI 官网：https://namethatui.com/"
 创建时间: "2026-07-18 00:59"
-标签: ["界面设计", "UX设计", "UI组件", "组件学名", "设计系统", "前端界面", "Codex提示词", "AI代理", "macOS", "Web UI", "可复用"]
+标签: ["界面设计", "UX设计", "UI组件", "组件学名", "设计系统", "前端界面", "Codex提示词", "AI代理", "macOS", "网页界面", "可复用"]
 状态: "收集"
 价值评分: 5
 可用于: ["UI/UX 设计参考", "组件命名", "Codex 前端提示词", "设计系统术语", "macOS 应用设计", "Web 组件选型", "前端验收"]
@@ -34,7 +34,7 @@ NameThatUI 是一个 UI 视觉词典：当你不知道某个界面元素叫什�
 | 首次读取入口 | [本卡](./UI元素命名视觉词典-NameThatUI-2026-07-18.md) →「适合反向调用的场景」 |
 | 同类选择依据 | NameThatUI 解决名称；Component Gallery 提供同类案例；Vibe 视觉词典决定页面四层结构。 对照：[界面组件设计案例库：Component Gallery](./界面组件设计案例库-Component-Gallery-2026-07-16.md)、[Vibe Coding 视觉词典：布局、结构、导航与组件](../交互细节/Vibe-Coding视觉词典-布局结构导航组件-2026-08-05.md)。 |
 | 接入前提与待核实项 | Web、AppKit、SwiftUI 术语不一定一一对应，目标平台 API 仍需复核。 |
-| 检索词 | NameThatUI UI视觉词典 控件命名 modal dialog scrim AppKit SwiftUI |
+| 检索词 | NameThatUI UI视觉词典 控件命名 modal dialog scrim AppKit SwiftUI；别名：Web UI |
 
 > 选用说明整理于 2026-09-20：适用与比较为基于收藏证据的建议；正文中的版本、数量、价格与功能范围按原收录时间理解。本次未安装或运行所收藏的工具，当前环境安装状态另查。未对外部来源作全量实时复核。
 

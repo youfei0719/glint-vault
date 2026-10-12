@@ -4,7 +4,7 @@
 分类: "03-Codex能力/Skills"
 来源: "GitHub：Binaryify/open-kimi-ppt-skill；https://github.com/Binaryify/open-kimi-ppt-skill"
 创建时间: "2026-08-06 03:20"
-标签: ["Codex能力", "Skills", "Agent Skill", "PPT生成", "PPTD", "PPTX", "Kimi Slides", "演示文稿", "本地编辑器", "项目备份", "MIT", "可复用"]
+标签: ["Codex能力", "技能", "代理技能", "PPT生成", "PPTD", "PPTX", "Kimi Slides", "演示文稿", "本地编辑器", "项目备份", "MIT", "可复用"]
 状态: "收集"
 价值评分: 5
 可用于: ["PPT生成", "汇报材料", "研究报告", "路演材料", "PPTX二次编辑", "Agent Skill设计", "本地项目备份"]
@@ -34,7 +34,7 @@
 | 首次读取入口 | [本卡](./Kimi-Slides兼容PPT生成Skill-open-kimi-ppt-2026-08-06.md) →「本地备份与恢复教程」；随后读取[本地历史资料](../../_附件/项目备份/open-kimi-ppt-skill/SKILL-2026-08-06.md) |
 | 同类选择依据 | open-kimi-ppt 以 PPTD 项目为核心；DashiAI PPT 以可编辑 HTML 演示为核心；Lieflat Charts 专注图表。 对照：[可编辑演示文稿生成 Skill：DashiAI PPT](./可编辑演示文稿生成Skill-DashiAI-PPT-2026-07-08.md)、[单色数据可视化 Skill：Lieflat Charts](./单色数据可视化Skill-Lieflat-Charts-2026-07-23.md)。 |
 | 接入前提与待核实项 | 原卡明确未安装未运行；编辑器依赖浏览器文件访问能力，远程字体图片不保证离线；实际导出保真度需试样。 |
-| 检索词 | open-kimi-ppt Kimi Slides PPTD YAML PPTX 本地编辑器 |
+| 检索词 | open-kimi-ppt Kimi Slides PPTD YAML PPTX 本地编辑器；别名：Skills、Agent Skill |
 
 > 选用说明整理于 2026-09-20：适用与比较为基于收藏证据的建议；正文中的版本、数量、价格与功能范围按原收录时间理解。本次未安装或运行所收藏的工具，当前环境安装状态另查。未对外部来源作全量实时复核。
 
@@ -52,6 +52,12 @@
 2. PPTD 比直接拼 OOXML 或只生成整页图片更适合 Agent 迭代，同时保留文本、形状和图片的二次编辑空间。
 3. Skill 的生成、视觉质检、本地编辑、导出、权限边界与文件交付规则很完整，适合拆解为复杂 Agent 工作流样本。
 4. 已保存源码 zip、完整 Git bundle、README、核心 Skill、PPTD 规范和校验清单；即使原项目删除，也可以从 Vault 离线恢复。
+
+## 未来可以怎么用
+
+- 需要可编辑演示交付时，先准备主题、受众、品牌规范与素材，生成 PPTD 项目，再检查导出的 PPTX。
+- 对既有演示做结构或版式迭代时，同时保留源项目和导出物；用目标办公软件抽查字体与动画。
+- 研究生成式演示工作流时，从本地 Skill 与格式规范快照提取需求、质检和交付步骤。
 
 ## 详细使用教程
 

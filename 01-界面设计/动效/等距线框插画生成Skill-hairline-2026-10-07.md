@@ -4,7 +4,7 @@
 分类: "01-界面设计/动效"
 来源: "GitHub：https://github.com/lucasmarkes/hairline（经 X @HeyHuazi 推荐）"
 创建时间: "2026-10-07 04:30"
-标签: ["等距插画", "线框", "SVG", "动效", "交互", "Agent Skill", "开源项目", "封面设计", "React"]
+标签: ["等距插画", "线框", "SVG", "动效", "交互", "代理技能", "开源项目", "封面设计", "React"]
 状态: "收集"
 价值评分: 4
 可用于: ["封面配图", "展位图", "交互式插画", "Skill 生成插画"]
@@ -32,11 +32,14 @@
 | 复用方式 | 安装依赖（npm）、复制源码、读取 Skill、视觉参考 |
 | 输入与产出 | 一个想法/隐喻（如"销售漏斗"）→ hairline-create 生成单文件 HTML（零依赖，含 intensity 滑杆与主题切换）；或直接 npm 安装调用 27 个现成图形。 |
 | 首次读取入口 | [本卡](./等距线框插画生成Skill-hairline-2026-10-07.md) →「内容摘要」；Skill 说明 https://hairline.lucasmarkes.com/skill；安装 `npx skills add lucasmarkes/hairline`。 |
-| 同类选择依据 | 库内暂无等距线框插画类收藏；与 live-panel（终端风动态架构图视频生成）分工：要"架构图讲故事"用 live-panel，要"产品感线框插画"用 hairline。 |
+| 同类选择依据 | 产品页面需要等距线框插画时选本卡；讲解系统关系并输出动态视频时比较[live-panel](../../04-工具网站/开源项目/终端风动态架构图生成器-live-panel-skill-2026-10-05.md)；需要多类型交互图表时比较[SeeCode](../../03-Codex能力/Skills/Agent动态图表Skill-SeeCode-2026-10-12.md)。三者的图形语义与交付形式不同。 |
 | 接入前提与待核实项 | MIT；npm 包零依赖，React 为可选 peer；Skill 需 Node 跑检查脚本；未在本机安装/运行验证，生成质量以实际产出为准。 |
-| 检索词 | 等距插画 线框 isometric wireframe hairline 封面 展位图 SVG 插画生成 skill |
+| 检索词 | 等距插画 线框 isometric wireframe hairline 封面 展位图 SVG 插画生成 skill；别名：Agent Skill |
 
 > 核查记录：整理于 2026-10-07，基于 GitHub README + 官网 skill 页（lucasmarkes/hairline，2026-10-01 创建，收录时约 776 stars，TypeScript，MIT）。X 原帖经官方 oEmbed 接口读取（@HeyHuazi，2026-10-06）："力荐这个 skill，可以生成这种等距的线框插画，贼适合用来当展位图和封面"。未安装运行；未触碰 X 站内登录与互动（账号安全规则）。
+
+> 规范整理于 2026-10-12：本次同类取舍为依据库内卡片的编辑判断，未对外部版本、许可或功能作实时复核。
+
 
 ## 内容摘要
 

@@ -4,7 +4,7 @@
 分类: "03-Codex能力/Skills"
 来源: "GitHub / emilkowalski / https://github.com/emilkowalski/skills"
 创建时间: "2026-07-02 05:06"
-标签: ["Codex能力", "Skills", "设计工程", "动画设计", "前端界面", "AI代理", "UI原型", "开源项目"]
+标签: ["Codex能力", "技能", "设计工程", "动画设计", "前端界面", "AI代理", "UI原型", "开源项目"]
 状态: "收集"
 价值评分: 5
 可用于: ["AI代理界面审美补强", "前端动效评审与改进", "UI库选型", "多方向界面原型", "设计工程学习", "提示词系统参考"]
@@ -34,7 +34,7 @@
 | 首次读取入口 | [本卡](./设计工程AI技能库-emilkowalski-Skills-2026-07-02.md) →「未来可以怎么用」；随后读取[本地历史资料](../../_附件/项目备份/emilkowalski-Skills/README-2026-08-05.md) |
 | 同类选择依据 | Emil Skills 负责设计工程判断；Transitions.dev 提供过渡示例；YAO Meta Skill 负责 Skill 工程化。 对照：[Web 过渡动效参考库：Transitions.dev](../../01-界面设计/动效/Web过渡动效参考库-Transitions-dev-2026-07-07.md)、[Agent Skill 全生命周期工程化框架：YAO Meta Skill](./Agent-Skill全生命周期工程化框架-YAO-Meta-Skill-2026-08-05.md)。 |
 | 接入前提与待核实项 | 先按目标选 review-animations、improve-animations、prototype 等入口；备份不是当前安装证明，命令按当前版本核实。 |
-| 检索词 | Emil Kowalski emil-design-eng review-animations improve-animations prototype 动效评审 |
+| 检索词 | Emil Kowalski emil-design-eng review-animations improve-animations prototype 动效评审；别名：Skills |
 
 > 选用说明整理于 2026-09-20：适用与比较为基于收藏证据的建议；正文中的版本、数量、价格与功能范围按原收录时间理解。本次未安装或运行所收藏的工具，当前环境安装状态另查。未对外部来源作全量实时复核。
 

@@ -32,7 +32,7 @@
 | 复用方式 | 安装依赖（shadcn registry：Base UI 底座的 MCP App 组件） |
 | 输入与产出 | registry 安装 → 可直接用的聊天/AI 应用 UI 组件。 |
 | 首次读取入口 | [本卡](./MCP应用UI组件-mcpcn-2026-10-09.md) →「内容摘要」；官网 https://www.mcpcn.dev。 |
-| 同类选择依据 | 库内 AI 聊天界面类：[Beautiful UI](../01-界面设计/组件/AI原生界面组件参考库-Beautiful-UI-2026-08-17.md)（参考为主）vs mcpcn（可安装组件）；要"装上用"选 mcpcn，要"看设计"看 Beautiful UI。 |
+| 同类选择依据 | 库内 AI 聊天界面类：[Beautiful UI](AI原生界面组件参考库-Beautiful-UI-2026-08-17.md)（参考为主）vs mcpcn（可安装组件）；要"装上用"选 mcpcn，要"看设计"看 Beautiful UI。 |
 | 接入前提与待核实项 | MIT；基于 Base UI；53 stars 早期项目，用前确认维护状态；未在本机安装验证。 |
 | 检索词 | mcpcn MCP 应用 UI ChatGPT Claude 聊天界面 Base UI shadcn |
 

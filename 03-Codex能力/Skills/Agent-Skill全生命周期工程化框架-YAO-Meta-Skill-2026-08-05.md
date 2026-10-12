@@ -4,7 +4,7 @@
 分类: "03-Codex能力/Skills"
 来源: "GitHub：yaojingang/yao-meta-skill；https://github.com/yaojingang/yao-meta-skill"
 创建时间: "2026-08-05"
-标签: ["Codex能力", "Skills", "Agent Skill", "元Skill", "Skill工程", "技能评估", "Skill治理", "跨平台", "可复用", "MIT", "已备份"]
+标签: ["Codex能力", "技能", "代理技能", "元Skill", "Skill工程", "技能评估", "Skill治理", "跨平台", "可复用", "MIT", "已备份"]
 状态: "收集"
 价值评分: 5
 可用于: ["Agent Skill设计", "Skill评估", "Skill打包发布", "多平台适配", "团队工作流治理", "AI能力资产化"]
@@ -34,7 +34,7 @@
 | 首次读取入口 | [本卡](./Agent-Skill全生命周期工程化框架-YAO-Meta-Skill-2026-08-05.md) →「内容摘要」；随后读取[本地历史资料](../../_附件/项目备份/yao-meta-skill/SKILL-2026-08-05.md) |
 | 同类选择依据 | YAO 管能力生命周期；Agency Agents 提供角色内容；Vibe 开发心得约束项目执行。 对照：[AI 专业角色 Agent 库：Agency Agents](../Agents规则/AI专业角色Agent库-Agency-Agents-2026-07-16.md)、[AI 协作执行心得：Vibe 开发 5 条](../工作流/AI协作执行心得-Vibe开发-2026-07-03.md)。 |
 | 接入前提与待核实项 | 本地备份只证明历史流程；先选适当复杂度再核查脚本依赖与目标客户端。未确认安装状态。 |
-| 检索词 | YAO Meta Skill Skill IR scaffold 触发评测 生命周期 跨平台 |
+| 检索词 | YAO Meta Skill Skill IR scaffold 触发评测 生命周期 跨平台；别名：Skills、Agent Skill |
 
 > 选用说明整理于 2026-09-20：适用与比较为基于收藏证据的建议；正文中的版本、数量、价格与功能范围按原收录时间理解。本次未安装或运行所收藏的工具，当前环境安装状态另查。未对外部来源作全量实时复核。
 

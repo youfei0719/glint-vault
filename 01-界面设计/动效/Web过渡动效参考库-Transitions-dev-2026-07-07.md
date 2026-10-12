@@ -4,7 +4,7 @@
 分类: "01-界面设计/动效"
 来源: "Transitions.dev：https://transitions.dev/"
 创建时间: "2026-07-07 02:49"
-标签: ["界面设计", "动效", "页面过渡", "CSS动画", "React组件", "Codex能力", "Skill", "AI代理", "前端界面", "可复用"]
+标签: ["界面设计", "动效", "页面过渡", "CSS动画", "React组件", "Codex能力", "技能", "AI代理", "前端界面", "可复用"]
 状态: "收集"
 价值评分: 5
 可用于: ["页面过渡", "组件动效", "前端界面质感", "AI辅助前端", "Codex Skill", "设计验收"]
@@ -35,7 +35,7 @@
 | 首次读取入口 | [本卡](./Web过渡动效参考库-Transitions-dev-2026-07-07.md) →「内容摘要」 |
 | 同类选择依据 | Transitions.dev 优先解决过渡节奏；Motion 负责运行时动画能力；Emil Skills 用于评审既有动画。 对照：[网页动画库：Motion](./网页动画库-Motion-2026-08-22.md)、[设计工程 AI 技能库：emilkowalski Skills](../../03-Codex能力/Skills/设计工程AI技能库-emilkowalski-Skills-2026-07-02.md)。 |
 | 接入前提与待核实项 | 原卡未备份完整 Skill；先核实官方当前入口和代码，收藏不表示 Skill 已安装。 |
-| 检索词 | Transitions.dev CSS transition easing enter exit 页面切换 过渡 |
+| 检索词 | Transitions.dev CSS transition easing enter exit 页面切换 过渡；别名：Skill |
 
 > 选用说明整理于 2026-09-20：适用与比较为基于收藏证据的建议；正文中的版本、数量、价格与功能范围按原收录时间理解。本次未安装或运行所收藏的工具，当前环境安装状态另查。未对外部来源作全量实时复核。
 

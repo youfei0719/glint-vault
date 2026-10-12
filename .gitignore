@@ -13,3 +13,7 @@ Thumbs.db
 *.log
 .idea/
 .vscode/
+
+# 本地维护脚本缓存
+__pycache__/
+*.pyc

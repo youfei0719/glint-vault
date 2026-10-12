@@ -70,7 +70,7 @@ Departure Mono（https://departuremono.com）是一款像素风等宽字体。
 ## 相关联想
 
 - [开源字体 npm 自托管：Fontsource](./开源字体npm自托管-Fontsource-2026-10-07.md)：渠道 vs 单品
-- [终端风动态架构图生成器：live-panel-skill](../../../04-工具网站/开源项目/终端风动态架构图生成器-live-panel-skill-2026-10-05.md)：终端风视觉 + 像素终端字体，味道一致
+- [终端风动态架构图生成器：live-panel-skill](../../04-工具网站/开源项目/终端风动态架构图生成器-live-panel-skill-2026-10-05.md)：终端风视觉 + 像素终端字体，味道一致
 
 ## 适合反向调用的场景
 

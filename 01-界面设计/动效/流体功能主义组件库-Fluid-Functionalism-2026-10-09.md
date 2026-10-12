@@ -4,7 +4,7 @@
 分类: "01-界面设计/动效"
 来源: "https://www.fluidfunctionalism.com"
 创建时间: "2026-10-09 01:30"
-标签: ["组件", "动效", "React", "shadcn", "弹簧动画", "开源项目", "Agent Skill", "Framer Motion"]
+标签: ["组件", "动效", "React", "shadcn", "弹簧动画", "开源项目", "代理技能", "Framer Motion"]
 状态: "收集"
 价值评分: 4
 可用于: ["动效组件", "AI 产品界面", "弹簧动画规范", "Agent 写 UI"]
@@ -32,11 +32,14 @@
 | 复用方式 | 安装依赖（`npx shadcn@latest add @fluid/<组件>`）、Agent Skill、动效规范参考 |
 | 输入与产出 | registry 命令 → 单个组件源码（含 spring 系统）；Skill → Agent 按规范写 UI 并做动效审计。 |
 | 首次读取入口 | [本卡](./流体功能主义组件库-Fluid-Functionalism-2026-10-09.md) →「内容摘要」；官网 https://www.fluidfunctionalism.com（Docs / Skill / Showcase）。 |
-| 同类选择依据 | 库内动效组件：Motion（底层动画库）vs Fluid Functionalism（"动效规范 + 组件"整套体系）；要"组件开箱"选它，要"底层能力"看 Motion。 |
+| 同类选择依据 | 需要带动效约束的现成组件时先读本卡；需要自行实现布局、滚动与拖拽动画时比较[Motion](网页动画库-Motion-2026-08-22.md)。仅制定文字层级时另读[配套排版规则](../字体与排版/排版规则-Fluid-Functionalism-Typography-2026-10-09.md)。 |
 | 接入前提与待核实项 | MIT；Next.js 15 + React 19 + Tailwind v4 + Framer Motion；Radix/Base UI 双底座；未在本机安装验证。 |
 | 检索词 | Fluid Functionalism @fluid 弹簧动画 动效组件 shadcn Agent Skill proximity hover |
 
 > 核查记录：整理于 2026-10-09，基于官网首页 + docs（motion/scrollbars/skill/typography）+ GitHub（mickadesign/fluid-functionalism，2026-02-13 创建，收录时 1010 stars，MIT）。未安装验证。
+
+> 规范整理于 2026-10-12：本次同类取舍为依据库内卡片的编辑判断，未对外部版本、许可或功能作实时复核。
+
 
 ## 内容摘要
 
@@ -62,7 +65,7 @@ Fluid Functionalism（https://www.fluidfunctionalism.com）是 @micka_design 出
 - xiegao2.0 产品化时的动效规范（三档 spring 直接抄）。
 - 给 Codex 装 fluid-functionalism skill，写 UI 时自动按规范来。
 - 晨报看板、素材库这类"状态变化多"的界面，用它的组件。
-- [排版规则页](./排版规则-Fluid-Functionalism-Typography-2026-10-09.md)的 5 规则/5 no-gos 直接作为中文页面的排版检查清单。
+- [排版规则页](../字体与排版/排版规则-Fluid-Functionalism-Typography-2026-10-09.md)的 5 规则/5 no-gos 直接作为中文页面的排版检查清单。
 
 ## 原始内容 / 链接
 
@@ -74,7 +77,7 @@ Fluid Functionalism（https://www.fluidfunctionalism.com）是 @micka_design 出
 
 ## 相关联想
 
-- [排版规则：Fluid Functionalism Typography](./排版规则-Fluid-Functionalism-Typography-2026-10-09.md)：同一站点的排版规则页，5 规则 + 5 no-gos
+- [排版规则：Fluid Functionalism Typography](../字体与排版/排版规则-Fluid-Functionalism-Typography-2026-10-09.md)：同一站点的排版规则页，5 规则 + 5 no-gos
 - [网页动画库：Motion](../动效/网页动画库-Motion-2026-08-22.md)：底层动画库 vs 整套动效体系
 - [React 着色器组件库：shadercn](../动效/React着色器组件库-shadercn-2026-10-07.md)：视觉特效 vs 交互动效规范
 

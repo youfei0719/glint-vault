@@ -4,7 +4,7 @@
 分类: "04-工具网站/开源项目"
 来源: "GitHub：vercel-labs/native；官网：https://native-sdk.dev"
 创建时间: "2026-07-18 03:10"
-标签: ["开源项目", "Native SDK", "原生桌面", "桌面应用", "Zig", "TypeScript", "Native UI", "跨平台", "自动化测试", "AI代理", "Agent Skills", "可复用", "已备份"]
+标签: ["开源项目", "Native SDK", "原生桌面", "桌面应用", "Zig", "TypeScript", "原生界面", "跨平台", "自动化测试", "AI代理", "代理技能", "可复用", "已备份"]
 状态: "收集"
 价值评分: 5
 可用于: ["原生桌面应用开发", "跨平台应用框架参考", "AI Agent 自动化测试", "Native UI 设计", "Zig 工程参考", "TypeScript 原生编译", "桌面应用打包"]
@@ -34,7 +34,7 @@ Native SDK 是 Vercel Labs 推出的原生桌面应用工具包：用 `.native` 
 | 首次读取入口 | [本卡](./原生桌面应用开发工具包-Native-SDK-2026-07-18.md) →「内容摘要」；随后读取[本地历史资料](../../_附件/项目备份/Native-SDK/README-2026-07-18.md) |
 | 同类选择依据 | Native SDK 是应用实现工具包；Recordly 是完成录屏任务的应用；asc 负责 Apple 发布链路。 对照：[开源演示视频录屏编辑器：Recordly](./开源演示视频录屏编辑器-Recordly-2026-07-09.md)、[App Store Connect 自动化 CLI：asc](./App-Store-Connect自动化CLI-asc-2026-07-18.md)。 |
 | 接入前提与待核实项 | 历史 README 以 macOS 最成熟，移动端实验性；必须重新验证目标平台、系统能力与打包链路。 |
-| 检索词 | Native SDK .native TypeScript Zig 原生桌面 automation server accessibility snapshot |
+| 检索词 | Native SDK .native TypeScript Zig 原生桌面 automation server accessibility snapshot；别名：Native UI、Agent Skills |
 
 > 选用说明整理于 2026-09-20：适用与比较为基于收藏证据的建议；正文中的版本、数量、价格与功能范围按原收录时间理解。本次未安装或运行所收藏的工具，当前环境安装状态另查。未对外部来源作全量实时复核。
 

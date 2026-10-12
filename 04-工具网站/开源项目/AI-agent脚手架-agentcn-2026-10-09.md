@@ -4,7 +4,7 @@
 分类: "04-工具网站/开源项目"
 来源: "X @shadcnlabs 推文（2026-10-07）/ https://www.agentcn.run"
 创建时间: "2026-10-09 01:10"
-标签: ["AI Agent", "开源项目", "脚手架", "Vercel AI SDK", "shadcn"]
+标签: ["人工智能代理", "开源项目", "脚手架", "Vercel AI SDK", "shadcn"]
 状态: "收集"
 价值评分: 4
 可用于: ["Agent 项目脚手架", "xiegao2.0 参考", "Agent 开发"]
@@ -32,11 +32,14 @@
 | 复用方式 | 安装依赖（CLI + registry）、复制源码思路 |
 | 输入与产出 | CLI 命令 → 一个带可编辑源码的 agent 项目骨架（含 registry 可装的 agent 组件）。 |
 | 首次读取入口 | [本卡](./AI-agent脚手架-agentcn-2026-10-09.md) →「内容摘要」；官网 https://www.agentcn.run（CLI / registry / docs）。 |
-| 同类选择依据 | 库内暂无 agent 脚手架类收藏；与 03-Codex能力 下的 Skills/工作流卡分工：那些是"用法"，agentcn 是"造 agent 的架子"。 |
+| 同类选择依据 | 库内暂无相同技术定位的 Agent 脚手架。需要自行开发 Agent 应用时看本卡；只需给现有 Agent 配置分工与角色指令时读[Agency Agents](../../03-Codex能力/Agents规则/AI专业角色Agent库-Agency-Agents-2026-07-16.md)。脚手架源码与角色指令不互相替代。 |
 | 接入前提与待核实项 | MIT；TypeScript + Vercel AI SDK；未在本机安装验证，脚手架实际体验以官网为准。 |
-| 检索词 | agentcn AI agent 脚手架 shadcn agents CLI registry Vercel AI SDK |
+| 检索词 | agentcn AI agent 脚手架 shadcn agents CLI registry Vercel AI SDK；别名：AI Agent |
 
 > 核查记录：整理于 2026-10-09，基于官网 meta 描述（"Open source kit for installable AI agents. CLI, registry, docs, and editable agent source in your repo."）+ GitHub（shadcn-labs/agentcn，2026-06-17 创建，收录时 488 stars，MIT，TypeScript）。未安装验证。
+
+> 规范整理于 2026-10-12：本次同类取舍为依据库内卡片的编辑判断，未对外部版本、许可或功能作实时复核。
+
 
 ## 内容摘要
 

@@ -4,7 +4,7 @@
 分类: "03-Codex能力/Skills"
 来源: "https://x.com/amirmushich/status/2107862807290974645"
 创建时间: "2026-10-09 23:20"
-标签: ["AI 设计", "模型选型", "Design Skill", "OpenArt", "方法论", "X 长文"]
+标签: ["AI 设计", "模型选型", "设计技能", "OpenArt", "方法论", "X 长文"]
 状态: "收集"
 价值评分: 4
 可用于: ["AI 生图模型选型", "Design Skill 方法论", "创意任务模型排名"]
@@ -32,11 +32,14 @@
 | 复用方式 | 使用工具（OpenArt Arena 查榜）、套用方法（DESIGN_SKILL.md 模式） |
 | 输入与产出 | 创意任务 → Arena 任务榜 → 1-2 个候选模型 → 免费版实测；品牌规范 → DESIGN_SKILL.md → skill 指挥多模型协作。 |
 | 首次读取入口 | [本卡](./AI设计选型方法论-Design-with-AI-2026-10-09.md) →「内容摘要」；原文 https://x.com/amirmushich/status/2107862807290974645；榜单 https://openart.ai（Arena）。 |
-| 同类选择依据 | 库内 Skill 类：hairline / live-panel / fluid-functionalism 都是"执行型 skill"；这篇讲的是"规范型 skill"（DESIGN_SKILL.md 存品牌规范、指挥模型）——两种 skill 分工不同。 |
+| 同类选择依据 | 本卡用于创作前定义规范和模型选择思路；已有稿件需要诊断与改稿时比较[Amir Design Judgment](AI设计评审Skill-Amir-Design-Judgment-2026-10-09.md)；需要可供读取的品牌包实例时看[Luka brandbook](../../01-界面设计/灵感库/概念品牌手册-Luka-brandbook-2026-10-09.md)。方法、评审指令与品牌材料互补。 |
 | 接入前提与待核实项 | OpenArt Arena 2026-09-15 上线，榜单随模型迭代更新，选型时以最新榜为准；DESIGN_SKILL.md 为作者方法论，无开源实现。 |
-| 检索词 | Design with AI OpenArt Arena DESIGN_SKILL.md 模型选型 创意任务排名 AmirMushich |
+| 检索词 | Design with AI OpenArt Arena DESIGN_SKILL.md 模型选型 创意任务排名 AmirMushich；别名：Design Skill |
 
 > 核查记录：整理于 2026-10-09，基于 X 原文全文（浏览器实读，未登录）+ OpenArt Arena 官方介绍（openart.ai/blog/what-is-openart-arena）交叉验证。评论区被登录墙挡住，未读。
+
+> 规范整理于 2026-10-12：本次同类取舍为依据库内卡片的编辑判断，未对外部版本、许可或功能作实时复核。
+
 
 ## 内容摘要
 

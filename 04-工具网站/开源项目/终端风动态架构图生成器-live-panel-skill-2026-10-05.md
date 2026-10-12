@@ -4,7 +4,7 @@
 分类: "04-工具网站/开源项目"
 来源: "GitHub：https://github.com/ythx-101/live-panel-skill"
 创建时间: "2026-10-05 05:40"
-标签: ["动态架构图", "视频生成", "终端风格", "信息图", "Agent Skill", "开源项目", "Python", "ffmpeg", "X", "小红书", "内容生产"]
+标签: ["动态架构图", "视频生成", "终端风格", "信息图", "代理技能", "开源项目", "Python", "ffmpeg", "X", "小红书", "内容生产"]
 状态: "收集"
 价值评分: 4
 可用于: ["架构图解说视频", "Agent架构可视化", "X/小红书内容素材", "信息图动态化", "Skill工作流参考"]
@@ -32,11 +32,14 @@
 | 复用方式 | 读取 Skill、复制源码、运行脚本、视觉参考 |
 | 输入与产出 | 系统描述 / 数字 / 文案（写成单个 JSON 配置）→ H.264 mp4（约 28-30 秒、30fps；4:5 适配 X、3:4 适配小红书、1:1 方形）或可直接打开的实时网页；模板无需改动，坐标按画布绝对像素，换画幅需另存配置重排。 |
 | 首次读取入口 | [本卡](./终端风动态架构图生成器-live-panel-skill-2026-10-05.md) →「内容摘要」；Skill 固定流程见仓库 SKILL.md；配置字段参考 references/config-schema.md。 |
-| 同类选择依据 | 库内视频链路：Yoinks（获取）、Recordly（录制）、ChatCut（剪辑）都不做"从零生成动态图表视频"，只有 live-panel 覆盖"生成"环节；反过来，需要剪辑已有素材或录屏演示时，live-panel 帮不上忙。 |
+| 同类选择依据 | 需要配置驱动的终端风架构图视频时选本卡；需要更多图表类型与交互导出时比较[SeeCode](../../03-Codex能力/Skills/Agent动态图表Skill-SeeCode-2026-10-12.md)。已有软件操作要录成演示时看[Recordly](开源演示视频录屏编辑器-Recordly-2026-07-09.md)；生成图解和录制真实操作是不同任务。 |
 | 接入前提与待核实项 | 需要 Python 3.8+（仅标准库，无 pip 依赖）、Chrome/Chromium、ffmpeg；未在本机安装运行过，本地渲染效果待核实。examples/codex-agents 是对 @thedelost 原图的复刻，公开发布时须保留出处署名；代码 MIT，但复刻示例的设计归原作者、不在 MIT 授权范围内。 |
-| 检索词 | 动态架构图 终端风 live-panel live panel 视频生成 信息图动画 Agent架构可视化 terminal-dark 监控面板风 mp4 |
+| 检索词 | 动态架构图 终端风 live-panel live panel 视频生成 信息图动画 Agent架构可视化 terminal-dark 监控面板风 mp4；别名：Agent Skill |
 
 > 核查记录：整理于 2026-10-05，基于 GitHub README（含中文说明）+ SKILL.md + 仓库文件树（建仓 2026-10-03，收录时约 406 stars；LICENSE 文件声明代码 MIT，但 GitHub API 的 license 字段为 NOASSERTION，以文件声明为准）。仅阅读文档，未安装运行。截图取自 README 的 examples/codex-agents 关键帧（frame_1.png，1200x1500）。examples/codex-agents 与 examples/agent-architecture 为署名复刻，其设计分别归 @thedelost 与小红书 @林纾，不在 MIT 授权范围内。
+
+> 规范整理于 2026-10-12：本次同类取舍为依据库内卡片的编辑判断，未对外部版本、许可或功能作实时复核。
+
 
 ## 内容摘要
 

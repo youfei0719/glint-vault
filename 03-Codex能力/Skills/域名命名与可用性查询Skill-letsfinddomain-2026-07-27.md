@@ -4,7 +4,7 @@
 分类: "03-Codex能力/Skills"
 来源: "GitHub：meepo-it/letsfinddomain-skill；https://github.com/meepo-it/letsfinddomain-skill"
 创建时间: "2026-07-27 16:06"
-标签: ["Codex能力", "Skills", "Agent Skill", "域名", "命名", "品牌命名", "域名查询", "域名可用性", "续费价格", "品牌冲突", "注册商API", "Python", "MIT", "可复用", "已备份"]
+标签: ["Codex能力", "技能", "代理技能", "域名", "命名", "品牌命名", "域名查询", "域名可用性", "续费价格", "品牌冲突", "注册商API", "Python", "MIT", "可复用", "已备份"]
 状态: "收集"
 价值评分: 5
 可用于: ["产品命名", "域名筛选", "品牌命名", "项目启动", "独立站域名", "注册商价格比较", "Agent Skill设计"]
@@ -34,7 +34,7 @@ letsfinddomain-skill 是一个只读 AI Skill，用于根据产品 brief 生成�
 | 首次读取入口 | [本卡](./域名命名与可用性查询Skill-letsfinddomain-2026-07-27.md) →「内容摘要」；随后读取[本地历史资料](../../_附件/项目备份/letsfinddomain-skill/SKILL-2026-07-27.md) |
 | 同类选择依据 | letsfinddomain 用于命名与只读查询；Cloudflare 收藏卡只是进入已有账号管理页面。 对照：[Cloudflare 仪表盘管理入口](../../04-工具网站/服务平台/Cloudflare仪表盘管理入口-2026-07-08.md)。 |
 | 接入前提与待核实项 | 注册商 API 可用性、凭据和结果时间影响可信度；价格与可注册状态必须当次查询，不能复用历史值。 |
-| 检索词 | letsfinddomain 域名 命名 RDAP TLD premium 续费 注册商 |
+| 检索词 | letsfinddomain 域名 命名 RDAP TLD premium 续费 注册商；别名：Skills、Agent Skill |
 
 > 选用说明整理于 2026-09-20：适用与比较为基于收藏证据的建议；正文中的版本、数量、价格与功能范围按原收录时间理解。本次未安装或运行所收藏的工具，当前环境安装状态另查。未对外部来源作全量实时复核。
 

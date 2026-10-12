@@ -15,6 +15,10 @@
 
 ## 直观预览
 
+![](../../_附件/收藏预览/礼品兑换平台流程摘要-x_gift_bot-2026-10-12.svg)
+
+> 2026-10-12 补充：依据原卡文字整理的视觉摘要，并非外部页面截图。
+
 > GitHub 仓库截图未保存。项目 README 包含兑换页（浅色）、管理后台（浅色/深色）三张截图，见原仓库 docs/screenshots/。
 
 项目结构：Go 后端（cmd/xgift, cmd/xgift-web）+ Node.js 前端（frontend/），deploy/ 含 systemd 和 Caddy 配置模板。

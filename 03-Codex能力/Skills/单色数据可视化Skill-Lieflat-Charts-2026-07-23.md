@@ -4,7 +4,7 @@
 分类: "03-Codex能力/Skills"
 来源: "GitHub：larashero3-dotcom/lieflat-charts；https://github.com/larashero3-dotcom/lieflat-charts"
 创建时间: "2026-07-23 15:17"
-标签: ["Codex能力", "Skills", "Agent Skill", "Lieflat Charts", "数据可视化", "图表", "单色设计", "HTML图表", "SVG", "Chart.js", "ECharts", "Lupi", "Glance", "可复用", "已备份"]
+标签: ["Codex能力", "技能", "代理技能", "Lieflat Charts", "数据可视化", "图表", "单色设计", "HTML图表", "SVG", "Chart.js", "ECharts", "Lupi", "Glance", "可复用", "已备份"]
 状态: "收集"
 价值评分: 5
 可用于: ["数据报告", "HTML图表生成", "Agent Skill设计", "Dashboard", "年报图表", "可视化模板库"]
@@ -34,7 +34,7 @@
 | 首次读取入口 | [本卡](./单色数据可视化Skill-Lieflat-Charts-2026-07-23.md) →「内容摘要」；随后读取[本地历史资料](../../_附件/项目备份/Lieflat-Charts/catalog-2026-07-23.md) |
 | 同类选择依据 | Lieflat Charts 生成图表；DashiAI PPT、open-kimi-ppt 负责整套演示；Openpanel 是数据分析系统。 对照：[可编辑演示文稿生成 Skill：DashiAI PPT](./可编辑演示文稿生成Skill-DashiAI-PPT-2026-07-08.md)、[Kimi Slides 兼容 PPT 生成 Skill：open-kimi-ppt](./Kimi-Slides兼容PPT生成Skill-open-kimi-ppt-2026-08-06.md)、[开源产品分析平台：Openpanel](../../04-工具网站/开源项目/开源产品分析平台-Openpanel-2026-08-22.md)。 |
 | 接入前提与待核实项 | 历史许可证为 PolyForm Noncommercial；商业用途先核实授权。图型建议不替代数据验证，当前安装状态未知。 |
-| 检索词 | Lieflat Charts Lupi Glance catalog HTML图表 年报 单色 可视化 |
+| 检索词 | Lieflat Charts Lupi Glance catalog HTML图表 年报 单色 可视化；别名：Skills、Agent Skill |
 
 > 选用说明整理于 2026-09-20：适用与比较为基于收藏证据的建议；正文中的版本、数量、价格与功能范围按原收录时间理解。本次未安装或运行所收藏的工具，当前环境安装状态另查。未对外部来源作全量实时复核。
 

@@ -4,7 +4,7 @@
 分类: "04-工具网站/开源项目"
 来源: "官网：https://asccli.sh/；GitHub：rorkai/App-Store-Connect-CLI"
 创建时间: "2026-07-18 00:28"
-标签: ["开源项目", "CLI", "App Store Connect", "iOS", "macOS", "TestFlight", "CI/CD", "DevOps", "Go", "Codex能力", "Agent Skills", "可复用", "已备份"]
+标签: ["开源项目", "命令行工具", "App Store Connect", "iOS", "macOS", "TestFlight", "CI/CD", "开发运维", "Go", "Codex能力", "代理技能", "可复用", "已备份"]
 状态: "收集"
 价值评分: 5
 可用于: ["App Store 发布自动化", "TestFlight 自动化", "iOS CI/CD", "macOS 应用发布", "移动端 DevOps", "Codex Agent 工作流", "App 元数据同步"]
@@ -34,7 +34,7 @@
 | 首次读取入口 | [本卡](./App-Store-Connect自动化CLI-asc-2026-07-18.md) →「原始内容 / 链接」；随后读取[本地历史资料](../../_附件/项目备份/ASC-CLI/README-2026-07-18.md) |
 | 同类选择依据 | asc 管 Apple 应用发布；Native SDK 管桌面应用实现；二者可能互补但不互相替代。 对照：[原生桌面应用开发工具包：Native SDK](./原生桌面应用开发工具包-Native-SDK-2026-07-18.md)。 |
 | 接入前提与待核实项 | 需 Apple 账号权限与当前 CLI 认证；先查版本和子命令帮助，备份里的命令不保证当前可用。 |
-| 检索词 | asc App Store Connect TestFlight builds metadata CI/CD iOS发布 |
+| 检索词 | asc App Store Connect TestFlight builds metadata CI/CD iOS发布；别名：CLI、DevOps、Agent Skills |
 
 > 选用说明整理于 2026-09-20：适用与比较为基于收藏证据的建议；正文中的版本、数量、价格与功能范围按原收录时间理解。本次未安装或运行所收藏的工具，当前环境安装状态另查。未对外部来源作全量实时复核。
 

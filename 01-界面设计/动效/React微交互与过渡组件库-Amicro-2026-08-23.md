@@ -4,7 +4,7 @@
 分类: "01-界面设计/动效"
 来源: "Amicro 官网：https://amicro.vercel.app/；GitHub：https://github.com/Subhan-code/Amicro--Micro-transitions-；npm：https://www.npmjs.com/package/@subhanhq/amicro"
 创建时间: "2026-08-23"
-标签: ["界面设计", "动效", "微交互", "React组件", "Motion", "Tailwind CSS", "shadcn/ui", "CLI", "开源项目", "MIT", "可复用"]
+标签: ["界面设计", "动效", "微交互", "React组件", "Motion", "Tailwind CSS", "shadcn/ui", "命令行工具", "开源项目", "MIT", "可复用"]
 状态: "收集"
 价值评分: 5
 可用于: ["React页面动效", "按钮与状态反馈", "卡片布局", "作品集与落地页", "AI前端界面", "前端动效规范"]
@@ -34,7 +34,7 @@
 | 首次读取入口 | [本卡](./React微交互与过渡组件库-Amicro-2026-08-23.md) →「原始内容 / 链接」；随后读取[本地历史资料](../../_附件/网页快照/Amicro-2026-08-23/registry.json) |
 | 同类选择依据 | Amicro 侧重过渡原语与卡片编排；beUI 侧重产品组件；Motion 用于从底层实现自定义动画。 对照：[动画 React 组件库：beUI](../组件/动画React组件库-beUI-2026-09-16.md)、[网页动画库：Motion](./网页动画库-Motion-2026-08-22.md)。 |
 | 接入前提与待核实项 | 原卡记录 Motion、React 和 registry；目标组件的依赖、键盘操作和 reduced-motion 行为需在项目中验证。 |
-| 检索词 | Amicro ARC CoverFlow Time Machine Stack 卡片编排 微交互 fade-in |
+| 检索词 | Amicro ARC CoverFlow Time Machine Stack 卡片编排 微交互 fade-in；别名：CLI |
 
 > 选用说明整理于 2026-09-20：适用与比较为基于收藏证据的建议；正文中的版本、数量、价格与功能范围按原收录时间理解。本次未安装或运行所收藏的工具，当前环境安装状态另查。未对外部来源作全量实时复核。
 

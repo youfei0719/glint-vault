@@ -4,7 +4,7 @@
 分类: "04-工具网站/开源项目"
 来源: "GitHub：https://github.com/Openpanel-dev/openpanel；官网：https://openpanel.dev/；X 帖：https://x.com/csaba_kissi/status/2090328699992432716"
 创建时间: "2026-08-22"
-标签: ["开源项目", "产品分析", "Web分析", "数据分析", "自托管", "隐私", "Session Replay", "A/B测试", "MCP", "可复用"]
+标签: ["开源项目", "产品分析", "Web分析", "数据分析", "自托管", "隐私", "会话回放", "A/B测试", "MCP", "可复用"]
 状态: "收集"
 价值评分: 5
 可用于: ["产品数据分析", "自托管埋点", "漏斗与留存分析", "Session Replay", "A/B测试", "AI数据问答"]

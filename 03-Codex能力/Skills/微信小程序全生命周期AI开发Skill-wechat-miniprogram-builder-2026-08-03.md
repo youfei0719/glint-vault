@@ -4,7 +4,7 @@
 分类: "03-Codex能力/Skills"
 来源: "GitHub：chenjin-cmd/wechat-miniprogram-builder；https://github.com/chenjin-cmd/wechat-miniprogram-builder"
 创建时间: "2026-08-03 16:10"
-标签: ["Codex能力", "Agent Skill", "微信小程序", "AI开发", "Vibe Coding", "选题", "备案", "流量主", "审核发布", "小红书推广", "矩阵运营", "合规", "WorkBuddy", "MIT", "已备份", "可复用"]
+标签: ["Codex能力", "代理技能", "微信小程序", "AI开发", "AI协作编程", "选题", "备案", "流量主", "审核发布", "小红书推广", "矩阵运营", "合规", "WorkBuddy", "MIT", "已备份", "可复用"]
 状态: "收集"
 价值评分: 4
 可用于: ["微信小程序选题", "小程序开发规划", "备案与审核检查", "广告变现研究", "AI开发提示词", "上线检查清单", "小红书推广", "Agent工作流设计"]
@@ -34,7 +34,7 @@
 | 首次读取入口 | [本卡](./微信小程序全生命周期AI开发Skill-wechat-miniprogram-builder-2026-08-03.md) →「内容摘要」；随后读取[本地历史资料](../../_附件/项目备份/wechat-miniprogram-builder/UNIVERSAL-2026-08-03.md) |
 | 同类选择依据 | 本卡是平台专用流程；YAO Meta Skill 是流程封装方法；JTBD 可先澄清用户任务。 对照：[Agent Skill 全生命周期工程化框架：YAO Meta Skill](./Agent-Skill全生命周期工程化框架-YAO-Meta-Skill-2026-08-05.md)、[JTBD 用户任务理论](../../09-研究资料/JTBD用户任务理论-2026-07-29.md)。 |
 | 接入前提与待核实项 | 先读 UNIVERSAL 与相关 reference；平台审核、备案、变现规则执行时查官方最新要求，历史笔记不作为当前门槛依据。 |
-| 检索词 | wechat-miniprogram-builder 微信小程序 WXML WXSS 提审 选题 上线清单 |
+| 检索词 | wechat-miniprogram-builder 微信小程序 WXML WXSS 提审 选题 上线清单；别名：Agent Skill、Vibe Coding |
 
 > 选用说明整理于 2026-09-20：适用与比较为基于收藏证据的建议；正文中的版本、数量、价格与功能范围按原收录时间理解。本次未安装或运行所收藏的工具，当前环境安装状态另查。未对外部来源作全量实时复核。
 

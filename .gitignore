@@ -8,6 +8,8 @@ Thumbs.db
 .obsidian/workspace-mobile.json
 .obsidian/workspace
 .obsidian/.trash/
+.obsidian/plugins/
+.obsidian/community-plugins.json
 
 # 编辑器与日志
 *.log

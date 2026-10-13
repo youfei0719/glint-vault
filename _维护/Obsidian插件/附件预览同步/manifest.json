@@ -1,0 +1,9 @@
+{
+  "id": "glint-vault-preview-sync",
+  "name": "Glint 收藏预览同步",
+  "version": "1.0.1",
+  "minAppVersion": "1.0.0",
+  "description": "从收藏库远端仓库补齐本机缺失的预览附件。",
+  "author": "youfei",
+  "isDesktopOnly": true
+}

@@ -72,7 +72,7 @@
 
 - [Agent 动态图表 Skill：SeeCode](./Agent动态图表Skill-SeeCode-2026-10-12.md)：专做动态图表的 skill
 - [单色数据可视化 Skill：Lieflat Charts](./单色数据可视化Skill-Lieflat-Charts-2026-07-23.md)：静态极简图表
-- [流体功能主义组件库：Fluid Functionalism](../01-界面设计/动效/流体功能主义组件库-Fluid-Functionalism-2026-10-09.md)：同样带 skill 的动效规范+组件
+- [流体功能主义组件库：Fluid Functionalism](../../01-界面设计/动效/流体功能主义组件库-Fluid-Functionalism-2026-10-09.md)：同样带 skill 的动效规范+组件
 
 ## 适合反向调用的场景
 

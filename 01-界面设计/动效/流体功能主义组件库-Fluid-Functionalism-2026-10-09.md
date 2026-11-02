@@ -52,6 +52,7 @@ Fluid Functionalism（https://www.fluidfunctionalism.com）是 @micka_design 出
 - **Agent Skill**：`/fluid-functionalism` skill——给 coding agent 组件 + 工艺规范，还能审计现有 UI 的动效。
 - **技术栈**：Next.js 15 + React 19 + Tailwind v4 + Framer Motion，Radix/Base UI 双底座，图标 Untitled UI。
 - **仓库**：github.com/mickadesign/fluid-functionalism，2026-02-13 建仓，收录时 1010 stars，MIT。
+- **2026-11-02 动态**：作者 @micka_design 在 X 上给同日走红的假界面 skill Stageshow 划界——Stageshow 是给营销演示做假 UI 的；真产品「去 slop」先用对 primitives（即本库），再用本库的 skill 把规范接到产品上，并给出 skills 注册表安装命令 `npx skills add mickadesign/fluid-functionalism`。同日复核仓库约 1110 stars、仍在活跃推送。分工对照详见 [Stageshow 卡](../../03-Codex能力/Skills/假产品界面演示Skill-Stageshow-2026-11-02.md)。
 
 ## 为什么值得收藏
 

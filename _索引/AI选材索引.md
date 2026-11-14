@@ -1,6 +1,6 @@
 # AI 选材索引
 
-更新：2026-10-24。当前覆盖 111 张收藏；按主要任务分组，每张只列一次。这里用于初筛，最终选择必须读取原卡的「AI 选用指南」。跨分类搜索可用英文名称、别名和原卡的检索词。
+更新：2026-10-24。当前覆盖 112 张收藏；按主要任务分组，每张只列一次。这里用于初筛，最终选择必须读取原卡的「AI 选用指南」。跨分类搜索可用英文名称、别名和原卡的检索词。
 
 先读[AI 使用入口](../AI使用入口.md)；逐卡证据与缺口见[核查报告](./AI选材核查报告.md)。工作日志单独使用[工作索引](./工作索引.md)。
 
@@ -55,6 +55,7 @@
 | [CSS 动画按钮库：Animated Buttons](../01-界面设计/按钮/CSS动画按钮库-Animated-Buttons-2026-07-16.md) | 单个 CTA 的 hover、按下等 CSS 按钮效果。 | 视觉参考；复制代码 | 业务状态需连接 |
 | [收藏按钮流光高亮效果](../01-界面设计/收藏按钮流光高亮效果-2026-07-02.md) | 已有流光收藏按钮片段；改造图标与成功反馈。 | 复制代码；视觉参考 | 不含收藏持久化 |
 | [shadcn 动画 React 组件库：SmoothUI](../01-界面设计/组件/Shadcn动画React组件库-SmoothUI-2026-08-22.md) | shadcn 动画配方，如 Number Flow、Hero 与媒体反馈。 | 复制源码；视觉参考 | React；Free/Pro 分层 |
+| [shadcn 动画组件库：Cult UI](../01-界面设计/组件/Shadcn动画组件库-Cult-UI-2026-11-15.md) | shadcn 动画扩容货架：150+ 全免费组件/区块/模板，registry 命名空间按名安装、源码自持，文档带 llms.txt 与 MCP server。 | 安装依赖后套用 | 需 shadcn+Tailwind v4；未本地验证 |
 | [独特交互动效组件库：RareUI](../01-界面设计/组件/独特交互动效组件库-RareUI-2026-09-20.md) | 按 Display、AI kit、Navigation、Inputs、Feedback 选单组件；适合流体球体、Grid Reveal、特色侧边栏、时长输入、任务列表与通知反馈。 | 复制源码；视觉参考；按单组件页读取依赖、Props 与安装入口 | React + shadcn CLI；通常 MIT + Commons Clause + 署名，个别组件许可需逐页核对 |
 | [动画 React 组件源码库：Great UI](../01-界面设计/组件/动画React组件源码库-Great-UI-2026-09-22.md) | 页面／主题过渡、文字与图片实验效果、社交卡片、浮动菜单和设备模型；以复制源码为主。 | 复制源码；视觉参考；安装目标组件依赖 | React；Tailwind；Motion；根 LICENSE 与 README 的 MIT 声明冲突，禁止再包装分发 |
 | [React 着色器组件库：shadercn](../01-界面设计/动效/React着色器组件库-shadercn-2026-10-07.md) | WebGPU/WGSL 着色器 React 组件，走 shadcn registry 接入。 | 安装依赖；视觉参考 | MIT；需 WebGPU 环境；未安装验证 |
